@@ -1,0 +1,3782 @@
+
+/* CSS renewing  */
+.input-style {
+	border: 1px solid #A5ACB2;
+	padding-left:2px;
+}
+
+.Info, 
+.reports-popup .intro,
+#pnlSuccessMessage #lblMessage 
+{background: url("/debit/2.0/bossrevolution/retailers/images/checkmark.png") no-repeat scroll 0 0 transparent;
+    border-radius: 15px 15px 15px 15px;
+    color: #000000 !important;
+    display: block;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 18px;
+    padding: 15px 5px 15px 60px;}
+
+.complete-rightpane 
+{
+        float:left;
+        width:50%;
+	    background:white;
+	    margin-bottom:10px;}
+
+
+
+.Info-complete {
+	padding: 0;
+	color: #000000 !important;
+	font-family:Arial;
+	font-size: 12px;
+	display: block;
+	margin:0;
+	background: #d4f2c5;
+	float:left;
+	width:100%;
+}
+
+
+
+.Info-complete span 
+{
+    margin:15px;
+    display:block}
+
+.Info-complete IMG {margin:0 5px 0px 0}
+.complete-rightpane .end-message IMG {margin:0 5px 0 15px}
+
+
+
+#inside-main .complete-rightpane br {display:block;clear:both;font-size:12px;}
+
+.complete-rightpane .btn1
+{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    background:url(/debit/2.0/Boss/Images/btn-complete-bg.gif) no-repeat;
+    width:148px;
+    float:right;
+    line-height:24px;
+    padding:0;
+    margin:10px 0 0 0;
+    height:24px;
+    cursor:pointer;}
+
+.complete-rightpane .section {
+    padding:15px;
+    float:left;
+    border-bottom:2px #d4f2c5 solid;
+}
+
+.end-message {
+    background:#FFEB52 none repeat scroll 0 0;
+    float:left;
+    font-weight:bold;
+    padding:15px 0;
+    width:100%;
+}
+
+
+.complete-rightpane .hr {padding:1px;line-height:2px;font-size:1px;}
+
+
+.complete-rightpane .Progress {padding:15px;
+    float:left;}
+
+.lblPhoneNumber 
+{
+    float:left;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px 0;
+    color:#53aa20;
+    }
+
+.ErrorValidaton
+
+{
+	padding: 5px;
+	color: #000000 !important;
+	font-family:Arial;
+	display: block;
+	font-size: 12px;
+	margin: 0;
+	background: #f0c7c7 url(/debit/2.0/Boss/Images/alert.gif) no-repeat 2% 5px;
+    width:325px;
+    display:block;
+}
+
+.AgentsError .ErrorValidaton {
+margin-bottom:10px;
+padding:10px 0 10px 50px;
+width:655px !important;
+border-radius:15px;
+   margin: 0 0 18px;
+}
+
+.SuccessEdit
+{
+background: url("/debit/2.0/bossrevolution/retailers/images/checkmark.png") no-repeat scroll 0 0 transparent;
+    border-radius: 15px 15px 15px 15px;
+    color: #000000 !important;
+    display: block;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 18px;
+    padding: 15px 5px 15px 60px;
+
+}
+
+.ErrorValidaton ul 
+{
+    list-style-type:none;
+    padding:5px 5px 5px 35px;
+    margin:0;
+    list-style-position:outside;
+    font-weight:bold
+    }
+
+#ctl00_cphRet_ucRefund1_UcValSummary1_valSummary,
+.Error,
+.ecppending,
+#ctl00_cphCust_RechargeCntrl_summary_valSummary,
+div.MsgAlert {
+	padding: 10px 2% 10px 8%;
+	color: #000000 !important;
+	font-family:Arial;
+	display: block;
+	font-size: 12px;
+	margin: 10px;
+	background: #f0c7c7 url(/debit/2.0/Boss/Images/alert.gif) no-repeat 2% 5px;
+border-radius:15px;
+}
+.manageagent div.MsgAlert
+{width: 87%;
+float: left;
+}
+
+.imtu .manageagent div.MsgAlert ul {
+    margin: 0;
+}
+
+.hide{   display: none;}
+.show{   display: block;}
+
+.lft {float:left}
+.rght {float:right}
+.clr {clear:both}
+
+.w100 {width:100%}
+.w99 {width:99%}
+
+.hand {  cursor: pointer;}
+.underline{   text-decoration: underline;}
+
+
+
+/*      TEXT CLasses    */
+
+
+.txt1{   font-size: 1px;}
+.txt5{   font-size: 5px;}
+.txt9{   font-size: 9px;}
+.txt10{   font-size: 10px;}
+.txt11{   font-size: 11px;}
+.txt12{   font-size: 12px;}
+.txt13{   font-size: 13px;}
+.txt14{   font-size: 14px;}
+.txt16{   font-size: 16px;}
+.txt18{   font-size: 18px;}
+.txt20{   font-size: 22px;}
+
+
+.txt-right{   text-align: right;}
+.txt-left{   text-align: left;}
+.txt-center{   text-align: center;}
+.txt-top{   vertical-align: top;}
+.txt-bot{   vertical-align: bottom;}
+.txt-mid{   vertical-align: middle;}
+
+
+.ln-h13{   line-height: 1.3;}
+.ln-h15{   line-height: 1.5;}
+.ln-h2{   line-height: 2;}
+
+.ltr-spc{   letter-spacing: -1px;}
+.ltr-spc-normal{   letter-spacing: normal;}
+
+.bld{   font-weight: bold;}
+.no-bld{   font-weight: 100;}
+
+.white{   color: white;}
+.black{   color: black;}
+.gray{   color: #DBC9A0;}
+.red{   color: Red;}
+
+.nowrp{   white-space: nowrap;}
+
+.lwcse{   text-transform: lowercase;}
+.upcse{   text-transform: uppercase;}
+
+/*      Paddings CLasses    */
+
+.pad-h3{   padding: 0px 3px 0px 3px;}
+.pad-h5{   padding: 0px 5px 0px 5px;}
+.pad-h7{   padding: 0px 7px 0px 7px;}
+.pad-h8{   padding: 0px 8px 0px 8px;}
+.pad-h10{   padding: 0px 10px 0px 10px;}
+.pad-h15{   padding: 0px 15px 0px 15px;}
+.pad-h20{   padding: 0px 20px 0px 20px;}
+.pad-h30{   padding: 0px 30px 0px 30px;}
+
+
+
+.pad-v3{   padding: 3px 0px 3px 0px;}
+.pad-v5{   padding: 5px 0px 5px 0px;}
+.pad-v7{   padding: 7px 0px 7px 0px;}
+.pad-v10{   padding: 10px 0px 10px 0px;}
+.pad-v15{   padding: 10px 0px 10px 0px;}
+.pad-v20{   padding: 20px 0px 20px 0px;}
+
+.pad0{   padding: 0px!important;}
+.pad2{   padding: 2px;}
+.pad3{   padding: 3px;}
+.pad4{   padding: 4px;}
+.pad5{   padding: 5px;}
+.pad7{   padding: 7px;}
+.pad10{   padding: 10px;}
+.pad15{   padding: 15px;}
+.pad20{   padding: 20px;}
+
+.pad-b5{   padding-bottom: 5px;}
+.pad-b10{   padding-bottom: 10px;}
+
+.pad-t5{   padding-top: 5px;}
+.pad-t7{   padding-top: 7px;}
+.pad-t10{   padding-top: 10px;}
+
+.mar5{   margin: 5px;}
+.mar10{   margin: 10px;}
+.mar15{   margin: 15px;}
+.mar20{   margin: 20px;}
+.mar-h20{   margin:0 20px;}
+.mar-v10{   margin:10px 0;}
+
+
+
+
+
+BODY {
+margin:0px;
+padding:0px;
+font-family:Arial, Helvetica, sans-serif;
+color:#000;
+}
+
+A {
+	color:#dc0000;
+	font-weight:bold;
+	font-size:13px;
+}
+A:hover {color:black; text-decoration:none}
+
+textarea, input, option, select {font-size:12px;font-family:arial;}
+
+
+.signup option, .signup select, #ctl00_cphCust_signup_signup_pnlChargeAmount select  {background:#FFFFFF;font-size:11px;margin:0px;padding:0px;}
+
+
+.header {
+	background:url(/debit/2.0/bossrevolution/images/top-bg.gif) repeat-x top right;
+	height:97px;
+	}
+
+
+
+
+
+
+/*				MAIN CONTENT				*/
+
+
+
+H1, H2 {	
+	font-family:arial;
+	font-size:24px;
+	
+	color:#000;
+	
+	padding:0px 25px 0px 27px;
+	background:url(/debit/2.0/bossrevolution/retailers/images/header-bg.png) no-repeat 8px 0;
+	margin:0px;
+	line-height:73px;
+
+
+          text-shadow: 1px 1px 1px #ccc, 0 0 0.2em #ccc, 0 0 0.2em #ccc;
+       
+       box-shadow: 0px 0px 40px #fff;
+}
+
+1H2 {	
+color: #AD0C21;
+    font-family: Arial;
+    font-size: 1.6em;
+    margin: 0;
+    padding: 16px 0 13px;
+}
+
+.main-content {
+	background:url(/debit/2.0/bossrevolution/retailers/images/content-bg.gif) repeat-y center;
+}
+
+.main-content {
+	position:relative;
+	left:50%;
+	margin:0 0 0 -500px;
+	width:1000px;
+	padding-bottom:10px;
+	float:left
+}
+.main-content div p {
+	padding:0px 25px 0px 25px;
+	margin:0px;
+	}
+
+
+#hp-col {
+	padding:20px 10px 10px 10px;
+	font-size:12px;
+	}
+
+
+#hp-col br, #hp-col div br {clear:both}
+
+#hp-col div {
+	float:left;
+	vertical-align:top;
+	width:46%;
+	margin:10px;
+	line-height:1.5;
+}
+
+
+#hp-col div a {
+	display:block; 
+	padding-top:10px; 
+	text-align:right;
+	color:#000000;
+	font-size:11px;}
+
+#hp-col div span {display:block;padding-bottom:20px;}
+
+#hp-col div span img {float:left;}
+
+#hp-col div span h2 {
+	padding-top:10px;
+	float:left;
+	font-family:arial;
+	color:#d10b08;
+	font-size:18px;
+	border-bottom:2px #d3d3d3 dashed;
+	
+}
+
+.hp h1 {
+	background:none;
+	padding:5px 25px 0px 25px;
+	font-family:arial;
+	color:#d10b08;
+	font-size:22px;
+	
+}
+
+
+
+.inside-content {
+	margin:0px;
+	padding:0px;
+	vertical-align:top;
+	clear:both;
+	border:0px green solid;
+}
+
+#inside-content {margin-left:0px;}
+
+
+#inside-content HR {
+	background-color:#FFCC00;
+	height:1px;
+	border-bottom:1px #FFCC00 solid;
+	border-top:0;
+	border-left:0;
+	border-right:0}
+
+
+#inside-content BR {clear:both}
+
+#inside-menu {
+	padding:0px;
+	margin:10px;
+	list-style:none;
+	width:200px;
+	float:left;
+}
+
+#inside-menu span {	
+
+position:absolute;
+top:153px;
+    left:50%;
+    margin:0 0 0 -92px;
+
+color:#fff;
+width:476px;
+text-align:right;
+font-size:14px;
+	font-weight:bold;
+display:block;
+
+/*
+filter: Shadow(Color=#ccc, 
+                 Direction=135, 
+                 Strength=3);
+*/				 
+          text-shadow: 1px 1px 5px #888, 0 0 5em #888, 0 0 0.5em #888;
+
+}
+
+
+
+.toplogout {
+background: none repeat scroll 0 0 #AD0C21;
+    border: 2px solid white !important;
+    border-radius: 15px 15px 15px 15px !important;
+    box-shadow: 0 3px 9px #999999;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-family: Arial !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    left: 50%;
+    line-height: 15px;
+    margin: 0 0 0 399px;
+    padding: 3px 5px !important;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 147px;
+    width: 75px;}
+
+.toplogout:hover {background:#ef1c21}
+
+.splash-logout {float:right}
+
+
+#inside-menu a.footer {
+
+	background:url(/debit/2.0/bossrevolution/retailers/images/menu-bg.png) repeat-x #C6CFCE top;
+	color:#3d3d3d;
+	display:block;
+	font-size:13px;
+	font-weight:bold;
+	padding:8px 18px 8px 10px;
+	text-decoration:none;
+white-space:normal;
+border:1px #fff solid;
+border-bottom:1px #C6CFCE solid;
+filter: Shadow(Color=#eee, 
+                 Direction=135, 
+                 Strength=1);
+          text-shadow: 1px 1px 1px #eee, 0 0 0.2em #eee, 0 0 0.2em #eee;
+
+}
+
+#inside-menu a.footer:hover {
+text-shadow: 1px 1px 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
+}
+
+
+#inside-menu a.menu-selected,
+#inside-menu a.menu-selected:hover
+{
+	background:url(/debit/2.0/bossrevolution/retailers/images/menu-bg-slct.png) repeat-x #F7757B bottom;
+	color:#FFFFFF;
+	display:block;
+	padding:9px 18px 8px 10px;
+	font-size:13px;
+	text-decoration:none;
+	font-weight:bold;
+	border:1px white solid;	
+	cursor:default;	
+
+filter: Shadow(Color=#bd1321, 
+                 Direction=135, 
+                 Strength=3);
+          text-shadow: 1px 1px 1px #bd1321, 0 0 0.2em #bd1321, 0 0 0.2em #bd1321;
+
+}
+
+#inside-main {
+	padding:0px;
+	margin:0px 0px 0px 7px;
+	float:left;
+	display:block;
+	font-size:12px;
+	width:74%;
+}
+
+#inside-main br {display:none}
+
+#inside-main H2 {
+background: none repeat scroll 0 0 transparent;
+    box-shadow: 0 0 0 white;
+    color: #AD0C21;
+    font-family: Arial;
+    font-size: 1.6em;
+    line-height: 20px;
+    margin: 0;
+    padding: 16px 0 13px;
+    text-shadow: 0 0 0 white;
+    text-transform: capitalize;}
+
+
+#inside-main H3
+ {
+	margin:0px;
+	padding:4px 3px 3px 10px;
+	background:url(/debit/2.0/Boss/Images/inside-main-h2-bg.gif ) repeat-x;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+	height:18px;
+}
+
+#inside-main div.frm {
+	background:#D6D5D9;
+	padding:0px;	
+	margin:0px;
+	width:100%;
+}
+
+
+#inside-main .frm span {
+	float:left;
+	width:45%;
+	vertical-align:top;
+	display:block;
+	margin:0px;
+	padding:5px;
+}
+#inside-main .frm br {clear:both}
+#inside-main .frm span table {width:100%;text-align:left}
+#inside-main .frm span table th {width:35%}
+#inside-main .frm span table td {width:65%}
+#inside-main .frm span table td input {width:95%}
+#inside-main .frm span table b {color:red;}
+
+#inside-main .inside-btns {
+	text-align:right;
+	width:100%;
+	margin:0px;
+	padding:20px 10px 0px 0px;
+	}
+	
+#inside-main .inside-btns input {
+	background:url(/debit/2.0/Boss/Images/buttons/btn-inside.gif) no-repeat;
+	color:white;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	width:100px;
+	height:23px;
+	border:none;
+	vertical-align:middle;
+}
+
+/*           LOGIN           */
+
+/*
+#login table table {margin-left: -6px;
+margin-top:10px;
+    position: absolute;
+    width: 100%;}
+*/
+
+#login div, #login span {width:100%;}
+
+#login table {margin:0} 
+#login table span, 
+#login table div, 
+#login table td,
+#login table tr {
+
+}
+
+#login table td {margin:0 12px 0px 0;}
+#login table td span, #login table td input {margin-top:4px; display:block}
+
+#login div, #login span, #login td, #login 	{font-size:12px;}
+#login td	{font-weight:bold;}
+#login h2 {
+background: none repeat scroll 0 0 #EF1C21;
+    border-left: 1px solid #848684;
+    border-right: 1px solid #848684;
+    border-top: 1px solid #848684;
+    box-shadow: 0 -4px 20px #999999;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0 10px;
+    text-shadow: 0 0 0 red;
+    width: 97.4%;
+}
+
+.heading2
+{
+	font-family:arial;
+	color:#469418;
+	font-size:14px;
+	padding:0px;
+	margin:0px;
+}
+
+
+#login A {
+color: #DC0000;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 14px 0;
+}
+
+#SiteLogin_pnlSecCode, #SiteLogin_valSecCode { display:none}
+
+#SiteLogin_btnLogin {
+background:url(/debit/2.0/Boss/Images/buttons/login-btn-bg.gif) no-repeat top;
+border:0px;
+height:27px;
+width:99px;
+color:white;
+font-weight:bold;
+font-family:arial;
+font-size:16px;
+}
+/* ---------------- */
+
+.debitinput, .PhoneTextBox {
+	border:1px #A5ACB2 solid;
+	}
+
+
+.tab-body .debitinput, .PhoneTextBox {width:85%;}
+.tab-body #ctl00_cphRet_UcManage_update1_txtBank {width:31.4%}
+.tab-body .announce {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 !important;
+padding-left:60px;
+ line-height: 44px;
+ color:black;
+background:url(/debit/2.0/bossrevolution/retailers/images/checkmark.png) no-repeat;
+}
+
+.tab-body .table_text_small {background:none}
+.speed b {font-size:12px;display:block;padding:4px 0px 4px 0px}
+.speed table {background:#D6D5D9}
+
+.speeddial .TrHdrBg TD {white-space:nowrap}
+.speed .debitinput {width:95px;}  /*Check if not better to use 95px */
+
+.speed .debitDesc {width: 110px; font-size: 10px;}
+.speed .debitNum {width: 90px; font-size: 10px;}
+
+.debitNum {width: 105%!important;}
+
+
+.speeddial TD {
+	font-size:12px; 
+	background:#D6D5D9
+}
+
+.PhoneTextBox {width:38px}
+
+
+/* Buttons */
+
+.btn2 {margin:0px 0px 10px 10px;}
+.btn, .btn3 {margin:10px 0px 10px 0px;}
+
+.btnNewCC {border:0px; background:none; color:#DB463A; font-size:11px;font-weight:bold;text-decoration:underline}
+
+
+/*           BOX3           */
+
+b.box3-tl
+{
+background-image:url('/debit/2.0/Boss/Images/box3-bg.gif');
+background-position:top left;
+height:3px;
+display:block;
+line-height:3px;
+font-size:3px;
+}
+
+b.box3-tr
+{background-image:url('/debit/2.0/Boss/Images/box3-bg.gif');
+background-position:top right;
+margin:0 0 0 3px;	
+height:3px;
+line-height:3px;
+display:block;
+font-size:3px;		}
+
+b.box3-br
+{
+background-image:url('/debit/2.0/Boss/Images/box3-bg.gif');
+background-position:bottom right;
+height:3px;
+line-height:3px;
+display:block;
+font-size:7px;}
+
+b.box3-bl
+{
+background-image:url('/debit/2.0/Boss/Images/box3-bg.gif');
+background-position:bottom left;
+margin:0 3px 0 0;	
+height:3px;
+line-height:3px;
+display:block;
+font-size:7px;
+}
+
+b.box3-m {
+background-color:#fff8ce;
+display:block;
+padding:15px;
+font-size:12px;
+font-weight:normal;
+}
+
+/*           SPLASH             */
+
+
+#ctl00_cphRet_SiteSplash_dvManageFavorites {display:none;}
+
+
+
+#new-splash {
+margin:10px 0 10px 25px;
+padding:0;
+}
+
+#new-splash h2 {background: none repeat scroll 0 0 transparent !important;
+    box-shadow: none;
+    color: #AD0C21;
+    font-size: 20px;
+    padding: 0 0 0 8px;
+    text-shadow: 1px 1px 1px white;
+    float:left; width:90%;
+    line-height:30px;
+    }
+
+.splash-panel {
+border: 2px solid #D8D5D8;
+    border-radius: 7px 7px 7px 7px;
+    float: left;
+    margin: 6px 0;
+    padding: 10px;
+    width: 95%;
+    
+background: #d8d5d8; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q4ZDVkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #d8d5d8 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d8d5d8), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d8d5d8 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d8d5d8 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d8d5d8 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d8d5d8 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8d5d8', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+
+
+}
+
+#new-splash .hide {display:block}
+
+#new-splash .splash-contact {display:none}
+
+#new-splash .splash-btns a {
+background: none repeat scroll 0 0 #767676;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 3px 9px #999999;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-family: arial;
+    font-size: 15px;
+    margin: 8px;
+    padding: 0;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    width: 31.6%;
+
+}
+
+#new-splash .splash-btns a:hover {
+ box-shadow: 0 1px 3px #999999;
+margin:10px 8px 6px 8px;
+}
+
+#new-splash .splash-imtu a {background:#cc5b6a;}
+
+
+#new-splash .splash-btns a img {border:0;margin-left:5px;} 
+	#new-splash .splash-btns a:hover {color:#fff}
+	#new-splash .splash-btns a.topup
+
+	 {
+		background:#ad0c21;
+		color:white;
+}
+
+
+
+
+
+
+
+		#new-splash .splash-imtu A br {display:none}
+		#new-splash .splash-imtu A div {margin-top:8px;}
+		
+		
+		#new-splash .splash-usa A {background:#cc5b6a}
+		#new-splash .splash-usa A:hover {color:#FFFFFF}
+		#new-splash .splash-usa A div {height:17px;}
+
+		#new-splash .splash-bill A {background:#cc5b6a; color:#FFFFFF; }
+		#new-splash .splash-bill A:hover {color:#FFFFFF}
+		
+		#new-splash .splash-egift A {background:#cc5b6a; }
+		
+
+
+.print-bill-invoice .lft {
+    width: 68%;
+}
+#ctl00_cphRet_undo_divTrans .lbl,
+#ctl00_cphRet_undo_divTrans .fld,
+.print-bill-invoice  .lbl,
+.print-bill-invoice  .fld {float:left; border-bottom:1px silver solid; padding:5px 0; margin:5px 0; font-size: 12px}
+
+.print-bill-invoice  .terms {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: gray;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.print-bill-invoice  .terms p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+    
+#ctl00_cphRet_undo_divTrans .lbl,
+.print-bill-invoice .lbl {width:40%; float:left}
+#ctl00_cphRet_undo_divTrans .fld,
+.print-bill-invoice .fld {width:55%;font-weight:bold;float:left}
+#ctl00_cphRet_undo_divTrans .btn1,
+.print-bill-invoice .btn1 {float:right}
+
+
+.print-bill-invoice .btn1.lft {float:left}
+
+
+
+    
+
+.print-bill-invoice .lbl {width:40%; float:left}
+.print-bill-invoice .fld {width:55%;font-weight:bold;float:left}
+.print-bill-invoice .btn1 {float:right}
+
+#splash div.note {
+	background:url('/debit/2.0/Boss/Images/welcome-bg.gif') no-repeat;
+	width:720px;
+	height:61px;
+	display:block;
+	margin:17px 20px 10px 15px;
+	font-weight:bold;
+	padding: 15px 0 0 20px;
+	font-size:14px;
+	margin-left:15px;
+}
+
+
+#splash .boxes br {clear:both}
+
+#splash .boxes H2, #splash .boxes H2 a {	
+	font-family:arial;
+	font-size:16px;
+	padding:0px;
+	margin:0px;
+	color:#575757;
+	text-decoration:none;}
+	
+ #splash .boxes H2 a:hover {text-decoration:underline}	
+
+/*           splash-BOX1           */
+
+b.splash-box1-tl
+{
+background-image:url('/debit/2.0/Boss/Images/splash-box1-bg.gif');
+background-position:top left;
+height:3px;
+display:block;
+line-height:3px;
+font-size:3px;
+background-color:#D4D4D4
+}
+
+b.splash-box1-tr
+{background-image:url('/debit/2.0/Boss/Images/splash-box1-bg.gif');
+background-position:top right;
+margin:0 0 0 3px;	
+height:3px;
+line-height:3px;
+display:block;
+font-size:3px;
+background-color:#D4D4D4		}
+
+b.splash-box1-br
+{
+background-image:url('/debit/2.0/Boss/Images/splash-box1-bg.gif');
+background-position:bottom right;
+height:3px;
+line-height:3px;
+display:block;
+font-size:7px;
+background-color:#D4D4D4
+}
+
+b.splash-box1-bl
+{
+background-image:url('/debit/2.0/Boss/Images/splash-box1-bg.gif');
+background-position:bottom left;
+margin:0 3px 0 0;	
+height:3px;
+line-height:3px;
+display:block;
+font-size:7px;
+
+}
+
+b.splash-box1-m {
+background-color:#d4d4d4;
+display:block;
+padding:0 7px 2px 7px;
+margin:0px;
+font-size:3px;
+font-weight:normal;}
+
+
+
+/*           splash-BOX2           */
+
+b.splash-box2-tl
+{
+background-image:url('/debit/2.0/Boss/Images/splash-box2-bg.gif');
+background-position:top left;
+height:3px;
+display:block;
+line-height:3px;
+font-size:3px;
+background-color:#F5F5F5;
+}
+
+b.splash-box2-tr
+{background-image:url('/debit/2.0/Boss/Images/splash-box2-bg.gif');
+background-position:top right;
+margin:0 0 0 3px;	
+height:3px;
+line-height:3px;
+display:block;
+font-size:3px;
+background-color:#F5F5F5;		}
+
+b.splash-box2-br
+{
+background-image:url('/debit/2.0/Boss/Images/splash-box2-bg.gif');
+background-position:bottom right;
+height:3px;
+line-height:3px;
+display:block;
+font-size:7px;
+background-color:#F5F5F5;
+}
+
+b.splash-box2-bl
+{
+background-image:url('/debit/2.0/Boss/Images/splash-box2-bg.gif');
+background-position:bottom left;
+margin:0 3px 0 0;	
+height:3px;
+line-height:3px;
+display:block;
+font-size:7px;
+background-color:#F5F5F5;
+}
+
+/* --------------*/
+
+.recharge-type {
+	width:100%;
+	font-weight:bold;
+	margin-top:30px;
+	padding-bottom:4px;
+	border-bottom:3px #FAF7CE solid;
+	}
+.recharge-type LABEL {font-weight:bold}
+
+.tdbgdot1 {display:none}
+
+
+.OuterTblBg .TrHdrBg, .OuterTblBg .InnerTblBg  {}
+
+.InnerTblBg {
+	padding:0px;
+	margin:0px;
+	clear:both;
+	font-size:12px;
+/*	background: none repeat scroll 0 0 #FFEFEF !important;*/
+	}
+	
+.TrHdrBg .InnerTblBg {width:98%}
+
+
+.contenthead, .contentinfo {vertical-align:top}
+.contenthead {
+	font-weight:bold;
+	padding:8px 0px 8px 5px;
+}
+
+.contentinfo {
+	padding:8px 0px 8px 15px;
+	white-space:nowrap;
+}
+
+.contentinfotxt {font-size:11px;}
+
+.topbrd .instxt, .topbrd .instx {width:100%}
+.topbrd img {margin-left:10px;}
+
+.topbrd .instxt {font-weight:normal}
+
+.instxt, .instx {
+	padding:8px 0px 8px 15px;
+	font-weight:bold;
+	width:30%;
+	text-align: left;
+}
+
+.update .instxt {padding-left:0; width:20%}
+.update INPUT.PhoneTextBox {margin:0px 0px 0px 0px!important}
+
+.ctrlsmall {font-size:10px;}
+
+
+div#calls_panelHeader, div#calls_panelHeader table, table.InnerTblBg {
+}
+
+
+span.contenthead {display:inline;width:70%;padding:0px;}
+
+
+.contenthead {
+	font-size:12px;
+	font-weight:bold;
+	}
+	
+.bgcontent {font-size:12px;}
+
+
+
+.content2 {background-color:#FFFFFF}	
+
+#calls_PaneCalls td, a.paging {font-size:12px;}
+
+/*
+
+.sectionhdr {
+	margin:0px;
+	padding:5px;
+	background:url(/debit/2.0/Boss/Images/inside-main-h2-bg.gif ) repeat-x;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+}
+
+*/
+
+#ctl00_cphRet_update1_drpQuestion {margin-left:141px}
+
+.sectionhdr, h4 {
+    background: url("/debit/2.0/Boss/Images/trhdrbg.gif") repeat-x scroll center center transparent;
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    padding: 2px 10px;
+    font-weight:bold;
+}
+
+
+
+#update_panelBillingAddress br, #update_panelCC br {display:none}
+
+#update_panelAutoRecharge .TrHdrBg {display:none}
+
+a.emph1 {color:#e55353}
+
+#update_summary_trErrorRow, 
+.table_text_small, 
+.table_error_top, 
+.table_error_bottom {font-size:12px;font-weight:bold}
+	
+#update_summary_trErrorRow table {margin-bottom:10px;}
+
+.table_text_small {}
+
+.service-numbers .btn2,
+#ctl00_cphRet_manage_btnSetDefault, .manageagent #ctl00_cphRet_manage_btnRemoveDefault, .manageagent #ctl00_cphRet_manage_btnDelete, .management #ctl00_cphRet_manage_btnRemoveDefault,
+.btn4 {
+background:#AD0C21;
+border:0px;
+color:white;
+font-weight:bold;
+font-family:arial;
+font-size:13px;
+margin-left:0px;
+text-decoration:none;
+}
+
+.btn5:hover, .btn6:hover {color:#FFFFFF;    text-decoration: none;}
+
+.btn5, .btn6 {    border: 0 none;
+    color: white;
+    display: block;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 27px;
+    text-align: center;
+    text-decoration: none;
+    
+	float:left;
+	margin-top:10px;
+} 
+
+.btn5 {
+background: url("/debit/2.0/Boss/Images/buttons/btn5-bg.gif") no-repeat scroll center top transparent;
+margin-left: 5px;width: 222px !important;
+}
+
+.btn6 {
+background: url("/debit/2.0/Boss/Images/buttons/btn6-bg.gif") no-repeat scroll center top transparent;
+margin-left: 5px;
+width: 255px !important;
+}
+
+
+.service-numbers { 
+	background-color:#D6D5D9;
+	padding:10px;
+	box-shadow: 0 0 10px gray;}	
+.tab-body .service-numbers {background:none; padding-left:10px!important;
+box-shadow: 0 0 0;}
+
+.service-numbers div {padding:15px 0}
+
+.service-numbers {float:left;width:97%}
+.service-numbers .btn1 {float:right; margin-left:5px;}
+.service-numbers .account-balance {padding:0; display:inline;font-size:14px;}
+
+
+.service-numbers .customer-details .lbl, 
+.service-numbers .customer-details .fld {width: auto}
+
+
+.service-numbers .customer-details .lbl {width:50%!important;}
+.service-numbers .customer-details .fld {width:43%;padding-left:10px;!important;}
+
+.service-numbers .customer-details .fld input {margin:0!important;}
+
+.service-numbers .lbl,
+.service-numbers .fld {
+float:left;
+font-size:18px;
+padding:5px 0!important} 
+
+
+.service-numbers .fld input {
+	background:#D6D5D9;
+	font-size:18px;
+	font-weight:bold;
+	color:#AD0C21; 
+	border:none;
+	width:140px;
+	margin:0 6px 0 0px;
+	padding:0}
+
+.service-numbers .clr {display:block!important}
+
+.service-numbers .lbl {white-space:nowrap;font-weight:normal}
+.service-numbers .fld {font-weight:bold;color:#AD0C21;margin:0 0 0 10px}
+
+
+.customer-details {float:left;width:65%;padding:0!important}
+
+#ctl00_cphRet_ucTopup_txtStep2_ExisitingCustomer_Amount {font-size:14px;}
+
+#ctl00_cphRet_ucTopup_btnRegPhoneNum,
+#ctl00_cphRet_ucTopup_btnManage
+{
+/*	background:url(/debit/2.0/bossrevolution/retailers/images/btn-manage-customer.gif) no-repeat top; */
+	height:27px;
+	width:116px!important;
+	padding-left:15px
+
+}
+
+
+.btn-topup-customer	
+{
+margin:0;
+
+/*
+background:url(/debit/2.0/bossrevolution/retailers/images/btn-topup-customer.gif) no-repeat top;
+	height:27px;
+	width:116px!important;
+	border:0 none !important;
+	padding-left:15px;
+color:white;
+cursor:pointer;
+font-family:arial;
+font-size:13px;
+font-weight:bold;
+*/
+}
+
+.btn-print-invoice {
+background: #ad0c21;
+	-moz-border-radius: 15px!important;
+    border: 3px solid white!important;
+    border-radius: 15px!important;
+    color: #FFFFFF!important;
+    font-size: 14px!important;
+    font-weight: bold!important;
+    padding: 3px 10px!important;
+    margin: 10px 0 10px 5px!important;
+    padding:3px 10px!important;
+	cursor:pointer;
+	box-shadow: 0px 3px 9px #999;
+	font-family:Arial!important;
+	width:auto!important;
+
+}
+
+
+#ctl00_cphRet_ucTopup_btnRegPhoneNum {margin:20px 0 0 0!important}
+
+
+/* signup */
+
+.CaptchaTable {width:100%;padding:0;margin:0;}
+
+.CaptchaTableTd {padding-top:0px;}
+
+#login .table_text_content {display:block;width:55px;float:left;height:22px}
+
+.dppHelpInfo {
+	visibility: hidden;
+}
+.dppHelpInfo table, #dppHelpInfo2 table  {
+	background:white;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	width: 250px;
+}
+.dppHelpInfo img {
+	cursor:pointer;
+	}
+.dppHelpInfoText {
+	FONT-SIZE: 11px;
+	color:#595146;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	padding: 10px 5px 10px 10px;
+}
+.dppHelpInfo ul {
+	}
+.dppHelpInfo li {
+	background: url();
+	list-style-image:url(/debit/2.0/tuyo/images/bullet-small.gif);
+	margin:5px 0px 5px 15px;
+	padding:0px;
+	}
+	
+	
+#popup {margin:0; padding:0;}
+
+#popup #popup-content {margin:0px;padding:0px;top:0px;left:0px;width:100%}
+
+#popup p {
+	padding-bottom:10px;font-size:12px;
+}
+	
+/* ---------------------*/
+
+.update .small {padding-left:5px;}
+#update_panelAutoRecharge .small {font-size:12px;padding:10px 0 10px 5px;}  
+.update .InnerTblBg td {white-space:nowrap; text-align: left;}
+
+
+ .controlTbl, .comodoTbl
+{padding:0px;
+width:90%;
+float:none;
+clear:both;}
+
+
+
+.controlTbl .tdLeft,
+.controlTbl .tdright
+{padding:5px 10px;}
+
+.radiosTbl {
+width:553px;
+background:white;
+margin-bottom:10px;}
+
+
+#RechargeCntrl_rdblCCTopUpSelector TD {padding:10px;font-weight:bold}
+
+.comodoTbl table
+{padding:10px}
+
+.controlTbl .tdLeft {width:40%;font-weight:bold}
+.controlTbl .tdright {width:60%}
+
+.btnTbl, .valErr {
+	text-align:right;
+	background:none; padding:0 10px 3px 0}
+	
+.ctrlsmall {font-weight:normal;}
+
+/*     RATES     */
+
+.ratetable {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.countryttl {text-align:left}
+
+.countryttl,
+.countrycodettl,
+.ratettl1
+ {	background:url(/debit/2.0/Boss/Images/trhdrbg.gif) repeat-x #74bd4a;
+	color:white;
+	line-height:22px;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 5px 0 5px;
+	}
+
+.country,
+.countrycode,
+.rate1,
+.subcountry 
+{ font-size:14px;
+padding:10px;}
+
+.country, .ratel {font-weight:bold}
+
+.row1 {background:#D6D7DE;}
+
+.row22 {background:#ffffff;}
+
+.row4 {background:#D6D7DE;padding-top:1px;}
+
+.updated {font-size:11px;text-align:right}
+
+.aletters {padding:0 2px 0 2px;}
+.aletters:hover {background:#E60000;color:#FFFFFF}
+
+.tabletters {text-align:center}
+
+.PhoneTextBoxLocked {background:#e7e7e7;border:none; font-weight:bold}
+
+.mandatory {color:#FF0000;font-weight:bold}
+
+
+/* blockquote */
+blockquote#important {
+	font-size:11px;
+	padding:0 10px 10px 10px;
+	margin:10px;
+	width:93%;
+	float:left;
+	
+}
+
+#ctl00_cphRet_ucTopup_pnlComplete blockquote#important {padding:0;width:100%;margin:0}
+
+
+#important {
+padding:0!important;
+font-size:11px;
+float:left;
+font-size:11px;
+text-align:left;
+}
+
+
+#important b {color:red}
+
+
+#important SPAN {display:block;margin-top:10px;}
+
+
+#important br
+	{display:block;}
+	
+#important p {padding:0;margin:0 0 10px 0;}
+
+table.SSLTbl td {padding-right:10px;}
+
+.currency-input,
+#ctl00_cphRet_ucRefund1_txtAmount {
+	border:1px #A5ACB2 solid; 
+	padding: 0 0 0 7px;
+	background-image: url(/debit/2.0/Boss/Images/dollar.gif);
+	background-position: 2px 60%;
+	background-repeat: no-repeat;
+}
+
+.announce {color:#575757;}
+
+#ctl00_cphCust_lblTopText {	margin: 10px 0; display:block;}
+
+#forgot-code {height: 280px; overflow-x: hidden; overflow-y: auto;}
+#UcForgot_vldSummary ul {margin: 0; list-style-type: none;}
+
+td.deleteCC A, .deleteRechargeCC A,
+A#ctl00_cphCust_update_lnbDeleteCC,
+A#ctl00_cphRet_update1_lnbDeleteCC,
+A#ctl00_cphCust_lnbDeleteCC,
+A#ctl00_cphRet_lnbDeleteCC {
+background-image:none!important;
+	background: none repeat scroll 0 0 #AD0C21;
+	    border: 2px solid white !important;
+    border-radius: 7px !important;
+	    color: white;
+	    cursor: pointer;
+	    font-size: 12px;
+	    font-weight: bold;
+	    padding: 1px 4px;
+	    text-align: center;
+    text-decoration: none;
+margin-top: -20px;
+filter:none!important
+}
+
+/* TEST */
+.showCalendar
+{
+ behavior: url(/ssi/calendar/v2/calendar.htc) ;
+ -moz-binding: url(/ssi/calendar/v2/moz-behaviors.xml#calendar.htc);
+}
+
+
+.topup-numbers 
+{
+background:#D6D5D9 none repeat scroll 0 0;
+margin:0 0 10px 0;
+padding:10px 10px 15px 10px;
+float:left;
+width:97%;
+box-shadow: 0 0 10px gray;
+}
+.topup-numbers .zebra1 {background:white}
+
+.topup-numbers .zebra1, .topup-numbers .zebra2 {padding:3px;width:255px;cursor:pointer;display:inline}
+
+.topup-numbers select, .topup-numbers input {margin:0px 0}
+
+input#ctl00_cphRet_ucTopup_chkStep2_NewCustomer_OptIn, input#ctl00_cphRet_ucTopup_chkStep2_NewCustomer_OptInPromo {width:25px;}
+
+label[for="ctl00_cphRet_ucTopup_chkStep2_NewCustomer_OptIn"], label[for="ctl00_cphRet_ucTopup_chkStep2_NewCustomer_OptInPromo"]   {display:inline-block; vertical-align: top;}
+
+#ctl00_cphRet_ucTopup_chkStep2_NewCustomer_OptIn label {display:inline-block; vertical-align: top;}
+
+#ctl00_cphRet_ucTopup_lblStep2_NewCustomer_OptIn {padding-left: 24px;}
+
+#ctl00_cphRet_UcAutRech_tbContainer_body #ctl00_cphRet_UcAutRech_tbContainer_ctl01_pnlSuccessMessageRecharge
+{padding:10px;font-weight:bold}
+
+#ctl00_cphRet_UcAutRech_tbContainer_ctl01 br {display:none}
+
+#ctl00_cphRet_UcAutRech_tbContainer_body #ctl00_cphRet_UcAutRech_tbContainer_ctl01_pnlSuccessMessageRecharge #buttonsBtnDonerecharge {display:none}
+
+.haiti-pomo {
+background:url(/debit/2.0/bossrevolution/images/haiti-bg.png) top left no-repeat; 
+padding:10px 15px 0 ; 
+margin:20px 0px 0px 16px; 
+font-weight:bold;
+float:left; 
+width:720px;
+height:161px;
+font-size:13px;
+
+}
+
+.haiti-pomo .part1 {width:470px;float:right;margin-right:20px}
+.haiti-pomo .part11, .part11 a {font-family:arial;font-size:15px;}
+.haiti-pomo .part11 a {font-size:15px;color:#DC0000}
+
+.haiti-pomo .part12 {font-size:12px;padding:10px 0;}
+.haiti-pomo .part13 {font-size:16px;width:408px;float:right;padding-top:7px}
+
+
+
+
+
+
+
+
+
+
+
+.splash-balance {
+margin:20px 0 10px 30px;
+width:45%;
+float:left;
+font-size:14px;
+display:inline;
+}
+
+.splash-balance div {
+float:left;
+width:100%;
+border-top:1px solid #AD0C21;
+}
+
+.splash-balance div div {
+float:left;
+width:48%!important;
+border:none;
+line-height:30px;
+font-weight:bold;
+}
+
+.splash-balance div div:first-child {
+	font-weight:normal; 
+	padding-left:10px} 
+
+.splash-balance h2
+
+ {
+background:#EF1C21;
+color:#fff;
+line-height:26px;
+padding:0 0 0 10px;
+margin:0px 0 0px;
+font-size:15px;
+float:left;
+width:97%;
+display:block;
+text-shadow:0 0 0;
+box-shadow:0 0 0;
+}
+
+.splash-news h2
+{
+    background: none repeat scroll 0 0 transparent;
+    box-shadow: 0 0 0;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 0 0;
+    width: 100%;
+}
+
+.splash-balance h2 {margin:15px 0 0 0!important;}
+
+
+.splash-balance .balance {
+color:#000;
+font-size:20px;
+padding:10px 0;
+}
+
+.splash-balance .balance a {
+color:#469418;
+font-size:11px;
+float:right;
+display:block;
+margin:0px 20px 0 0;
+font-weight:normal;
+}
+
+.splash-balance .balance .amount,
+.splash-balance .balance .lowAmount
+ {
+ float:left;
+ width:90px!important;
+ 
+ 
+ }
+
+.splash-balance div div .splash-battarey {width:0px;!important}
+.splash-balance div div .splash-battarey a {margin:5px 10px 0px 5px!important}
+
+.splash-battarey {display:none}
+
+
+.splash-news {
+width:47%;
+float:left;
+margin:7px 20px 0;
+}
+
+
+.splash-news h2 a {
+float:right;
+display:block;
+font-size:11px; 
+font-weight:normal;
+color:#000;
+width:auto;
+text-align:right;
+}
+
+.splash-news h2 span {
+float:left;
+display:block;
+width:50%;
+}
+
+
+
+.scrl-news {
+height:164px;
+float:left;
+width:100%;
+overflow:auto;
+}
+
+
+
+.AgentSplash .scrl-news {height:223px}
+
+.news-msg {
+padding:5px 0;
+font-size:12px;
+float:left;
+ width: 100%;
+}
+
+.newspage .news-msg {width:100%;}
+
+.news-msg div {float:left;
+ width: 93%;}
+
+.news-date {
+font-size:11px;
+font-weight:bold;
+color:#999;
+display:block;
+float:none!important;
+border-top:2px white solid;
+padding-top:10px;
+}
+
+.firstnews .news-date {border:none; padding:0}
+
+.news-date table {border:0!important;}
+
+a.news-ttl,
+.news-msg input,
+.news-ttl
+
+ {color:#000;
+font-weight:bold;
+font-size:14px;
+border:none;
+text-decoration:none;
+background:none;
+font-family:Arial, Helvetica, sans-serif;
+float:left;
+width:100%!important;
+display:block;
+margin-top:5px;
+padding-left:5px;
+}
+
+.news-body {margin:5px 0 0 0;display:block;width:98%}
+
+.news-body img {width:50%;margin:0 5px 5px 0 }
+
+.pdf-lnk {
+background:url('/debit/2.0/Boss/Images/icon_pdf_big.png') no-repeat center left;
+padding:10px 0 5px 32px!important;
+line-height:32px;
+display:block;
+}
+
+.jpg-lnk {
+background:url('/debit/2.0/Boss/Images/icon_jpg_big.png') no-repeat center left;
+padding:10px 0 5px 32px!important;
+line-height:32px;
+display:block;
+}
+
+
+.news-more {display:none!important}
+
+
+
+/*   spalsh first news   */
+
+.firstnews {
+
+background:none repeat scroll 0 0 #cfd3d6;
+border:3px solid white;
+
+
+padding: 10px; 
+margin:0px 5px 0px 0;
+font-weight:bold;
+
+-moz-border-radius-bottomright: 7px; 
+-moz-border-radius-topleft: 7px; 
+-moz-border-radius-topright: 7px;
+-moz-border-radius-bottomleft: 7px; 
+-moz-background-clip: border; 
+-moz-background-origin: padding; 
+-moz-background-inline-policy: continuous;
+
+
+
+
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfd3d6', endColorstr='#ffffff'); /* for IE */
+background: -webkit-gradient(linear, left top, right bottom, from(#cfd3d6), to(#fff)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #cfd3d6,  #fff); /* for firefox 3.6+ */ 
+
+
+	}
+
+.firstnews2 {
+display:inline;
+margin:0;
+padding:10px;
+width:294px;
+
+	background:url(/debit/2.0/bossrevolution/retailers/images/splash-news-bg.gif) repeat-x bottom white;
+	border:3px #d7cc9b solid;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	}
+	
+.firstnews2 .news-body a {
+display:block;
+border:#F9A011 1px solid;
+padding:5px;
+text-align:center;
+font-size:14px;
+text-decoration:none;
+background: url("/debit/2.0/Boss/Images/top-menu-bg.gif") repeat-x scroll 0 0 transparent;
+ -moz-border-radius: 5px;
+}
+	
+.firstnews ul, .firstnews ul li span {float:left;width:50%;font-size:13px; }
+
+.firstnews ul, .firstnews li {width:100%;float:left}
+
+	
+.newspage .allnews	{width:100%}	
+.newspage .firstnews {width:100%}
+	
+
+#info .news-msg {padding:10px;}
+	
+.firstnews .news-date {font-size:11px;color:#999}
+.firstnews .news-ttl {font-size:16px;}
+.firstnews .news-body {font-size:13px;}
+.imtu-news .firstnews .news-body {font-weight:bold}
+
+
+.splash-logout a {margin-right:22px;}
+
+
+#login .debitinput {width:110px;}
+
+
+
+.contact {padding:18px!important}
+.contact .lft {width:435px;}
+.contact .rght {width:270px;}
+
+.contact h2 {background: none repeat scroll 0 0 transparent;
+    box-shadow: 0 0 0;
+    color: darkRed;
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    padding: 0 0 0 7px;
+    text-shadow: 0 0 0;}
+.contact p {font-size:12px;margin:0;padding:0!important}
+
+.contact .frm {margin:10px 0}
+.contact .frm div {float:left;font-size:12px;padding:7px;display:inline}
+.contact .frm .lbl {width:30%;font-weight:bold}
+.contact .frm .fld {width:60%}
+ 
+.contact .frm .fld input,
+.contact .frm .fld select,
+.contact .frm .fld textarea {width:99%;font-family:Arial, Helvetica, sans-serif}
+
+.contact .contact-number {
+		width:276px;
+		height:72px;
+		background:url(/debit/2.0/bossrevolution/retailers/images/cust-serv-bg.gif) no-repeat;
+		font-family:arial;
+		font-size:22px;
+		font-weight:bold;
+		text-align:center;
+		padding-top:18px;}
+		
+
+.contact .frm .fld input#ctl00_cphRet_News_EmailForm1_ctl00_button {
+	display:inline;
+	text-align:center;
+	margin:0!important;
+	}
+
+		
+.SplashSummary {
+			width:400px;
+			height:31px;
+			height:354px;
+			border-top:1px solid #353535;
+			border-left:1px solid #353535;
+			border-right:2px solid #353535;
+			border-bottom:2px solid #353535;
+			padding:0;
+			background:#faf7cf;
+			
+		/*	position:absolute;
+			left:50%;
+			margin:0 0 0 -170px;
+			z-index:100;
+			top:80px;
+			*/
+}
+
+/* ---------------------------- Print Invoice all ----------------------------------- */
+
+#PrintInvoicePopup {
+	float:left;
+	min-height:700px;
+	padding:10px;
+	width:100%;}
+
+#PrintInvoicePopup h2 {
+color:#D10B08;
+font-size:18px;
+text-transform:capitalize;
+margin:0 0 10px 0!important;
+padding:0!important;
+width:100%;
+}
+
+
+#PrintInvoicePopup .lbl,
+#PrintInvoicePopup .fld {
+	float:left;
+	background:#fff;
+	width:43%!important;
+	padding:8px 12px;
+	font-size:13px;
+	border-top:1px #FAF8CE solid;
+	height:16px;
+}
+
+#PrintInvoicePopup .btn1 {margin:13px 4px;float:right}
+
+
+#PrintInvoicePopup .fld {font-weight:bold}
+
+
+
+
+/*     -------------------------- page -----------------------    */
+
+
+
+#PrintInvoice #PrintInvoicePopup {
+	float:left;
+	min-height:260px;
+	padding:0;
+	margin-top:15px;
+	
+	}
+
+#PrintInvoice #PrintInvoicePopup h2 {
+color:#D10B08;
+font-size:18px;
+text-transform:capitalize;
+margin:0 0 10px 0!important;
+padding:0!important;
+width:100%;
+}
+
+
+#PrintInvoicePopup .lbl,
+#PrintInvoicePopup .fld {
+	float:left;
+	width:240px!important;
+	padding:5px 12px;
+	font-size:13px;
+	border-top:1px #B1AEA0 solid;
+	background:none;
+}
+
+
+#PrintInvoice #PrintInvoicePopup input {display:none}
+
+
+
+
+
+
+
+/* --------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SplashSummaryHeader,
+.PrintInvoicePopupHeader
+ {
+	background:url(/debit/2.0/bossrevolution/retailers/images/popup-logo.gif) left top no-repeat #6db43f;
+	border-bottom:2px #f9c30f solid;
+	height:37px;
+	display:block;
+}
+
+.SplashSummaryHeader a.rght {
+background:url(/debit/2.0/bossrevolution/retailers/images/btn-close.gif) no-repeat;
+margin:7px;
+display:block;
+width:23px;
+height:23px;
+cursor:pointer;
+}
+
+	
+
+		
+.SplashSummary .pad10 h2 {padding:0;margin:10px 0 15px 10px;font-size:18px;}		
+
+.SplashSummary .pad10 div div {
+float:left;
+width:46%;
+border:none;
+line-height:30px;
+font-weight:bold;
+font-size:14px;
+text-align:right;
+border-top:#c8c6a6 1px solid;
+}
+
+.SplashSummary .pad10 div div:first-child {
+	font-weight:normal!important; 
+	padding-left:10px;
+	text-align:left} 
+
+.SplashSummary .balance div {
+color:#469418;
+font-size:20px!important;
+padding-top:10px;
+}
+
+
+.rates {
+margin:20px 0;
+padding:0 0 0 16px;}
+
+.rates .lft {
+	width:47%;
+	margin:0 15px 0 0;
+	background:#e7e7e7}
+
+.rates .lft {display:block!important}
+
+.rates .lft .lbl,
+.rates .lft .fld {float:left;margin:7px 0}
+
+.rates .lft .lbl {width:30%;font-weight:bold;}
+.rates .lft .fld {width:70%;}
+	.rates .lft .fld select,
+	.rates .lft .fld input {width:90%}
+
+	.rates .lft .grid-bg1 TD {background:#e7e7e7}
+	.rates .lft .grid-bg2 TD {background:#fff}
+		.rates .lft .gridTable TD,
+		.rates .lft .gridTable TH
+			 {padding:5px!important}
+
+
+#info {
+			width:400px!important;
+			border-top:1px solid #353535;
+			border-left:1px solid #353535;
+			border-right:2px solid #353535;
+			border-bottom:2px solid #353535;
+			padding:40px 0 0 0;
+	
+			background:url(/debit/2.0/bossrevolution/retailers/images/popup-logo.gif) left top no-repeat #faf7cf;
+			
+			
+}		
+
+#info input,
+#csPhoneNumbers input {
+			left:370px;
+			position:absolute;
+			top:5px;
+			border:0;
+			background:url(/debit/2.0/bossrevolution/retailers/images/btn-close.gif) no-repeat;
+			width:23px;
+			height:23px;
+			cursor:pointer;
+			}	 
+
+#csPhoneNumbers h2 {margin:0 16px;font-size:16px;padding:5px 0 0;}
+			
+#info P {padding:5px!important}			
+
+#csPhoneNumbers .th IMG {display:none}
+
+.newspage {width:94%;margin:0 0 0 20px;}
+
+.newspage TD {
+	border-top:1px #fff solid;
+	border-bottom:1px #fff solid}
+
+.newspage .news-ttl {
+	cursor:default!important;
+	font-family:arial;
+	color:#db4539;
+	font-size:18px;
+	width:100%;
+	display:block;
+	}
+
+.newspage .news-date {float:right!important;
+color:#999!important;
+width:auto!important;
+border:0
+}
+
+.newspage .news-body img {width:auto!important}
+.news-body p {padding:5px 0!important;}
+
+
+.success-message {
+font-size:16px;
+font-weight:bold;
+background:#FFEB52;
+padding:10px;
+margin:10px 0;    
+}
+.success-message img {margin:0 10px 0 0}
+
+
+.marketing table {
+float:left;
+margin:10px 0;
+width:100%;
+}
+
+.marketing table td a,
+.marketing table td 
+ {
+ font-size:12px;
+ text-align:left;
+ padding:5px 2px;
+ }
+
+
+.marketing table td {text-align:center}
+.marketing table td:first-child {text-align:left}
+
+
+.marketing h2 {float:left!important;width:300px}
+.marketing a.btn1 {
+	float:right!important;
+
+	width:200px!important;
+	line-height:23px;
+	margin-top:10px;}
+	
+
+	
+#ctl00_cphRet_ucTopup_btnInvoice {
+	border:none;
+	background:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#dc0000;
+	text-decoration:underline!important;
+	background:	url(/debit/2.0/Boss/Images/ico-prin.gif) no-repeat scroll left center !important;
+	padding-left:22px;
+	cursor:pointer;
+	margin-top:7px;
+	float:left;
+	}	
+
+
+
+#ctl00_cphRet_UcManage_tbContainer_body {width:514px}
+
+#ctl00_cphRet_UcManage_tbContainer_ctl01,
+#ctl00_cphRet_UcManage_tbContainer_ctl02,
+#ctl00_cphRet_UcManage_tbContainer_ctl03,
+#ctl00_cphRet_UcManage_tbContainer_ctl04,
+#ctl00_cphRet_UcManage_tbContainer_ctl05 
+{background:#e7e7e7;
+font-family:arial!important;
+width:100%;
+}	
+
+
+#ctl00_cphRet_UcManage_tbContainer_ctl03 {padding:0px;line-height:42px}
+
+#ctl00_cphRet_UcManage_tbContainer_ctl03 .btn1 {float:right;margin-top:6px;}
+
+#ctl00_cphRet_UcManage_tbContainer_ctl03 .sectionhdr {line-height:15px;}
+
+#ctl00_cphRet_UcManage_tbContainer_ctl05_ucMove_btnSubmit {margin-right:10px}
+
+#ctl00_cphRet_UcManage_tbContainer_ctl04 .NoResult {display:block;padding:0 0 21px;}
+
+#ctl00_cphRet_UcManage_tbContainer_ctl02 .trSpacer TD {display:none}
+
+
+
+.tabs {
+	border-bottom:2px solid #FFEFEF;
+	float:left;
+	width:720px;
+}
+
+.tabs a {margin-bottom:-1px}
+
+.tab-body
+ {
+ 
+ background: #e7e7e7; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U3ZTdlNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #E1E1E1 0%, #f4f4f4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E1E1E1), color-stop(100%,#f4f4f4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #E1E1E1 0%,#f4f4f4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #E1E1E1 0%,#f4f4f4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #E1E1E1 0%,#f4f4f4 100%); /* IE10+ */
+background: linear-gradient(top,  #E1E1E1 0%,#f4f4f4 100%); /* W3C */
+
+ 
+padding:10px;
+float:left;
+width:96%;
+
+border-top:1px #848684 solid;
+border-left:1px #848684 solid;
+border-right:1px #848684 solid;
+border-bottom:1px #848684 solid;
+
+    border-radius:0 0 0 25px;
+ box-shadow: 0 0px 20px #999999;
+margin-top:-2px
+}
+
+.contenthead {
+background:#74BD4A url(/debit/2.0/Boss/Images/trhdrbg.gif) repeat-x scroll 0 0;
+color:white;
+padding:8px 2px;
+text-align:center;
+}
+
+
+
+
+.TabSelected,
+.TabDefault {
+	float:left;
+	padding:5px 10px;
+	text-align:center;
+	border-bottom:none;
+	margin-right:2px;
+
+
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:black!important;
+	width:64px;
+	height:28px;
+	text-decoration:none;
+	background:#FFEFEF!important;
+
+border-bottom:1px #E7E7E7 solid;
+border-top:1px #E7E7E7 solid;
+border-left:1px #E7E7E7 solid;
+border-right:1px #E7E7E7 solid;
+}
+
+
+.tabs2 a, .tabs2 span 
+ {
+	float:left;
+	padding:5px 10px;
+	text-align:center;
+	border-bottom:none;
+	margin-right:2px;
+
+
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	width:156px;
+	height:27px;
+	text-decoration:none;
+	background:#e7e7e7!important;
+
+
+}
+
+.tabs2 {width:543px;float:left}
+
+.tabs2 a span {color:#666!important;}
+
+.tabs2 span {color:#000!important;
+border-bottom:0px #E7E7E7 solid;
+border-top:1px #848684 solid;
+border-left:1px #848684 solid;
+border-right:1px #848684 solid;
+width:150px;
+position:relative
+}
+
+.tabs2 a {
+color:#666!important;
+background:#e7e7e7 url(/debit/2.0/bossrevolution/retailers/images/tab-bg.png) repeat-x top!important;
+border:1px #848684 solid;
+}
+
+.tabs2 a span {border:none; width:120px; background:none!important;height:auto;margin:0 10%;padding:0; position:relative}
+
+.TabDefault {
+color:#666!important;
+background:#e7e7e7 url(/debit/2.0/bossrevolution/retailers/images/tab-bg.png) repeat-x top!important;
+border:2px #fff solid;
+}
+
+
+
+
+.TabSelected a {
+text-decoration:none;
+color:#000000;
+cursor:default;
+color:#a2a2a2;
+text-decoration:none;
+}
+
+
+#ctl00_cphRet_UcManage_ucTrans_gridTransactions {width:100%}
+
+#ctl00_cphRet_UcManage_ucTrans_gridTransactions th div {	
+}
+
+.historygrid th {vertical-align:top}
+.historygrid {margin-top:10px;}
+.historygrid td {padding:3px 0}
+
+.billing-search {float:left;width:100%}
+.billing-search div {float:left;width:49%;padding:8px 0;font-weight:bold;}
+.billing-search div span {font-weight:normal}
+.billing-search div b {padding-left:5px;font-weight:normal}
+
+.billing-search div.btn-panel {width:100%;text-align:right}
+.billing-search input {width:28%!important}
+
+.tab-body .service-numbers {padding:0}
+.tab-body .PhoneTextBox {margin:0 0px 0 10px!important;}
+
+.service-numbers .btn2  {
+cursor:pointer;
+}
+
+.service-numbers .btn {
+}
+.sms-callback h3 {
+	margin-bottom:10px;
+	clear:both;
+	
+	}
+.sms-callback .btn1 {margin:10px 0; float:right}
+.sms-callback div {float:left;padding:5px 0;width:100%}
+
+
+.pais {width:152px;font-size:13px}
+.precio {width:113px;font-size:13px;text-align:center!important}
+.duracion {width:72px;font-size:13px;text-align:center!important}
+
+
+
+.rates #dvWrap {
+	margin-top:10px;
+/*
+	overflow-x:hidden;
+	overflow-y:auto;
+	height:180px;
+*/
+	}
+.rates #dvWrap .zebra1,
+.rates #dvWrap .zebra2 {padding:7px;font-size:13px;}
+
+#dvWrap .zebra2 {background:#FFF;}
+
+
+
+
+
+
+#ctl00_cphRet_UcManage_pnlSuccessMessage,
+#ctl00_cphRet_UcManage_lblError
+{
+background:#FFEFEF none repeat scroll 0 0;
+border-right:2px #fff solid;
+border-left:2px #fff solid;
+float:left;
+padding:0 10px;
+width:96%;
+
+}
+
+#ctl00_cphRet_UcManage_lblError {padding:10px 10px 0 10px;font-weight:bold;color:#FF0000}
+
+#ctl00_cphRet_UcManage_pnlSuccessMessage .Info {margin:10px 0 0px 0}
+
+#ctl00_cphRet_UcManage_update1_lblError {line-height:30px;}
+
+.tab-body .update .table_text_small {background:#e7e7e7;padding-top:0!important}
+
+.tab-body .update .table_error_bottom {padding-bottom:20px}
+
+.tab-body #ctl00_cphRet_UcManage_ucTrans_vldSummmary li {
+
+
+background:#F0C7C7 url(/debit/2.0/Boss/Images/alert.gif) no-repeat scroll 2% 5px;
+color:#000000 !important;
+display:block;
+font-family:Arial;
+font-size:12px;
+margin:0 0 10px 0;
+padding:10px 2% 10px 10%;
+}
+
+
+
+
+.billinghistory {background:#eaeaed;}
+
+
+.billinghistory .mainbody {
+	padding:10px 20px;}
+	
+.billinghistory .mainbody div,
+.billinghistory .mainbody tr {
+	font-size:12px;}	
+
+.billinghistory-grid {padding:0; float:left;width:100%; border:0px}
+.billinghistory-grid td {padding:5px 2px; border:0px}
+
+.billinghistory-grid .head-names td {
+background:#ef1c21 url(/debit/2.0/Boss/Images/trhdrbg.gif) repeat-x scroll 0 0;
+color:white;
+font-weight:bold;
+margin-top:10px
+}
+
+#UcTransDet_divPrint {width:100%}
+
+
+
+
+.buttons_div {float:right;margin-bottom:10px;}
+
+.billinghistory .mainbody h2 {
+ background: none repeat scroll 0 0 transparent;
+    box-shadow: 0 0 0;
+    float: left;
+    font-size: 20px !important;
+    line-height: 37px;
+    margin: 5px 0 15px;
+    padding: 0;
+    text-shadow: 0 0 0;
+    width: 80%;}
+
+.billinghistory .clr {margin:10px 0;font-size:11px!important}
+
+#ctl00_cphRet_RechargeCntrl_pnlRecharge .contenthead {display:none}
+
+.agent-trans-searcg {padding:10px;}
+.billinghistory .mainbody .InnerTblBg
+ {font-size:14px;
+ background: #e7e7e7; /* Old browsers */
+ ;padding:10px;      border-radius:0 0 0 25px;
+ box-shadow: 0 0px 20px #999999;}
+#UcTransDet_divTotals .InnerTblBg {border-radius:0 0 0 0px;}
+ 
+ #ctl00_cphRet_RechargeCntrl_pnlRecharge .InnerTblBg {border-radius:0 0 0 25px;
+ box-shadow: 0 0px 20px #999999;background: #e7e7e7}
+ 
+.billinghistory .mainbody .InnerTblBg .bld {margin:0 20px 0 10px}
+
+
+.billingsearchpanel {margin-bottom:10px;float:left;width:98%}
+/*#UcTransDet_btnSubmit {margin:36px -11px 10px!important;}*/
+
+.billingsearchpanel div div {
+	float:left;
+	white-space:nowrap;
+	font-weight:bold;
+	padding:6px 0;
+	width:auto;
+	line-height:20px;
+	}
+.imtutranssearch {float:left;width:90%}
+.imtutranssearch .lbl, .imtutranssearch .fld {width:auto!important}
+
+.billingsearchpanel div div.lbl {margin-right:10px;width:13%}
+.billingsearchpanel div div.fld {margin-right:30px;width:13%}
+
+
+.billinghistory .mainbody div select,
+.billinghistory .mainbody div input,
+.billingsearchpanel div div.fld #UcTransDet_ddlDateRange
+{font-family:Arial, Helvetica, sans-serif}
+
+
+
+.billinghistory .mainbody div .sectionhdr {clear:both}
+
+
+input.PhoneTextBox,
+input.PhoneTextBoxLocked  {font-family:Arial, Helvetica, sans-serif!important}
+
+
+#ctl00_cphRet_SiteSplash_divBalanceInfo div {border-bottom:1px solid #AD0C21;float:left;width:100%!important;}
+#ctl00_cphRet_SiteSplash_divBalanceInfo div div {width:48%!important; border:0}
+
+#ctl00_cphRet_SiteSplash_dvBalanceLinks {float:right;width:95px!important;padding:0;margin:0}
+#ctl00_cphRet_SiteSplash_dvBalanceLinks a {
+text-decoration:none;
+		
+		background: #ad0c21;
+			-moz-border-radius: 15px!important;
+		    border: 3px solid white!important;
+		    border-radius: 15px!important;
+		    color: #FFFFFF!important;
+		    font-size: 12px!important;
+		    font-weight: bold!important;
+		    padding: 3px 10px!important;
+		    margin: 0px 0 0px 5px!important;
+		    padding:3px 10px!important;
+			cursor:pointer;
+			box-shadow: 0px 3px 9px #999;
+	font-family:Arial!important
+		line-height:20px;
+		}
+
+#ctl00_cphRet_SiteSplash_dvBalanceLinks {line-height:15px;}		
+#ctl00_cphRet_SiteSplash_dvBalanceLinks a:hover {color:#000}
+		
+#ctl00_cphRet_SiteSplash_pnlBatOk {display:none}
+
+
+#ctl00_cphRet_ucTopup_rbConfirmSMS {margin-top:10px}
+#ctl00_cphRet_ucTopup_rbConfirmSMS label {padding-left:5px}
+
+
+#ctl00_cphRet_ucTopup_btnManage {
+margin-top:20px;float:right
+}
+
+#UcTransDet_ddlDateRange {width:90%}
+
+
+#logoutBtn {margin:5px 0 0 5px;float:right}
+#loginBtn {float:right;margin-left:5px;}
+
+
+
+.billinhomelnk {
+	display:block;
+	float:left;
+	width:350px;
+	height:75px;
+	text-decoration:none}
+
+
+
+.agent-trans-searcg {font-size:12px;float:left;height:90px}
+
+.agent-trans-searcg input,
+.agent-trans-searcg select {width:90%;font-family:Arial, Helvetica, sans-serif}
+.email-checkbox input {width:auto!important}
+
+.agent-trans-searcg .lbl {width:21%;}
+.agent-trans-searcg .fld {width:28%;}
+
+.agent-trans-searcg .lbl,
+.agent-trans-searcg .fld {float:left;height:37px!important;}
+
+
+.agent-trans-searcg .btn1 {float:right!important;width:auto;}
+
+
+.imtu .agent-trans-searcg .drpCountry select,
+.imtu .agent-trans-searcg .drpCard select {width:78%!important;float:left;margin-right:12px;}
+
+.agent-trans-searcg .drpCountry .country-img,
+.agent-trans-searcg .drpCard .card-img {float:left;}
+
+
+	.agent-trans-searcg .drpCountry .country-img,
+	.agent-trans-searcg .drpCard .card-img {backgroundo:no-repeat}
+
+
+.agent-trans-searcg .drpCountry .country-img, .agent-trans-searcg .drpCard .card-img {width:43px;height:28px;}
+
+
+
+
+#ctl00_cphRet_UcManage_ucTrans_btnGo {width:99px!important}
+
+#ctl00_cphRet_ucManAgents_upAgents {}
+
+
+
+
+/*    SIGNUP   */
+
+
+.retsignup #ucSignup {width:712px}
+.retsignup {clear:both!important;padding:20px 30px;}
+
+.retsignup #ctl00_cphRet_signup_signup_pnlSecretQuestion {width:98%; float:left; padding:0 0 0 10px}
+.retsignup #ctl00_cphRet_signup_signup_pnlSecretQuestion div { 
+float:left;
+font-weight:bold;
+margin:7px 0 0;
+width:42%;
+}
+
+.retsignup #ctl00_cphRet_signup_signup_pnlSecretAnswer div {padding:0;width:100%}
+
+.retsignup #ctl00_cphRet_signup_signup_pnlChargeAmount {padding:16px 0 44px 0;}
+
+.retsignup #ctl00_cphRet_signup_signup_rdCharge {background:white!important;padding:0!important;color:black;font-weight:normal}
+
+.retsignup #ctl00_cphRet_signup_signup_pnlChargeAmount .remarks {display:none}
+
+.retsignup #ctl00_cphRet_signup_signup_rowFillInfo {width:96%;float:left;padding:10px 10px;}
+
+.retsignup #ctl00_cphRet_signup_signup_rowCvv2 .remarks,
+.retsignup #ctl00_cphRet_signup_signup_rowBank .remarks {
+clear:both;
+font-size:10px;
+margin-left:43%;
+width:40%;}
+
+.retsignup #ctl00_cphRet_signup_signup_pnlAutoRecharge .bld,
+.retsignup #ctl00_cphRet_signup_signup_rowRechargeConditions {
+float:left;
+padding:10px 6px 20px;
+width:40%;
+}
+
+.retsignup #ctl00_cphRet_signup_signup_pnlSpecialWord div {padding:0 2px}
+.retsignup #ctl00_cphRet_signup_signup_pnlVerisign {padding:0 10px}
+
+.retsignup #ctl00_cphRet_signup_signup_rowButtons {text-align:right;padding:0 15px}
+
+
+.retsignup .CaptchaTable {padding:0 10px;}
+
+.retsignup #ctl00_cphRet_signup_signup_valSummary {background:#FAF8CF;padding:10px}
+
+.retsignup #ctl00_cphRet_signup_signup_valSummary span {line-height:22px;}
+
+.retsignup #ctl00_cphRet_signup_signup_pnlSecretAnswer {width:100%!important}
+.retsignup #ctl00_cphRet_signup_signup_pnlSecretAnswer div {width:42%!important}
+
+.registration-step2 {padding:10px 20px;}
+.registration-step2 #inside-main {width:98%}
+
+.registration-step2 #inside-main .complete-rightpane .section{width:92%;}
+
+.registration-step2 #inside-main .complete-rightpane {
+background:white none repeat scroll 0 0;
+float:left;
+margin-bottom:10px;
+margin-left:15px;
+width:47%;
+}
+
+.registration-step2 #inside-main .complete-rightpane .btn1 {
+width:150px !important;}
+
+.registration-step2 .virtualcard {
+background:transparent url(/debit/2.0/bossrevolution/images/scissor.gif) no-repeat scroll right bottom;
+padding:0 8px 10px 0;
+width:350px;}
+
+
+.registration-step2 .complete-rightpane .ErrorValidaton {width:300px!important}
+
+.registration-step2 .complete-rightpane .end-message {padding:15px!important;width:auto!important}
+.registration-step2 .complete-rightpane .end-message IMG {margin:0 10px 10px 0!important}
+
+.registration-step2 .contenedor p {display:inline;padding:0; font-weight:bold; font-size:14px;}
+.registration-step2 .contenedor {padding:10px}
+
+
+/* WORLD CUP */
+
+
+.worldcup .langs IMG
+ {display:none}
+
+.worldcup .langs {margin:0 50px 0 242px;top:8px;}
+.worldcup .langs a{font-weight:normal;text-transform:uppercase}
+
+.worldcup .toplogo IMG {display:none}
+.worldcup .toplogo {float:left;width:95px; height:95px; }
+
+.worldcup .btn-top-login {position:absolute;top:5px;left:50%;margin:0 0 0 -46px!important}
+
+
+/*     IMTU   */
+
+.imtu {padding-top:10px;float:left; width:100%}
+
+.imtu #ImtuInvoice {
+	background:#efebef;
+	float:left;
+	min-height:auto; 
+	padding:10px;
+	width:100%;}
+
+.egifts #ImtuInvoice {
+	width:62%;background:none!important}
+	
+
+.egifts .imtu-thanku-btn {border-bottom: 0 none;
+    border-top: 0 none;
+    float: right;
+    padding: 2%;
+    width: 98%;}
+	
+.egifts #ImtuInvoice .fld,
+.egifts #ImtuInvoice .lbl {width: 35% !important;border-top: 1px solid #fff;	}
+
+
+.imtu ul {margin:0 0 15px 0;float:left;width:100%;font-weight:bold;}
+
+.imtuhistory .billingsearchpanel {height:38px;}
+.imtuhistory .billinghistory-grid td:first-child {white-space:nowrap;}
+.imtuhistory .billinghistory-grid td {padding:5px 3px;text-align:center}
+
+.imtu .btn4, .imtu .btn2 {cursor:pointer;
+margin:10px 0 20px 0px;
+text-align:center
+padding:5px 0;}
+
+ .imtu .btn2,
+ .imtu-purchase .btn4
+ {margin:10px 0 10px 10px;}
+
+.imtu .btn4 a {color:white;
+display:block;
+line-height:26px;
+text-align:center;
+text-decoration:none;}
+
+.imtu-thanku-btn {border-bottom:1px solid #B1AEA0;
+border-top:1px solid #B1AEA0;
+width:98%;
+float:right}
+
+
+
+
+#inside-main .imtu h3 {height:16px}
+
+
+.imtu .scrl-news,
+.newsSummary
+  {
+float:none;
+height:278px;
+margin-bottom:8px;
+padding-right:10px;
+width:auto;}
+
+
+
+#inside-main .imtu h2 {
+background:#fff none repeat scroll 0 0;
+color:#AD0C21;
+display:block;
+font-size:15px;
+line-height:26px;
+margin:0px 0 5px 0;
+padding:0 0 0 10px;
+
+}
+
+.imtu .firstnews, .imtu .firstnews2 {
+	display:block; 
+	width:94%;
+	margin-bottom:10px}
+
+#inside-main .imtu .firstnews h2,
+#inside-main .imtu .allnews h2,
+#inside-main .imtu .firstnews2 h2,
+#inside-main .imtu .allnews2 h2
+
+ {
+background:none;
+padding:5px 0;
+border:medium none;
+color:#469418;
+display:block;
+font-family:Arial,Helvetica,sans-serif;
+font-size:14px!important;
+font-weight:bold;
+margin-top:5px;
+padding:0 !important;
+text-decoration:none;
+}
+
+.imtu .firstnews td {border:0!important;border-bottom:1px #facf3a solid !important; padding:3px 0
+
+}
+
+.imtu .firstnews td:first-child {font-size:11px;color:green}
+
+.imtu .choose {
+background: url("/debit/2.0/bossrevolution/retailers/account/images/imtu-choose-bg.gif") repeat-x scroll center top #134F91;
+    color: white;
+    float: left;
+    margin-top: 0;
+    padding: 10px;
+    width: 97.3%;
+
+	}
+	
+	
+.egifts .imtu,	
+#ctl00_cphRet_ctlImtu_divActions, #ctl00_cphRet_ctlDmtu_divActions {
+   background: none repeat scroll 0 0 #e7e7e7;
+    box-shadow: 0 0 10px gray;
+    float: left;
+    padding: 0;
+    width: 99%;
+    border-radius:0 0 0 25px;
+}
+
+.igiftshadow {
+    background: none repeat scroll 0 0 #E7E7E7;
+    border-radius: 0 0 0 25px;
+    box-shadow: 0 0 10px #808080;
+    float: left;
+    padding: 0;
+    width: 99%;
+}
+
+.dimtu .choose {
+	background:#5A615A url('/debit/2.0/bossrevolution/retailers/account/images/dimtu-choose-bg.gif') repeat-x top;
+	}
+
+
+.imtu .agent-trans-searcg {
+	height:auto;
+	width:96%;
+	margin-top:2px;
+	}
+
+.imtu .choose select {width:28%; margin:10px 10px 0 0}
+
+.imtu .agent-trans-searcg .lbl, .imtu .agent-trans-searcg .fld
+{height:auto; margin:0}
+
+.imtu .choose .lbl {font-weight:bold;float:left;font-size:16px;margin-top:10px}
+
+.imtu .agent-trans-searcg .lbl, .imtu .choose .lbl  {width:48%} 
+.egifts .imtu .agent-trans-searcg .lbl, .egifts .imtu .choose .lbl {width:28%}
+
+
+.imtu .agent-trans-searcg .fld {width:52%}
+.imtu .agent-trans-searcg .fld select,
+.imtu .agent-trans-searcg .fld input {width:54%}
+
+
+.imtu-purchase div {border-bottom:1px solid #FAF8CF;
+float:left;
+margin:5px 0;
+padding-bottom:6px;
+text-transform:capitalize;
+width:100%;}
+.imtu-purchase div label, .imtu-purchase div b {float:left;  }
+
+.imtu-purchase div b {font-weight:normal;width:47%}
+.imtu-purchase div label {padding-right:10px; font-weight:bold; width:50%}
+
+.imtu-search input {width:50%;margin:0 10px}
+
+
+#ImtuInvoice .bg1 { 
+background:#FFEB51 }
+
+
+.imtu #ImtuInvoice .lbl, 
+.imtu #ImtuInvoice .fld  
+{
+	float:left;	
+	padding:8px 12px;
+	font-size:11px;
+	border-top:1px #B1AEA0 solid;
+	height:16px;
+	 }
+.imtu #ImtuInvoice .fld  {font-weight:bold;font-size:12px;width:50%!important;}
+.imtu #ImtuInvoice .lbl {width:36%!important;}
+
+.imtu .rght h2 a {display:none}
+
+.imtu .pad-b10 {min-height:50px}
+
+
+#divPurchaseRedeemButtons {
+	margin: 40px 0 0;
+}
+#divPurchaseRedeemButtons .btn4 {margin-right:10px!important;margin-top:0!important}
+
+#mtu-news {
+border-color:#353535;
+border-style:solid;
+border-width:1px 2px 2px 1px;
+margin:0 0 0 0px;
+opacity:1;
+padding:0;
+width:729px !important;
+}
+
+#mtu-news {border:none; /*height:150px*/}
+div.anythingSlider.activeSlider .anythingWindow {border:none}	
+
+.imtu br.clr {display:block!important}
+.anythingSlider {width:729px!important}
+
+/*	#mtu-news a
+{
+border:none;
+cursor:pointer;
+display:block;
+float:right;
+height:23px;
+margin:0 0 0 505px;
+position:absolute;
+top:9px;
+width:23px;
+			}
+*/
+#csPhoneNumbers {
+
+background:#FFFFFF url(/debit/2.0/bossrevolution/retailers/images/popup-logo.gif) no-repeat scroll left top;
+border-color:#353535;
+border-style:solid;
+border-width:1px 2px 2px 1px;
+display:none;
+left:100px;
+margin:0 0 0 97px;
+opacity:1;
+padding:40px 0 10px;
+position:absolute;
+top:357px;
+width:535px !important;
+z-index:1009
+	}
+
+#csPhoneNumbers div {float:left;width:94%; background:white;padding:0 3%}
+
+#csPhoneNumbers div span {float:left;display:block;width:30%; padding:6px 8px;}
+
+#csPhoneNumbers div.th span {
+background:#74BD4A url(/debit/2.0/Boss/Images/trhdrbg.gif) repeat-x scroll 0 0;
+color:white;
+font-weight:bold;
+margin-top:10px
+}
+
+
+#csPhoneNumbers div.zebra1 span {background:#D6D7DE}
+#csPhoneNumbers div.zebra2 span {background:#fff}
+
+#csPhoneNumbers a
+{
+border:0 none;
+cursor:pointer;
+display:block;
+float:right;
+height:23px;
+margin:0 0 0 505px;
+position:absolute;
+top:9px;
+width:23px;
+			}
+
+#csPhoneNumbers b {display:block; padding:10px 15px 0!important; font-size:11px;float:left;font-weight:normal}			
+			
+.imtu .Error {margin:10px 0;float:left;width:88%}			
+.imtu .Info {margin:10px 0;float:left;width:88%}			
+.imtu .warning {
+	margin:10px 0;
+	float:left;
+	width:78%;
+	color:#AD0C21;
+	font-weight:bold;
+	background:#ffc2ca;
+	border-radius: 15px 15px 15px 15px;
+	padding:10px;
+	}			
+
+
+.imtu-noresults
+{background: url("/debit/2.0/Boss/Images/alert.gif") no-repeat scroll 2% 5px #F0C7C7;
+    border-radius: 15px 15px 15px 15px;
+    color: #000000 !important;
+    display: block;
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px 10px 12px 50px;
+    width: 670px;
+}
+
+#divRedeemResults div.lbl:first-child {background:#FFCC00}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mycarousel{
+margin-left:20px;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    
+    padding: 0;
+	margin:10px 0 10px 40px;
+}
+
+.dmtu .jcarousel-skin-tango .jcarousel-container-horizontal {
+margin: 18px 0 10px 30px;
+ }
+
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 900px;
+    height: 91px;
+    padding: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width: 940px;
+    height: 91px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width: 940px;
+    height: 91px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width:  940px;
+    height: 91px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-horizontal.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(prev-horizontal.png);
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: -32px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 43px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-horizontal.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(next-horizontal.png);
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: -32px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-vertical.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-vertical:hover {
+    background-position: 0 -32px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-vertical.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical:hover {
+    background-position: 0 -32px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+
+#mycarousel li {margin:0!important;padding:0!important}
+
+
+.terms {
+	display:block;
+	padding:4px 14px 4px 14px;
+	color:#7b906f;
+	font-size:11px;
+	background:#FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+	border:2px #e7e7e7 solid;
+}
+
+.print_content {display:none;}
+
+/*         ---------------- PRINT -------------------      */
+
+@media print {
+
+.btn1,
+.main-bg .header,
+.main-bg #footer,
+#top-menu,
+h1,
+#inside-menu,
+#ctl00_cphRet_ucTopup_pnlStep1,
+#ctl00_cphRet_ucTopup_btnInvoice,
+#ctl00_cphRet_ucTopup_lblComplete_Title,
+#ctl00_cphRet_ucTopup_pnlComplete .Info,
+.service-numbers,
+#important,
+#btnPrint,
+.imtu .btn4,
+a.imtu-btn4,
+.imtu-thanku-btn,
+#ctl00_cphRet_ctlImtu_btnDone,
+#ctl00_cphRet_ctlImtu_btnRedeemNow,
+#ctl00_cphRet_ctlImtu_btnPrint,
+#ctl00_cphRet_undo_lblUndoText
+ {display:none!important}
+
+.print_content {display:block;}
+.main-content {background:none;width:auto;position:relative;margin:auto;left:auto}
+
+.main-bg #PrintInvoicePopup,
+.main-bg #PrintInvoicePopup * {display:block; width:100%;background:none}
+
+#PrintInvoicePopup .lbl,
+#PrintInvoicePopup .fld {
+	border-top:1px #444 solid;
+}
+
+
+#PrintInvoicePopup input {display:none}
+
+#mtu-news
+{
+	left:20px;
+	top:20px;
+}
+.imtu .Info {padding:0; font-weight:bold}
+
+.imtu .intro {width:90%!important}
+.imtu .intro img {width:auto; margin:0 20px 0 0px!important}
+
+.terms{font-family:times,serif;font-size:10px;color: #000000;}
+
+}
+
+
+#dvBillPayHistoryReport a img,
+#dvMoneyTransferHistoryReport a img,
+#dvBillHistory a img,
+#dvNetworkReport a img {border:0;margin-right:5px}
+
+#dvBillPayHistoryReport a,
+#dvMoneyTransferHistoryReport a,
+#dvBillHistory a,
+#dvNetworkReport a 
+{background: none repeat scroll 0 0 #767676;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 3px 9px #999999;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-family: arial;
+    font-size: 15px;
+    margin: 8px;
+    padding: 0;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    width: 47.6%;
+}
+
+
+#dvBillHistory a:hover,
+#dvNetworkReport a:hover {box-shadow: 0px 1px 6px #777;
+                                  margin:10px 8px 6px;
+                                  outline:none;} 
+
+
+
+#ctl00_cphRet_manage_drpProfiles {margin: 14px 15px 10px 0px;    width: 198px;}
+#ctl00_cphRet_manage_txtProfileName {margin: 0px 20px 5px 2px;   width:195px}
+
+
+#ctl00_cphRet_manage_upIPList {padding:10px}
+#ctl00_cphRet_manage_upIPList a img {/*float: right;
+    margin-right: 484px;*/}
+    
+ .manageagent .pad-v10 {text-align:right;padding:0}   
+ 
+ .favorites table {width:100%}
+ .favorites td input {margin:3px}
+  .favorites td span {font-weight:bold;padding-left:2px}
+  .favorites td .btn1 {margin-left: 5px;}
+ 
+ .network-report .gridTable {margin-bottom: 0px!important;}
+
+ #ctl00_cphRet_ucTopup_dvFavorites {
+    width: 100%;float:left}
+ 
+ #ctl00_cphRet_ucTopup_dvFavorites div {float:left;width:100%;color:#FFFBCE; border-bottom:1px solid white; padding:5px 0; margin:5px 0;}
+ #ctl00_cphRet_ucTopup_dvFavorites span {float:left;width:20%;color:#575757;font-weight: bold;padding-left: 10px;}
+ #ctl00_cphRet_ucTopup_dvFavorites a.gray
+ #ctl00_cphRet_ucTopup_dvFavorites a {float:left; width:77%}
+ #ctl00_cphRet_ucTopup_dvFavorites .gray {
+color: #DC0000;
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: right;
+    margin-top: -23px;
+    
+ }
+ #ctl00_cphRet_ucTopup_lblFavoritesTitle {
+ background: url("/debit/2.0/Boss/Images/inside-main-h2-bg.gif") repeat-x scroll 0 0 transparent;
+    color: #469418!important;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    margin: 0;
+    padding: 4px 3px 3px 10px;
+    width:98%!important;}
+    
+    
+   #ctl00_cphRet_update1_txtBank {width:31.4%} 
+   
+   #ctl00_cphRet_ucTopup_lstFavorites {width:auto!important;margin-left: 6px;border: 1px solid #A5ACB2;}
+   
+
+#ctl00_cphRet_update1_lblError,
+.table_text_error {color:red!important}
+.table_text_error {padding-right:5px}
+
+#ctl00_cphRet_update1_lblError[class="announce"] {color:black!important;}
+
+.small {
+    font-size: 11px!important;
+}
+
+.scrl {overflow:auto; height:490px;width:676px;}
+
+#user-agr h2 {text-shadow:0 0 0; box-shadow:0 0 0; line-height:50px}
+#user-agr h3 {color:darkred!important}
+
+.message-inbox {
+    background: none repeat scroll 0 0 #456785;
+    border-radius: 5px 5px 5px 5px;
+    color: White;
+    float: left;
+    font-weight: bold;
+    margin: 10px 6px 0 0;
+    padding: 8px;
+    width: 246px;
+}
+.message-sales {
+    background: none repeat scroll 0 0 #EF1C21;
+    border-radius: 7px 7px 0px 0px;
+    font-weight: bold;
+    margin: 10px 5px 10px 0;
+    padding: 8px;
+    width: 925px;
+    position:absolute;
+    float: left;
+    left: 50%;
+    margin-top: 40px;
+    margin-left: -472px;
+    margin-right: auto;
+    color :White;
+}
+.message-inbox a {
+    color: white;
+    display: block;
+    float: right;
+    font-size: 11px;
+    font-weight: normal;
+    margin-right: 10px;
+    text-align: right;
+    width: auto;
+    padding-top:3px;
+    
+}
+.message-inbox .newmessages a {
+        color: yellow;
+	text-decoration: none;
+	font-size: 14px;
+	float:left;
+	display: inline;
+	width: auto;
+    text-align: left;
+    font-weight: bold;
+line-height: 19px;
+}
+
+.message-sales a {
+    color: white;
+    display: block;
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: right;
+    width: 20%;
+    padding-top:3px;
+    text-decoration: none;
+    
+}
+
+.contact-distributors {
+background: none repeat scroll 0 0 #399BA8;
+    border: 1px solid #399BA8;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 3px 5px 1px white inset;
+    color: White;
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 9px 6px 0 0;
+    padding: 8px 8px 7px;
+    width: 177px;
+
+}
+.contact-distributors:hover {background: none repeat scroll 0 0 #047f97;}
+    
+   .contact-distributors a {background: url("/debit/2.0/bossrevolution/retailers/account/images/splash-ico-contact-distributor.png") no-repeat scroll -4px -7px transparent;
+    color: white;
+    float: left;
+    font-size: 13px;
+    padding: 4px 0 4px 34px;
+    text-decoration: none;
+   } 
+
+.grid .contact-distributors {width:247px;margin: 9px 6px 9px 0;padding: 5px;}
+.grid #ctl00_cphRet_uccontact1_lnkContact {padding-left: 34px;}
+
+
+.contact-distributor-body, .contact-distributor-body * {float:left}
+.contact-distributor-body div span {width:25%}
+.contact-distributor-body div span:last-child {font-weight:bold}
+.contact-distributor-body div {margin:5px 0;width:100%}
+.contact-distributor-body .bld a {font-size:16px;float:none}
+.contact-distributor-body .bld {margin:10px 0}
+
+.ui-dialog {
+    background: -moz-linear-gradient(center top , #E1E1E1 0%, #F4F4F4 100%) repeat scroll 0 0 transparent;
+    border: 6px solid #AD0C21 !important;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 4px 20px #999999;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    height: 18px;
+    margin: 0;
+    padding: 1px;
+    position: absolute;
+    right: 0.3em;
+    top: 1%;
+    width: 19px;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+    display: block;
+    margin: 1px;
+}
+.ui-widget-header .ui-icon {
+    background-image: url("/debit/2.0/Bossrevolution/Images/close-btn.png");
+}
+.ui-icon-closethick {
+    background-position: -96px -128px;
+}
+.grid th 
+{
+    background: url("/debit/2.0/Bossrevolution/Images/trhdrbg.gif") repeat-x scroll #df1217 center;
+    color: white;
+    font-weight: bold;
+    padding:5px 3px;
+    text-align:left!important;
+}
+.grid th a
+{
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    text-decoration:underline;
+
+}
+
+.grid td { font-size: 14px;
+    padding: 5px; border-bottom:1px white solid}
+    .grid td td {border:none}
+.grid td a
+{
+    
+    font-weight: bold;
+    padding: 3px;
+    text-decoration:underline;
+    font-size: 1em;
+
+}
+.grid tbody tr:nth-child(odd) {
+   background-color: #fff;
+}
+
+.grid tbody tr.odd {background:white}
+
+.grid tr.commdiff {background-color: #fae984!important;}
+
+.grid tr.selectedRow {background-color: #e2cbcc!important;}
+
+.nestedgrid tbody tr:nth-child(odd),
+.nestedgrid tbody tr.odd
+ {background-color:inherit;}
+.grid th, .grid th a {font-size:12px!important}
+
+#ctl00_cphRet_ctlBill_lblNoBillPay {font-size:14px; padding:10px 0; display:block; }
+
+
+.egifts hr {
+
+	margin-bottom:20px;
+	border-style: 1px gray solid;
+	}
+
+.egifts .agent-trans-searcg {
+    height: auto;
+    margin-bottom: 0;
+    margin-top: 2px;
+    padding: 10px 10px 0;
+    width: 96%;
+}
+
+
+.egifts .drpCountry {height: 28px !important;}
+
+.egifts .fld small {float:right;width:150px}
+
+.egifts .confirm-terms {float:left;padding:15px 15px 15px 0;font-size:11px;color:#6b696b;width:33%}
+.main-content .egifts .confirm-terms b {margin-bottom:10px;float:left;width:90%}
+.main-content .egifts .confirm-terms p {padding:5px 0}
+
+#compliancemsg {
+	font-size: 11px;
+	margin-left: 0;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.DialLocalDetails br, .ManageDialLocal br
+	{display:block!important}
+	
+	
+#Div1 {
+	font-size: 9px;
+	padding-top:20px;
+	display:block;
+	margin:10px 20px;
+}
+
+#divWorking {
+background: url("/debit/2.0/bossrevolution/retailers/images/wait.gif") no-repeat scroll left top transparent;
+    color: #777777;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 1px 0 13px 24px;
+
+}	
+#UcTransDet_divInvoice, #ctl00_cphRet_ucAgentTransactions_divInvoice {
+width: 97%;
+}
+/* ---------------------------- Print Invoice One ----------------------------------- */
+@media print
+  {
+#ImtuInvoice {
+	float:left;
+	min-height:700px;
+	padding:10px;
+	width:100%;}
+
+#ImtuInvoice h2 {
+color:#D10B08;
+font-size:18px;
+text-transform:capitalize;
+margin:0 0 10px 0!important;
+padding:0!important;
+width:100%;
+}
+
+
+#ImtuInvoice .lbl,
+#ImtuInvoice .fld {
+	float:left;
+	background:#fff;
+	width:43%!important;
+	padding:8px 12px;
+	font-size:13px;
+	border-top:1px #FAF8CE solid;
+	height:16px;
+}
+
+#ImtuInvoice .btn1 {margin:13px 4px;float:right}
+
+
+#ImtuInvoice .fld {font-weight:bold}
+
+}
+.adviseconsumer {
+background: none repeat scroll 0 0 #FEFDC1;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #808080;
+    font-size: 11px;
+    margin: 0 10px 28px 20px!important;
+    padding: 12px!important;
+    width: 490px!important;
+}
+.adviseconsumer ul {font-weight:normal!important;margin-bottom:0!important;}
+
+
+#ctl00_cphRet_ctlIGift_showBtn1 {
+background:url(/debit/2.0/bossrevolution/customers/account/images/icon_q_open.png) no-repeat;
+width:18px;
+height:18px;
+cursor:pointer;
+display: inline-block;
+}
+
+
+/* receipt message BOSS-6140 */
+.PrintIGiftEsults {
+	padding: 20px 40px;
+}
+.text-content {
+	padding: 20px 0;
+}
+.text-content h2 {
+	background: none !important;
+	margin: 1em 0 !important;
+	padding: 0 !important;
+}
+.text-content h4 {
+	margin: 2em 0 1em;
+	padding: 10px;
+	font-size: inherit !important;
+}
+.text-content p,
+.text-content div p {
+	margin: 1em 0 !important;
+	padding: 0 !important;
+}
+.table-transparent {
+
+}
+.table-autowidth {
+	width: auto;
+}
+.table-fullwidth {
+	width: 100%;
+}
+.text-content table {
+	margin: 1em 0;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+.text-content td,
+.text-content th {
+	text-align: left;
+	padding: 5px;
+}
+.table-lined th {
+	background: #ef1c21;
+	color: #FFF;
+	font-weight: bold;
+}
+.table-lined td {
+	background: #efebef;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #CECECE;
+}
+.table-lined .totals td {
+	background: #d6d5d6;
+	font-weight: bold;
+}
+.text-content .totals {
+	font-size: inherit !important;
+}
+.retailer-info p {
+	font-weight: bold;
+}
+p.letter-sign {
+	margin-top: 2em !important;
+}
+.letter-sign br {
+	display: block !important;
+}
+.terms-and-conditions {
+	font-size: 9px;
+	padding-top: 20px;
+	display: block;
+	margin: 10px 20px;
+}
+@media print {
+	.text-content {
+		font-size: 12pt;
+	}
+	.text-content h4 {
+		color: #000;
+		background: none;
+		padding: 10px 0px;
+		font-size: inherit !important;
+		border-bottom: 1px solid;
+	}
+	.text-content table {
+		margin: 1em 0;
+		border-collapse: separate;
+		border-spacing: 0;
+	}
+	.text-content td,
+	.text-content th {
+		text-align: left;
+		padding: 5px;
+		border-bottom: 1px dotted;
+		color: #000;
+	}
+	.btn2.rght.pad-v5 {
+		display: none;
+	}
+	.terms-and-conditions {
+		padding: 0;
+		margin: 0;
+	}
+	.PrintIGiftEsults .Info {
+		display: none;
+	}
+}
+.imtu-thanku-btn {
+	border-bottom: none;
+}
+
+.PrintIGiftEsults .Info {
+	display: none;
+}
+/* receipt message end BOSS-6140 */
+
+input#ctl00_cphRet_ctlIGift_chkNotificationConsent {width:15px;}
