@@ -1,0 +1,110 @@
+/* extending jQuery UI tabs — vertical right tabs geometry */
+/*
+put these block of css to \debit\2.0\bossrevolution\css\jquery-ui-boss.css
+*/
+.ui-tabs-vertical {
+    
+}
+.ui-tabs-vertical .ui-tabs-nav {
+    padding: 0;
+    float: right;
+    width: 20%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+    clear: left;
+    width: 100%;
+    border: none;
+    margin: 0;
+    background: none;
+}
+.ui-tabs-vertical .ui-tabs-nav li a {
+    display:block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    border-radius: 0 5px 5px 0;
+    box-shadow: inset -1px 3px 3px -1px rgba(0,0,0,0.2);
+}
+.ui-tabs-vertical .ui-tabs-panel {
+    padding:30px 20px;
+    float: left;
+    width: 80%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.ui-tabs .ui-tabs-nav li:focus {
+    outline: none;
+
+}
+.ui-tabs-vertical .ui-tabs-panel {
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: inset 1px 3px 3px -1px rgba(0,0,0,0.2), 1px 0 0 0px rgba(0,0,0,0.05), -1px 0 0 0px rgba(0,0,0,0.08);
+}
+.ui-tabs-vertical .ui-tabs-panel:first-of-type {
+    border-radius: 5px 0 5px 5px;
+}
+/* vertical right tabs geometry end */
+
+/* more custom rules */
+.boss-right-tabs .ui-tabs-panel {
+    min-height: 650px;
+}
+/* more custom rules end */
+
+/* icons */
+.ui-tabs-vertical .with-icons.ui-tabs-nav a {
+    padding: 20px 10px;
+    text-align: center;
+    color: #555;
+}
+.ui-tabs-vertical .with-icons.ui-tabs-nav .ui-tabs-active a{
+    color: #222;
+    border-radius: 0 5px 5px 0;
+    box-shadow: inset -8px 0 0 -4px #ad0c21;
+}
+.with-icons .icon {
+    display: block;
+    margin: auto;
+    width: 48px;
+    height: 48px;
+}
+/* icons end */
+
+/* tabs content */
+/* too specific because of bossrev.css:346 */
+.main-content .typogr p {
+    margin: 0;
+    padding: 0;
+}
+.main-content .typogr p + p {
+    margin-top: 1em;
+}
+.boss-right-tabs .ui-widget-content h2:first-child {
+    /* important because of bossrev.css:536  */
+    padding-top: 0 !important;
+    color: #666 !important;
+}
+/* tabs content end */
+
+/* bill pay state */
+#state-1,
+#state-2,
+#state-3 {
+    display: none;
+}
+
+.state-1-active #state-1 { display: block; }
+.state-2-active #state-2 { display: block; }
+.state-3-active #state-3 { display: block; }
+/* bill pay state end */
