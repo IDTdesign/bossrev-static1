@@ -84,7 +84,7 @@ background: none repeat scroll 0 0 #AD0C21;
 /*				TOP MENU			*/	
 
 #top-menu  {
-	background:url(/debit/2.0/Boss/Images/top-menu-bg.gif) repeat-x;
+	background:url(/debit/2.0/boss/images/top-menu-bg.gif) repeat-x;
 	height:26px;
 	border-bottom:2px #fff solid;
 }
@@ -246,7 +246,7 @@ width:139px;
 
 b.box1-tl
 {
-background-image:url('/debit/2.0/Boss/Images/box1-bg.gif');
+background-image:url('/debit/2.0/boss/images/box1-bg.gif');
 background-position:top left;
 height:3px;
 display:none;
@@ -255,7 +255,7 @@ font-size:3px;
 }
 
 b.box1-tr
-{background-image:url('/debit/2.0/Boss/Images/box1-bg.gif');
+{background-image:url('/debit/2.0/boss/images/box1-bg.gif');
 background-position:top right;
 margin:0 0 0 3px;	
 height:3px;
@@ -265,7 +265,7 @@ font-size:3px;		}
 
 b.box1-br
 {
-background-image:url('/debit/2.0/Boss/Images/box1-bg.gif');
+background-image:url('/debit/2.0/boss/images/box1-bg.gif');
 background-position:bottom right;
 height:6px;
 line-height:3px;
@@ -275,7 +275,7 @@ font-size:7px;
 
 b.box1-bl
 {
-background-image:url('/debit/2.0/Boss/Images/box1-bg.gif');
+background-image:url('/debit/2.0/boss/images/box1-bg.gif');
 background-position:bottom left;
 margin:0 3px 0 0;	
 height:6px;
@@ -296,7 +296,7 @@ font-weight:normal;}
 
 b.box2-tl
 {
-background-image:url('/debit/2.0/Boss/Images/box2-bg.gif');
+background-image:url('/debit/2.0/boss/images/box2-bg.gif');
 background-position:top left;
 height:3px;
 display:none;
@@ -305,7 +305,7 @@ font-size:3px;
 }
 
 b.box2-tr
-{background-image:url('/debit/2.0/Boss/Images/box2-bg.gif');
+{background-image:url('/debit/2.0/boss/images/box2-bg.gif');
 background-position:top right;
 margin:0 0 0 3px;	
 height:3px;
@@ -315,7 +315,7 @@ font-size:3px;		}
 
 b.box2-br
 {
-background-image:url('/debit/2.0/Boss/Images/box2-bg.gif');
+background-image:url('/debit/2.0/boss/images/box2-bg.gif');
 background-position:bottom right;
 height:3px;
 line-height:3px;
@@ -324,7 +324,7 @@ font-size:7px;}
 
 b.box2-bl
 {
-background-image:url('/debit/2.0/Boss/Images/box2-bg.gif');
+background-image:url('/debit/2.0/boss/images/box2-bg.gif');
 background-position:bottom left;
 margin:0 3px 0 0;	
 height:3px;
@@ -344,7 +344,7 @@ font-size:12px;}
 /*           SPLASH             */
 
 #splash .boxes .welcome {
-	background:url('/debit/2.0/Boss/Images/splash-top-bg.jpg') no-repeat;
+	background:url('/debit/2.0/boss/images/splash-top-bg.jpg') no-repeat;
 	font-weight:bold;
 	font-size:13px;
 	height:104px;
@@ -435,7 +435,7 @@ font-weight:normal;
 
 dl.splash-box3-tl
 {
-background-image:url('/debit/2.0/Boss/Images/splash-box3-bg.gif');
+background-image:url('/debit/2.0/boss/images/splash-box3-bg.gif');
 background-position:top left;
 height:3px;
 display:none;
@@ -446,7 +446,7 @@ margin:0px;
 }
 
 dd.splash-box3-tr
-{background-image:url('/debit/2.0/Boss/Images/splash-box3-bg.gif');
+{background-image:url('/debit/2.0/boss/images/splash-box3-bg.gif');
 background-position:top right;
 margin:0 0 0 3px;	
 height:3px;
@@ -457,7 +457,7 @@ display:none;}
 
 dl.splash-box3-br
 {
-background-image:url('/debit/2.0/Boss/Images/splash-box3-bg.gif');
+background-image:url('/debit/2.0/boss/images/splash-box3-bg.gif');
 background-position:bottom right;
 height:3px;
 line-height:3px;
@@ -472,7 +472,7 @@ padding:0px;
 #splash dd.splash-box3-bl,
 dd.splash-box3-bl
 {
-background-image:url('/debit/2.0/Boss/Images/splash-box3-bg.gif');
+background-image:url('/debit/2.0/boss/images/splash-box3-bg.gif');
 background-position:bottom left;
 margin:0 3px 0 0;	
 height:3px;
@@ -497,7 +497,7 @@ background:none;}
 
 dl.splash-box4-tl
 {
-background-image:url('/debit/2.0/Boss/Images/splash-box4-bg.gif');
+background-image:url('/debit/2.0/boss/images/splash-box4-bg.gif');
 background-position:top left;
 height:3px;
 display:none;
@@ -508,7 +508,7 @@ margin:0;
 }
 
 dd.splash-box4-tr
-{background-image:url('/debit/2.0/Boss/Images/splash-box4-bg.gif');
+{background-image:url('/debit/2.0/boss/images/splash-box4-bg.gif');
 background-position:top right;
 margin:0 0 0 3px;	
 height:3px;
@@ -519,7 +519,7 @@ background-color:#fceb85;		}
 
 dl.splash-box4-br
 {
-background-image:url('/debit/2.0/Boss/Images/splash-box4-bg.gif');
+background-image:url('/debit/2.0/boss/images/splash-box4-bg.gif');
 background-position:bottom right;
 height:3px;
 line-height:3px;
@@ -532,7 +532,7 @@ width:100%;
 
 dd.splash-box4-bl
 {
-background-image:url('/debit/2.0/Boss/Images/splash-box4-bg.gif');
+background-image:url('/debit/2.0/boss/images/splash-box4-bg.gif');
 background-position:bottom left;
 margin:0 3px 0 0;	
 height:3px;

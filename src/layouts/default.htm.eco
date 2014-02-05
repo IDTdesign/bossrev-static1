@@ -7,6 +7,7 @@
     	<%= @document.title %> - Boss Revolution Retailers Site
     </title>
     <script src="/debit/2.0/boss/scripts/boss.js"></script>
+    <meta charset="UTF-8">
 </head>
 
 <body class="main-bg">
@@ -102,7 +103,7 @@
         </span>
     </span>
     <div>
-        <span id="ctl00_TermsLnk"><a href="JavaScript:void(0)" onClick="window.open('/debit/2.0/bossrevolution/retailers/RetailerTerms.pdf','terms','height=350,width=530,scrollbars=yes,resizable=yes');">Terms & Conditions</a>   
+        <span id="ctl00_TermsLnk"><a href="JavaScript:void(0)" onClick="window.open('/debit/2.0/bossrevolution/retailers/RetailerTerms.pdf','terms','height=350,width=530,scrollbars=yes,resizable=yes');">Terms &amp; Conditions</a>   
         </span>
         <span>&nbsp;|&nbsp;</span>
         <a href="/debit/2.0/bossrevolution/retailers/contact.aspx"><span id="ctl00_ContactLnk">Contact Us</span></a>
