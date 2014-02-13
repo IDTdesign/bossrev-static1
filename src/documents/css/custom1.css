@@ -7,6 +7,7 @@ put these block of css to \debit\2.0\bossrevolution\css\jquery-ui-boss.css
 }
 .ui-tabs-vertical .ui-tabs-nav {
     padding: 0;
+    margin: 0 !important;
     float: right;
     width: 20%;
     -webkit-box-sizing: border-box;
@@ -100,16 +101,101 @@ put these block of css to \debit\2.0\bossrevolution\css\jquery-ui-boss.css
 .main-content .typogr p + p {
     margin-top: 1em;
 }
-.boss-right-tabs .ui-widget-content h2:first-child {
+.main-content .typogr ul {
+	margin: 1em 0;
+}
+.typogr a {
+	font-size: inherit;
+}
+/* #inside-main used to give enough specifity */
+
+#inside-main .boss-right-tabs .ui-widget-content h2:first-child {
     /* important because of bossrev.css:536  */
-    padding-top: 0 !important;
-    color: #666 !important;
+    padding-top: 0;
+    color: #666;
 }
 /* bossrev.css:549 too specific: #inside-main H3 */
-.ui-tabs-panel h3 {
-    color: #000 !important;
-    margin: 2em 0 1em !important;
-    
+#inside-main .ui-tabs-panel h3 {
+    color: #AD0C21;
+    margin: 2em 0 1em;
+    padding: 0;
+    font-size: 18px;
+}
+.promo {
+	font-size: 16px;
+}
+.cta-block {
+	margin: 40px auto !important;
+}
+.centerred {
+	text-align: center;
+}
+a.bill-button {
+	display: inline-block;
+	height: 81px;
+	min-width: 240px;
+	padding: 29px 40px 30px 80px;
+	color: #FFF !important;
+	text-shadow: 1px 1px 4px black;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-image: url(../images/bill-button.png);
+	background-repeat: no-repeat;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.bill-button.bill-button-wide {
+	background-image: url(../images/bill-button-wide.png);
+}
+.bill-button.bill-button-x-wide {
+	background-image: url(../images/bill-button-x-wide.png);
+}
+.additional {
+	padding: 2em;
+}
+.hint {
+	color: #878787;
+}
+.cols-wrapper {
+	margin: 0 auto;
+	width: 250px;
+	overflow: hidden;
+}
+.cols-wrapper .ul-column {
+	width: 50%;
+	float: left;
+}
+.stand-out {
+	font-size: 24px;
+	font-weight: bold;
+}
+.bullets1 {
+	list-style-image: url(../images/bill-bull1.png);
+}
+.bullets2 {
+	list-style-image: url(../images/bill-bull2.png);
+}
+.bullets1 li,
+.bullets2 li {
+	margin: 10px 10px 10px 20px;
+}
+.inline-items {
+	overflow: hidden;
+}
+.inline-items li {
+	float: left;
+	margin-right: 20px;
+}
+.ie-label {
+	display: inline-block;
+	width: 50px;
+	background: url(../images/internet-explorer_24x24.png) 0 50% no-repeat;
+	padding-left: 30px;
+	text-align: left;
+	margin: 0 5px;
+	vertical-align: middle;
 }
 /* tabs content end */
 
@@ -117,7 +203,8 @@ put these block of css to \debit\2.0\bossrevolution\css\jquery-ui-boss.css
 #state-1,
 #state-2,
 #state-3 {
-    display: none;
+    /*display: none;*/
+    padding-bottom: 5em;
 }
 
 .state-1-active #state-1 { display: block; }
@@ -126,3 +213,71 @@ put these block of css to \debit\2.0\bossrevolution\css\jquery-ui-boss.css
 /* bill pay state end */
 
 
+/* steps */
+.steps-wrapper {
+	overflow: hidden;
+	margin: 0 -10px 2em;
+	display: table;
+	width: 567px;
+	table-layout: fixed;
+	border-spacing: 10px;
+}
+.step {
+	display: table-cell;
+	border-radius: 5px;
+	background: #c7c7c7;
+	border-bottom: 2px solid #828282;
+}
+.step-number {
+	float: left;
+	display: inline-block;
+	width: 15px;
+	padding: 0 10px 0 10px;
+	font-size: 20px;
+	line-height: 41px;
+	color: #FFF;
+	text-align: left;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+	background-image: url(../images/angle-line.png);
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+}
+.step-title,
+.step-status {
+	display: block;
+	margin-left: 40px;
+}
+.step-title {
+	padding: 5px 0 0;
+}
+.step-status {
+	padding: 0 0 5px;
+	font-size: 12px;
+	color: rgba(0,0,0,0.4);
+}
+
+.step.current {
+	position: relative;
+}
+.step.current .step-status {
+	color: #000;
+	font-weight: bold;
+}
+.step.current .step-status:after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 20px;
+	height: 12px;
+	margin-left: -10px;
+	background-image: url(../images/current.png);
+	background-repeat: no-repeat;
+}
+.step.completed {
+	background: #bfea5d;
+	border-bottom-color: #87b818;
+	box-shadow: inset 0 -40px 40px -20px #a4d045;
+	color: #475d18;
+}
+/* steps end */
