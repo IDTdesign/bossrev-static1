@@ -256,14 +256,14 @@ a.bill-button {
 	color: rgba(0,0,0,0.4);
 }
 
-.step.current {
+.current .step-inner {
 	position: relative;
 }
 .step.current .step-status {
 	color: #000;
 	font-weight: bold;
 }
-.step.current .step-status:after {
+.step.current .stem {
 	content: '';
 	position: absolute;
 	top: 100%;
