@@ -601,3 +601,13 @@ ul.faq-list li.qstn:before, ul.faq-list li.nswr:before {
 ul.faq-list li.nswr:before {
 	content: 'A:';
 }
+
+ul.doc-list .box-link ul {
+	display:none;
+}
+/* .doc-list ul {
+	display:none;
+}
+.doc-list .expanded ul {
+	display:none;
+} */

@@ -241,7 +241,7 @@ required:
         </ul>	  
 	  </li>
 -->	  
-      <li class="expanded"><a href="#" class="folder active">State Regulatory Forms</a>
+      <li class="box-link"><a href="#" class="folder ">State Regulatory Forms</a>
         <ul>
           <li><a href="documentation/training-documents/Bill Payment & Deposit Schedule.pdf" class="pdf-doc">Bill Payment & Deposit Schedule</a></li>
           <li><a href="documentation/training-documents/Bill Payment Intro (9-24-13) SPA.pdf" class="pdf-doc">Bill Payment Intro (9-24-13) SPA</a></li>
@@ -301,7 +301,22 @@ required:
     </ul>
   </div>
 </div>
+  <script>
+  $(function() {
 
+    $( ".folder" ).click(function() {
+	  $( this ).toggleClass( "active" );	
+	  if($('.folder').hasClass('active')) { 
+		  $('.folder.active').closest('.box-link').addClass(' expanded');
+	      $( ".expanded ul" ).toggle( "blind" );		  
+		} else {								
+		  $('.folder').closest('.box-link').removeClass('expanded');
+		  $( ".box-link ul" ).css({"display":"none"});
+					};		  
+    });
+  });
+
+  </script>
 <script>
   $(function() {
     $( "#tabs" ).tabs().removeClass( "ui-widget-content" );

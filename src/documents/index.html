@@ -2,7 +2,6 @@
 layout: 'default'
 title: 'Main page'
 custom_css: 'css/custom1.css'
-custom_js: 'css/custom1.js'
 ---
 
 <!-- 
@@ -202,7 +201,7 @@ required:
 	  <li><a href="documentation/Master Biller List.xlsx" class="xls-doc">Master Biller List</a></li>
 	  <li><a href="documentation/Personal Guaranty Agreement.pdf" class="pdf-doc">Personal Guaranty Agreement</a></li>
 	  
-      <li class="expanded"><a href="#" class="folder active">Application</a>
+      <li class="box-link"><a href="#" class="folder ">Application</a>
         <ul>
           <li><a href="documentation/application/(1) Agent Fax Coversheet (RAM).pdf" class="pdf-doc">Agent Fax Coversheet(RAM)</a></li>
           <li><a href="documentation/application/(2)_EX_A_Electronic.pdf" class="pdf-doc">EX_A_Electronic</a></li>
@@ -214,14 +213,14 @@ required:
 		  <li><a href="documentation/application/Full_Sample_Bill_Payment_Application (1).pdf" class="pdf-doc">Full_Sample_Bill_Payment_Application</a></li>
         </ul>
       </li>
-      <li class="expanded"><a href="#" class="folder active">Pre-Approval Process</a> 
+      <li class="box-link"><a href="#" class="folder ">Pre-Approval Process</a> 
         <ul>	  
           <li><a href="documentation/pre-approval-process/(1) Agent Pre- approval Fax Coversheet (RAM).doc" class="wrd-doc">Agent Pre-approval Fax Coversheet(RAM)</a></li>
           <li><a href="documentation/pre-approval-process/(4)_Credit_Verification_Application.pdf" class="pdf-doc">Credit_Verification_Application</a></li>
           <li><a href="documentation/pre-approval-process/Bill Payment Pre.docx" class="wrd-doc">Bill Payment Pre</a></li>  
         </ul>	
 	  </li>		
-      <li class="expanded"><a href="#" class="folder active">State Regulatory Forms</a>
+      <li class="box-link"><a href="#" class="folder ">State Regulatory Forms</a>
         <ul>
           <li><a href="documentation/state-regulatory-forms/AK agent amendment as appendix_NEW LOGO_DRAFT_011513.pdf" class="pdf-doc">AK agent amendment as appendix_NEW LOGO_DRAFT_011513</a></li>
           <li><a href="documentation/state-regulatory-forms/AZ agent amendment as appendix_NEW  LOGO_DRAFT_011513.pdf" class="pdf-doc">AZ agent amendment as appendix_NEW  LOGO_DRAFT_011513</a></li>
@@ -240,7 +239,7 @@ required:
 		  <li><a href="documentation/state-regulatory-forms/WA new agent amendment_NEW LOGO_DRAFT_011513.pdf" class="pdf-doc">WA new agent amendment_NEW LOGO_DRAFT_011513</a></li>	  
         </ul>	  
 	  </li>
-      <li class="expanded"><a href="#" class="folder active">State Regulatory Forms</a>
+      <li class="box-link"><a href="#" class="folder ">State Regulatory Forms</a>
         <ul>
           <li><a href="documentation/training-documents/Bill Payment & Deposit Schedule.pdf" class="pdf-doc">Bill Payment & Deposit Schedule</a></li>
           <li><a href="documentation/training-documents/Bill Payment Intro (9-24-13).pdf" class="pdf-doc">Bill Payment Intro (9-24-13)</a></li>
@@ -300,7 +299,40 @@ required:
     </ul>
   </div>
 </div>
+  <script>
+  $(function() {
 
+ /*   function runEffect() {
+      // run the effect
+	  $('.folder.active').parent().addClass(' expanded');
+	  $( ".expanded ul" ).toggle( "blind" );
+    };
+ */
+
+    $( ".folder" ).click(function() {
+	  $( this ).toggleClass( "active" );	
+	  if($('.folder').hasClass('active')) { 
+		  $('.folder.active').closest('.box-link').addClass(' expanded');
+	      $( ".expanded ul" ).toggle( "blind" );		  
+		} else {								
+		  $('.folder').closest('.box-link').removeClass('expanded');
+		  $( ".box-link ul" ).css({"display":"none"});
+					};		  
+    });
+  });
+  
+/*	jQuery('.more-services').click(function(){	
+			jQuery(this).toggleClass('bg');
+			jQuery('.dop-choice').toggleClass('open');
+			
+			if(jQuery('.dop-choice').hasClass('open')) { 		
+				jQuery('.dop-choice.open').closest('#active').css({"width":"100%", "position": "absolute", "left": "0", "top": "0"});			
+			} else {								
+				jQuery('.dop-choice').closest('#active').css({"width":"313px", "position": "relative", "left": "auto", "top": "0"});
+			};
+		});	  
+*/
+  </script>
 <script>
   $(function() {
     $( "#tabs" ).tabs().removeClass( "ui-widget-content" );
