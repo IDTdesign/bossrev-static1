@@ -241,7 +241,7 @@ required:
 	  </li>
       <li class="box-link"><a href="#" class="folder ">State Regulatory Forms</a>
         <ul>
-          <li><a href="documentation/training-documents/Bill Payment & Deposit Schedule.pdf" class="pdf-doc">Bill Payment & Deposit Schedule</a></li>
+          <li><a href="documentation/training-documents/Bill Payment &amp; Deposit Schedule.pdf" class="pdf-doc">Bill Payment &amp; Deposit Schedule</a></li>
           <li><a href="documentation/training-documents/Bill Payment Intro (9-24-13).pdf" class="pdf-doc">Bill Payment Intro (9-24-13)</a></li>
           <li><a href="documentation/training-documents/Bill Payment Product Overview (eng).pdf" class="pdf-doc">Bill Payment Product Overview</a></li>
 		  <li><a href="documentation/training-documents/BR Bill Payment User Guide (eng).pdf" class="pdf-doc">BR Bill Payment User Guide</a></li>
@@ -316,15 +316,16 @@ required:
   <script>
   $(function() {
 
-    $( ".folder" ).click(function() {
+    $( ".folder" ).click(function(event) {
+      event.preventDefault();
 	  $( this ).toggleClass( "active" );	
 	  if($('.folder').hasClass('active')) { 
 		  $('.folder.active').closest('.box-link').addClass(' expanded');
-	      $( ".expanded ul" ).toggle( "blind" );		  
+	      $( ".expanded ul" ).toggle();		  
 		} else {								
 		  $('.folder').closest('.box-link').removeClass('expanded');
 		  $( ".box-link ul" ).css({"display":"none"});
-					};		  
+		};		  
     });
   });
 

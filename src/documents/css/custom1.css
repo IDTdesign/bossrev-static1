@@ -419,7 +419,7 @@ ul.doc-list a {
 	font-weight: normal !important;
 	text-decoration: none;
 	line-height: 24px;
-	display: inline-block;
+	display: block;
 	background-image: url(../images/doctree-iconset.png);
 	background-repeat: no-repeat;
 }
@@ -484,7 +484,7 @@ ul.doc-list li.expanded:after {
 	bottom: 0;
 	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAHCAYAAADJTCeUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB1JREFUeNpi+P//PwMIsDIBCTYQwQEnwFxWgAADAGVXAy4MyIdqAAAAAElFTkSuQmCC') repeat-x left top;
 }
-ul.doc-list li.expanded > ul {
+ul.doc-list ul {
 	background: #fff;
 }
 
