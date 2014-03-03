@@ -490,16 +490,13 @@ ul.doc-list ul {
 
 /* Videos */
 ol.video-list {
-	float: left;
-	margin: 0 0 0 -21px;
+	margin: 2em 0 0;
 	padding: 0 !important;
-	width: 255px;
 }
 ol.video-list li {
-	float: left;
 	display: block;
+	overflow: hidden;
 	list-style-position: inside;
-	width: 255px;
 	margin: 5px 0 10px;
 	padding: 5px 0;
 	font-size: 14px;
@@ -508,25 +505,27 @@ ol.video-list li {
 	border-bottom: 1px solid transparent;
 	border-radius: 0 5px 5px 0;
 }
-ol.video-list li:hover {
+ol.video-list a:hover {
 	color: #dc0000;
 }
-ol.video-list li:hover span.video-description {
+ol.video-list a:hover span.video-description {
 	text-decoration: underline;
 }
-ol.video-list li.active {
+ol.video-list a.active {
 	color: #680609;
 	background-color: #f0f0f0;
 	border-color: #d9d9d9;
 	box-shadow: 1px 1px 0 #f0f0f0;
 }
-ol.video-list li > img {
-	float: left;
+ol.video-list a > img {
+	display: inline-block;
+	vertical-align: middle;
 	height: 30px;
 	margin: 0 10px 0 0;
 }
-ol.video-list li > span.current-item-ico {
-	float: left;
+ol.video-list a > span.current-item-ico {
+	display: inline-block;
+	vertical-align: middle;
 	height: 30px;
 	line-height: 30px;
 	font-size: 16px;
@@ -534,36 +533,17 @@ ol.video-list li > span.current-item-ico {
 	width: 20px;
 	margin: 0 10px;
 }
-ol.video-list li.active > span.current-item-ico {
+ol.video-list a.active > span.current-item-ico {
 	text-indent: -999px;
 	overflow: hidden;
 	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALZJREFUeNpi/P//P0MmOxcDEHAC8XcGEsD0n98YmJD4KkB8AIjlSDGECY1vD8SXgDiKXANAgB+IlwLxCiibZANgIByIr0JdRZYBICANDZcuIGYjxwAYKAXiM0CsRa4BIKALNaSIXANgaUUOSoMBCwmanwJxChDvIMcF64HYEF0zMQZ8gdoaBMSvsSnA54VTQBwBxPdJTQd/gbgGiK0IacbmgptAHAe1nSiAbMAjIDaB+ptoABBgAMgxH6UXAsI0AAAAAElFTkSuQmCC') no-repeat center center;
 }
-ol.video-list li > span.video-description {
-	float: left;
-	width: 155px;
+ol.video-list a > span.video-description {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 445px;
 	line-height: 15px;
 	font-size: 12px;
-}
-#player-content-wrapper {
-	float: left;
-	width: 290px;
-	margin: 0 0 0 20px;
-}
-#player-content-wrapper > div {
-	display: none;
-}
-.video-player {
-	float: left;
-	clear: both;
-	height: 150px;
-	line-height: 150px;
-	font-size: 10px;
-	background: #fafafa;
-	color: #ccc;
-	text-align: center;
-	width: 290px;
-	margin: 0 0 15px;
 }
 
 /* FAQ */
