@@ -289,23 +289,29 @@ required:
     </ul>
   </div>
 </div>
-  <script>
-  $(function() {
 
+<script>
+  $(function() {
     $( ".folder" ).click(function(event) {
       event.preventDefault();
-	  $( this ).toggleClass( "active" );	
-	  if($('.folder').hasClass('active')) { 
-		  $('.folder.active').closest('.box-link').addClass(' expanded');
-	      $( ".expanded ul" ).toggle();		  
-		} else {								
-		  $('.folder').closest('.box-link').removeClass('expanded');
-		  $( ".box-link ul" ).css({"display":"none"});
-		};		  
+
+    var a = $( this );
+    a.toggleClass( "active" ).closest( ".box-link" ).toggleClass( "expanded" ).find( "ul" ).toggle(); 
     });
   });
+</script>
 
-  </script>
+<script>
+  $(function() {
+    $( ".video-list a" ).click(function() {
+      var a = $( this );
+      if ( !a.hasClass( "active" ) ) {
+        $( ".video-list" ).find( ".active" ).removeClass( " active" );
+        a.addClass( " active" ).closest( "li" ).addClass( " active" );  
+      }
+    });
+  });
+</script>
 <script>
   $(function() {
     $( "#tabs" ).tabs().removeClass( "ui-widget-content" );

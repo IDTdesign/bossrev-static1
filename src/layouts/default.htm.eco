@@ -75,11 +75,18 @@
         <span>Welcome, AlmostThere 5557827681</span>
         <div id="SiteMenu_pnlRetailer">
             <a href="splash.aspx" id="SiteMenu_aSplash" class="footer">Welcome Page</a>
-            <a href="topup.aspx" id="SiteMenu_aPinless" class="menu-selected">BOSS Revolution PINLESS</a>
+            <a href="topup.aspx" id="SiteMenu_aPinless" class="footer">BOSS Revolution PINLESS</a>
             <a href="imtu.aspx" id="SiteMenu_aImtu" class="footer">International Mobile Recharges</a>
             <a href="dmtu.aspx" id="SiteMenu_aDmtu" class="footer">Domestic Mobile Recharges</a>
-            <a href="diallocal.aspx" id="SiteMenu_aDialLocal" class="footer">Call Me</a>
+            <a href="diallocal.aspx" id="SiteMenu_aDialLocal" class="footer">CALL ME</a>
             <a href="gift.aspx" id="SiteMenu_aGift" class="footer">Visa<sup>&reg;</sup> Products</a>
+            <div class="uplevel">
+              <a href="#" id="SiteMenu_aBRUniversity" class="footer">BR University</a>
+                <p class="sublevel">
+                  <a href="#" id="SiteMenu_aCallMe" class="menu-selected">CALL ME</a>
+                  <a href="#" id="SiteMenu_aBillPay" class="footer">Bill Pay</a>
+                </p>
+            </div>
             <a href="money-transfer.aspx" id="SiteMenu_aMoneyTransfer" class="footer">Money Transfer</a>
             <a href="reports.aspx" id="SiteMenu_aReports" class="footer">Reports</a>
             <a href="update.aspx" id="SiteMenu_aUpdate" class="footer">Update Account Information</a>
