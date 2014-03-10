@@ -290,23 +290,24 @@ required:
   </div>
 </div>
 <script>
+  // collapsing/expanding folders on documents tab
   $(function() {
 
     $( ".folder" ).click(function(event) {
+      if( $(this).parent(".box-link").hasClass("expanded") ) { 
+        $(this).removeClass("active").end();
+      } else {                
+        $(this).addClass("active").end();
+      };      
+      $(this).parent(".box-link").toggleClass("expanded").find("ul").toggle();
       event.preventDefault();
-    $( this ).toggleClass( "active" );  
-    if($('.folder').hasClass('active')) { 
-      $('.folder.active').closest('.box-link').addClass(' expanded');
-        $( ".expanded ul" ).toggle();     
-    } else {                
-      $('.folder').closest('.box-link').removeClass('expanded');
-      $( ".box-link ul" ).css({"display":"none"});
-    };      
     });
+
   });
 
 </script>
 <script>
+  //jQuery UI tabs
   $(function() {
     $( "#tabs" ).tabs().removeClass( "ui-widget-content" );
     $( "#tabs ul" ).removeClass('ui-widget-header');
