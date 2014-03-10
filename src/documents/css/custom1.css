@@ -6,7 +6,7 @@ put these block of css to \debit\2.0\bossrevolution\css\jquery-ui-boss.css
 	
 }
 .ui-tabs-vertical .ui-tabs-nav {
-	padding: 0;
+	padding: 0 !important;
 	margin: 0 !important;
 	float: right;
 	width: 20%;
@@ -39,6 +39,9 @@ put these block of css to \debit\2.0\bossrevolution\css\jquery-ui-boss.css
 	padding:30px 20px;
 	float: left;
 	width: 80%;
+	background: #FFF !important;
+	border-radius: 5px;
+	box-shadow: inset 1px 3px 3px -1px rgba(0,0,0,0.2), 1px 0 0 0px rgba(0,0,0,0.05), -1px 0 0 0px rgba(0,0,0,0.08);
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 			box-sizing: border-box;
@@ -48,11 +51,7 @@ put these block of css to \debit\2.0\bossrevolution\css\jquery-ui-boss.css
 	outline: none;
 
 }
-.ui-tabs-vertical .ui-tabs-panel {
-	background: #FFF;
-	border-radius: 5px;
-	box-shadow: inset 1px 3px 3px -1px rgba(0,0,0,0.2), 1px 0 0 0px rgba(0,0,0,0.05), -1px 0 0 0px rgba(0,0,0,0.08);
-}
+
 .ui-tabs-vertical .ui-tabs-panel:first-of-type {
 	border-radius: 5px 0 5px 5px;
 }
@@ -120,6 +119,7 @@ put these block of css to \debit\2.0\bossrevolution\css\jquery-ui-boss.css
 	margin: 2em 0 1em;
 	padding: 0;
 	font-size: 18px;
+	background: none !important;
 }
 .promo {
 	font-size: 16px;
@@ -558,17 +558,14 @@ ul.faq-list li {
 	border: 1px solid #ccc;
 	line-height: 20px;
 	font-size: 14px;
-	width: 528px;
 }
 ul.faq-list li.qstn {
-	float: left;
 	margin: 0;
 	border-radius: 5px 5px 0 0;
 	background: #f0f0f0;
 	box-shadow: 0 1px 0 #f0f0f0
 }
 ul.faq-list li.nswr {
-	float: right;
 	border-radius: 0 0 5px 5px;
 	border-top: none;
 	box-shadow: 1px 1px 0 #f0f0f0
