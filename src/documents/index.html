@@ -253,14 +253,34 @@ required:
   <div id="videos">
     <h2 class="tab-inner-header"><span>Videos</span></h2>
 
-    <div class="embed-video"><iframe width="548" height="308" src="//www.youtube.com/embed/videoseries?list=PLdKnZHgxBEt8qwSQRp9-vxbLY2Y0UF0rV" frameborder="0" allowfullscreen></iframe></div>
+    <div class="embed-video"><iframe id="ytplayer" width="548" height="308" src="//www.youtube.com/embed/videoseries?list=PLdKnZHgxBEt8qwSQRp9-vxbLY2Y0UF0rV&amp;enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
 
     <ol class="video-list">
-      <li><a href="https://www.youtube.com/watch?v=lm6MPiut_lA&amp;list=PLdKnZHgxBEt8qwSQRp9-vxbLY2Y0UF0rV&amp;index=2" target="_blank" title="Watch on Youtube"><span class="current-item-ico">1</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">How to become a Boss Revolution Bill Payment Agent</span></a></li>
-      <li><a href="https://www.youtube.com/watch?v=QiqDFTyAOQg&amp;list=PLdKnZHgxBEt8qwSQRp9-vxbLY2Y0UF0rV&amp;index=3" target="_blank" title="Watch on Youtube"><span class="current-item-ico">2</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">How to process a Boss Revolution Bill Payment</span></a></li>
-      <li><a href="https://www.youtube.com/watch?v=spb4phFSK6E&amp;list=PLdKnZHgxBEt8qwSQRp9-vxbLY2Y0UF0rV&amp;index=4" target="_blank" title="Watch on Youtube"><span class="current-item-ico">3</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">How to cancel a Boss Revolution  Bill Payment</span></a></li>
-      <li><a href="https://www.youtube.com/watch?v=RMShOGgU6y0&amp;list=PLdKnZHgxBEt8qwSQRp9-vxbLY2Y0UF0rV&amp;index=5" target="_blank" title="Watch on Youtube"><span class="current-item-ico">4</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">Bill Payment Application Overview</span></a></li>
+      <!--li><a href="//www.youtube.com/watch?v=lm6MPiut_lA&amp;list=PLdKnZHgxBEt8qwSQRp9-vxbLY2Y0UF0rV&amp;index=2" target="_blank" title="Watch on Youtube" data-id="lm6MPiut_lA"><span class="current-item-ico">1</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">How to become a Boss Revolution Bill Payment Agent</span></a></li-->
+      <li><a href="//www.youtube.com/embed/lm6MPiut_lA" target="_blank" title="Watch on Youtube" data-id="lm6MPiut_lA"><span class="current-item-ico">1</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">How to become a Boss Revolution Bill Payment Agent</span></a></li>
+      <li><a href="//www.youtube.com/watch?v=QiqDFTyAOQg&amp;list=PLdKnZHgxBEt8qwSQRp9-vxbLY2Y0UF0rV&amp;index=3" target="_blank" title="Watch on Youtube" data-id="QiqDFTyAOQg"><span class="current-item-ico">2</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">How to process a Boss Revolution Bill Payment</span></a></li>
+      <li><a href="//www.youtube.com/watch?v=spb4phFSK6E&amp;list=PLdKnZHgxBEt8qwSQRp9-vxbLY2Y0UF0rV&amp;index=4" target="_blank" title="Watch on Youtube" data-id="spb4phFSK6E"><span class="current-item-ico">3</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">How to cancel a Boss Revolution  Bill Payment</span></a></li>
+      <li><a href="//www.youtube.com/watch?v=RMShOGgU6y0&amp;list=PLdKnZHgxBEt8qwSQRp9-vxbLY2Y0UF0rV&amp;index=5" target="_blank" title="Watch on Youtube" data-id="RMShOGgU6y0"><span class="current-item-ico">4</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">Bill Payment Application Overview</span></a></li>
     </ol>
+    <script>
+      //var ytplayer;
+      function onYouTubePlayerReady(playerId) {
+        var ytplayer = document.getElementById("ytplayer");
+      }
+      
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      
+      $(".video-list a").click(function(event) {
+        if (ytplayer) {
+          event.preventDefault();
+          ytplayer.loadVideoById($(this).attr('data-id'));
+        }
+      });
+    </script>
     
   </div>
   <div id="faq">
@@ -294,14 +314,14 @@ required:
 
     $( ".folder" ).click(function(event) {
       event.preventDefault();
-	  $( this ).toggleClass( "active" );	
-	  if($('.folder').hasClass('active')) { 
-		  $('.folder.active').closest('.box-link').addClass(' expanded');
-	      $( ".expanded ul" ).toggle();		  
-		} else {								
-		  $('.folder').closest('.box-link').removeClass('expanded');
-		  $( ".box-link ul" ).css({"display":"none"});
-		};		  
+    $( this ).toggleClass( "active" );  
+    if($('.folder').hasClass('active')) { 
+      $('.folder.active').closest('.box-link').addClass(' expanded');
+        $( ".expanded ul" ).toggle();     
+    } else {                
+      $('.folder').closest('.box-link').removeClass('expanded');
+      $( ".box-link ul" ).css({"display":"none"});
+    };      
     });
   });
 
