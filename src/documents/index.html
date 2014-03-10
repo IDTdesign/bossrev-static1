@@ -289,10 +289,10 @@ required:
     </ul>
   </div>
 </div>
+
 <script>
   // collapsing/expanding folders on documents tab
   $(function() {
-
     $( ".folder" ).click(function(event) {
       if( $(this).parent(".box-link").hasClass("expanded") ) { 
         $(this).removeClass("active").end();
@@ -302,10 +302,22 @@ required:
       $(this).parent(".box-link").toggleClass("expanded").find("ul").toggle();
       event.preventDefault();
     });
-
   });
-
 </script>
+
+<script>
+  // activate selected video on videos tab
+  $(function() {
+    $( ".video-list a" ).click(function() {
+      var a = $( this );
+      if ( !a.hasClass( "active" ) ) {
+        $( ".video-list" ).find( ".active" ).removeClass( " active" );
+        a.addClass( " active" ).closest( "li" ).addClass( " active" );  
+      }
+    });
+  });
+</script>
+
 <script>
   //jQuery UI tabs
   $(function() {
