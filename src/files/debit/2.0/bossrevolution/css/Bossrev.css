@@ -497,13 +497,6 @@ filter: Shadow(Color=#eee,
 
 }
 
-#inside-menu .uplevel a.footer {
-	color:#DC0613;
-}
-#inside-menu .sublevel a {
-	color:#3d3d3d;
-	background:url(/debit/2.0/bossrevolution/retailers/images/menu-bg-sub.png) repeat-x #C6CFCE top;
-}
 #inside-menu a.footer:hover {
 text-shadow: 1px 1px 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
 }
@@ -526,11 +519,19 @@ filter: Shadow(Color=#bd1321,
           text-shadow: 1px 1px 1px #bd1321, 0 0 0.2em #bd1321, 0 0 0.2em #bd1321;
 
 }
+/* updated styles for left subnav */
+#inside-menu .uplevel a.footer {
+	color:#DC0613;
+}
+#inside-menu .sublevel a.footer {
+	color:#3d3d3d;
+	background:url(/debit/2.0/bossrevolution/retailers/images/menu-bg-sub.png) repeat-x #EDEFEF top;
+}
 #inside-menu .sublevel a,
 #inside-menu .sublevel a:hover {
-	padding-left:20px;
+	padding-left:16px;
 }
-
+/* updated styles for left subnav end */
 
 #inside-main {
 	padding:0px;
