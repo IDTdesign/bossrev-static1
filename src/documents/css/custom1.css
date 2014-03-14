@@ -548,7 +548,7 @@ ol.video-list a > span.video-description {
 
 /* FAQ */
 ul.faq-list {
-	float: left;
+	list-style-type: none;
 	margin: 0 !important;
 	padding: 0;
 }
