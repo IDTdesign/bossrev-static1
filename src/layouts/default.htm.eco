@@ -25,7 +25,9 @@
 <script src="/debit/2.0/boss/scripts/jquery-1.6.4.min.js" type="text/javascript"></script>
 
 <script src="/debit/2.0/boss/scripts/jquery-ui.min.js" type="text/javascript"></script>
-
+<%if (@document.custom_js) : %>
+    <script src="//www.google.com/jsapi" type="text/javascript"></script>
+<% end %>
 <div class="main-content">
 	<div class="header">
 		<div class="langs">
@@ -75,17 +77,26 @@
         <span>Welcome, AlmostThere 5557827681</span>
         <div id="SiteMenu_pnlRetailer">
             <a href="splash.aspx" id="SiteMenu_aSplash" class="footer">Welcome Page</a>
-            <a href="topup.aspx" id="SiteMenu_aPinless" class="menu-selected">BOSS Revolution PINLESS</a>
+            <a href="topup.aspx" id="SiteMenu_aPinless" class="footer">BOSS Revolution PINLESS</a>
             <a href="imtu.aspx" id="SiteMenu_aImtu" class="footer">International Mobile Recharges</a>
             <a href="dmtu.aspx" id="SiteMenu_aDmtu" class="footer">Domestic Mobile Recharges</a>
-            <a href="diallocal.aspx" id="SiteMenu_aDialLocal" class="footer">Call Me</a>
-            <a href="gift.aspx" id="SiteMenu_aGift" class="footer">Visa<sup>&reg;</sup> Products</a>
+            <a href="diallocal.aspx" id="SiteMenu_aDialLocal" class="footer">CALL ME</a>
+            <a href="index-gpr.aspx" id="SiteMenu_aGPR" class="footer">Visa<sup>&reg;</sup> Products</a>
+            <div class="uplevel">
+              <a href="#" id="SiteMenu_aBRUniversity" class="footer">BR University</a>
+                <div class="sublevel">
+                  <a href="#" id="SiteMenu_aBRCallMe" class="menu-selected">CALL ME</a>
+                  <a href="#" id="SiteMenu_aBRBillPay" class="footer">Bill Payment</a>
+                </div>
+            </div>
             <a href="money-transfer.aspx" id="SiteMenu_aMoneyTransfer" class="footer">Money Transfer</a>
             <a href="reports.aspx" id="SiteMenu_aReports" class="footer">Reports</a>
             <a href="update.aspx" id="SiteMenu_aUpdate" class="footer">Update Account Information</a>
-            <a href="igift.aspx" id="SiteMenu_aiGift" class="footer">Electronic Gifts</a>
+            <a href="billpay.aspx" id="SiteMenu_aBillPay" class="footer">Bill Payment</a>
+            <a href="recharge.aspx" id="SiteMenu_aRecharge" class="footer">Recharge</a>
             <a href="manage-agents.aspx" id="SiteMenu_aAgents" class="footer">Manage Agents</a>
             <a href="manage-access.aspx" id="SiteMenu_aAccess" class="footer">Manage Access</a>
+            <a href="refund.aspx" id="SiteMenu_aRefund" class="footer">Refund My Remaining Balance</a>
             <a href="commission.aspx" id="SiteMenu_aCommission" class="footer">My Product Commissions</a>
         </div>
     </ul>
@@ -112,6 +123,9 @@
     <br class="clr" />
 </div>
 
+<%if (@document.custom_js) : %>
+    <script src="<%= @document.custom_js %>" rel="stylesheet" type="text/javascript"></script>
+<% end %>
 <script language=javascript>
     function addCssToHeadTag(){ 
         var headID = document.getElementsByTagName('head')[0];   
