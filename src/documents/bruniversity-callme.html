@@ -19,7 +19,7 @@ required:
     <li><a href="#documentation"> <span class="icon icon-documentation"></span> Documentation </a></li>
     <li><a href="#videos">        <span class="icon icon-videos">       </span> Videos        </a></li>
     <li><a href="#faq">           <span class="icon icon-faq">          </span> FAQ           </a></li>
-    <li class="link"><a href="diallocal.aspx">        <span class="icon icon-callme">       </span> Sell Now      </a></li>
+    <li class="link ajax-disable"><a href="diallocal.aspx">        <span class="icon icon-callme">       </span> Sell Now      </a></li>
   </ul>
   <div id="home">
     <h2 class="tab-inner-header"><span class="colored">CALL ME</span></h2>
@@ -61,16 +61,9 @@ required:
 
     <div id="videoDiv">Loading...</div>
     <ol class="video-list" id="videoSelection-">
-      <li class="active"><a href="#" id="rk3vM0vGK5I" name="selectedvideo"><span class="current-item-ico">1</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">How To Sell</span></a></li>
+      <li><a href="#" id="rk3vM0vGK5I" name="selectedvideo"><span class="current-item-ico">1</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">How To Sell</span></a></li>
       <li><a href="#" id="-2gP_dQb6TI"><span class="current-item-ico">3</span><img src="images/video-preview-noimage.png" alt="" /><span class="video-description">How To Manage</span></a></li>
     </ol>
-
-    <div>
-      <select id="videoSelection" onchange="loadVideo();">
-        <option value="rk3vM0vGK5I" selected>How To Sell</option>
-        <option value="-2gP_dQb6TI">How To Manage</option>
-      </select>
-    </div>
 ​
   </div>
   <div id="faq">
@@ -152,4 +145,13 @@ required:
   }
   google.setOnLoadCallback(_run);
 
+  //load video from list
+  $(".video-list a").click(function(event) {
+    $(".video-list li").removeClass('active');
+    if(ytplayer) {
+      ytplayer.loadVideoById( $(this).attr("id") );
+      $(this).parent("li").addClass('active');
+    }
+    event.preventDefault();
+  });
 </script>

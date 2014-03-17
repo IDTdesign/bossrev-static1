@@ -35,7 +35,15 @@ $(function() {
   });
 
   //jQuery UI tabs
-  $( "#tabs" ).tabs().removeClass( "ui-widget-content" );
+  $( "#tabs" ).tabs({
+    beforeActivate: function( event, ui ) {
+      if($(ui.newTab).hasClass('ajax-disable')){
+        window.location.href = ui.newTab.context.href;
+        return false;
+      } 
+    }
+  });
+  $( "#tabs" ).removeClass( "ui-widget-content" );
   $( "#tabs ul" ).removeClass('ui-widget-header');
   $( "#tabs li" ).removeClass( "ui-corner-top" ).removeClass( 'ui-state-default' );
   $( "#tabs .ui-tabs-panel").removeClass( 'ui-corner-bottom' );
