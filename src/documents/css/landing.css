@@ -1,0 +1,142 @@
+/****************************************LANDING PAGE************************/
+
+
+.push {clear:both;}
+
+.call-me {
+	background: #fff;
+	margin-top:10px;
+	padding: 42px;
+	position: relative;
+	left:10px;
+}
+
+/*highlight*/
+.call-me .highlight {
+	font-weight: bold;
+	color: #dc0000;
+	text-decoration: none;
+}
+
+/*tooltip*/
+.call-me .tooltip {
+	position: absolute;
+	z-index: 10;
+	min-width:306px;
+	padding: 10px;
+	border: solid 1px #2191ff;
+	background: #fff;
+	color: #000;
+	display: none;
+	box-shadow: 2px 2px 3px #999;
+}
+.call-me .tooltip  strong {display: block}
+.call-me .tooltip.position_left_top {
+	left: 100%;
+	top: -10px;
+	margin-left:20px;
+}
+.call-me .tooltip.position_left_top:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-width: 10px;
+	border-style: solid;
+	border-color: transparent #2191ff transparent transparent;
+	top: 10px;
+	left: -20px;
+}
+.call-me .tooltip.position_left_top:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-width: 10px;
+	border-style: solid;
+	border-color: transparent #fff transparent transparent;
+	top: 10px;
+	left: -19px;
+}
+
+/*flyer*/
+.call-me .flyer {
+	float: right;
+	width: 404px;
+	height: 784px;
+	background: url(https://dl.dropboxusercontent.com/u/10558174/_del/r/flyer_404x784.png) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+.call-me .content {
+	float: left;
+	width: 476px;
+}
+.call-me .content h1 {
+	text-indent: -9999px;
+	background:  url(https://dl.dropboxusercontent.com/u/10558174/_del/r/call_me.png) 0 0 no-repeat;
+	position: relative;
+	width: 440px;
+	height: 67px;
+	left: -54px;
+	margin-bottom: 25px;
+}
+
+.call-me .content  h3{
+	color: #dc0714;
+	font-size: 22px;
+	margin: 20px 0;
+}
+
+.call-me .content p {margin: 14px 0;}
+.call-me .content .available_cities {
+	background: #dbdbdb;
+	padding: 10px 20px;
+}
+.call-me .content .available_cities ul {
+	background: #fff;
+}
+.call-me .content .available_cities ul li {
+	border-bottom: solid 1px #dbdbdb;
+	padding: 5px 10px 5px 45px;
+}
+
+.call-me .content .available_cities ul li a{
+	text-decoration: none;
+	position: relative;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.call-me .content .available_cities ul li a span {
+	font-weight: normal;
+	font-size: 12px;
+	color: #878787;
+	
+}
+.call-me .content .available_cities ul li a:hover span{
+	color: #2191ff;
+}
+.call-me .content .available_cities ul li a:hover .tooltip{
+	display: block;
+}
+
+.call-me .content .available_cities ul li a.flag:after{
+	content:'';
+	position: absolute;
+	left: -35px;
+	top: 3px;
+	width: 22px;
+	height: 13px;
+	border: solid 1px #ccc;
+	background: url("/images/sites.png");
+}
+
+/*flags*/
+.call-me .content .available_cities ul li a.ag:after{
+	background-position: 0 -52px;
+}
+.call-me .content .available_cities ul li a.uk:after{
+	background-position: 0 -76px;
+}
