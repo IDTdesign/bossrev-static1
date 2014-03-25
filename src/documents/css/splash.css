@@ -1,0 +1,67 @@
+.page-canvas {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 42px;
+	background: #FFF;
+}
+.page-canvas h1 {
+	color: #7c0818;
+}
+.page-canvas h3 {
+	color: #7c0818;
+}
+.centered {
+	text-align: center;
+}
+.page-canvas p {
+	font-size: 13px;
+}
+.centered-layout {
+	max-width: 768px;
+	margin: 2em auto 4em;
+}
+.columns {
+	display: table;
+	table-layout: fixed;
+	border-spacing: 20px 0;
+	margin: 1em -20px 2em;
+}
+.columns .column {
+	display: table-cell;
+}
+.cols-2 .column {
+	width: 50%;
+}
+.billers-selector {
+	margin: 20px 0;
+}
+.style-bright {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: inline-block;
+	border: none;
+	padding: 7px 12px;
+	background: #e21139;
+	color: #FFF;
+	box-shadow: inset 0 -20px 40px -20px #a00612;
+}
+.promo-banner {
+	overflow: hidden;
+}
+.tbl {
+	display: table;
+}
+.tbc {
+	display: table-cell;
+	vertical-align: top;
+}
+.idt-logo {
+	padding-right: 30px;
+}
+.checkfree-logo {
+	padding-left: 15px;
+}
+p.legal-notes {
+	font-size: 11px;
+}

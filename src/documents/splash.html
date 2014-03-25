@@ -1,0 +1,46 @@
+---
+layout: 'bossmain'
+title: 'Splash page'
+custom_css: 'css/splash.css'
+---
+
+<link rel="stylesheet" href="scripts/chosen/chosen.css">
+<div class="page-canvas">
+	<div class="promo-banner">
+		<img src="images/banner-english.png" alt="">
+	</div>
+	<div class="centered-layout">
+		<h1 class="page-header">Boss Revolution Makes Paying Your Bills Easier</h1>
+		<div class="columns cols-2">
+			<div class="column"><p>You can now pay your bills for over 3,000 billers at your participating Boss Revolution retailer. Choose next business day or three business day payment – whichever is best for you.</p></div>
+			<div class="column"><p>So now when you recharge your international calling account, you can pay your bills too – saving you time and giving you the confidence your bills will be paid on time without worrying about postage and mailing payment.</p></div>
+		</div>
+	</div>
+	<h3 class="centered">Participating billers include:</h3>
+	<form action="splash.html" class="centered billers-selector">
+		<select name="" id="" class="style-bright"><option value="-1" selected>Cable/Internet/Phone</option><option value="">text 2</option></select>
+		<select name="" id="" class="style-bright"><option value="-1" selected>Cellular</option><option value="">text 2</option></select>
+		<select name="" id="" class="style-bright"><option value="-1" selected>Credit Card/Retailer</option><option value="">text 2</option></select>
+		<select name="" id="" class="style-bright"><option value="-1" selected>Finance</option><option value="">text 2</option></select>
+		<select name="" id="" class="style-bright"><option value="-1" selected>Insurance</option><option value="">text 2</option></select>
+		<select name="" id="" class="style-bright"><option value="-1" selected>Utilities</option><option value="">text 2</option></select>
+		<select name="" id="" class="style-bright"><option value="-1" selected>Others</option><option value="">text 2</option></select>
+	</form>
+</div>
+<div class="page-canvas">
+	<div class="tbl">
+		<div class="tbc idt-logo">
+			<img src="images/idt-symbol-of-trust.png" alt="">
+		</div>
+		<div class="tbc">
+			<p class="legal-notes">Posting times vary by biller. Standard Non-Contracted transactions are delivered within 3 business days. Next Day transactions are delivered on the following business day. Business days exclude weekends and other days banks are legally closed. Not all billers available at all locations and are subject to change. Fees may apply and are subject to change. Ask clerk for details. Bill payment services are provided by CheckFreePay Corporation, a licensed money transmitter, and CheckFreePay Corporation of New York, which is licensed as a Money Transmitter for payment services by the New York State Department of Financial Services (collectively “CheckFreePay”). Other products referenced in this material may be trademarks or registered trademarks of their respective companies. IDT, CheckFreePay and their affiliates are not responsible for incorrect information provided by consumer. © Copyright 2013 CheckFreePay Corporation. All rights reserved.</p>
+		</div>
+		<div class="tbc checkfree-logo">
+			<img src="images/cfpay_logo_140.gif" alt="">
+		</div>
+	</div>
+</div>
+<script src="scripts/chosen/chosen.jquery.min.js"></script>
+<script>
+	$("select.style-bright").chosen();
+</script>
