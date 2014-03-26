@@ -25,17 +25,33 @@
 	min-width:306px;
 	padding: 10px;
 	border: solid 1px #2191ff;
-	background: #fff;
-	color: #000;
+	background: #fff !important;
+	color: #000 !important;
 	display: none;
-	box-shadow: 2px 2px 3px #999;
+	box-shadow: 2px 2px 3px #999;		
+	text-transform: none;
+	font-size: 12px !important;
+	text-align: left;
 }
-.call-me .tooltip  strong {display: block}
-.call-me .tooltip.position_left_top {
+
+.call-me .tooltip  strong {
+	display: block
+}
+.call-me .position_left_top {
 	left: 100%;
 	top: -10px;
 	margin-left:20px;
 }
+
+.call-me .position_bottom_left {
+	left: 0px;
+	bottom: 0px;
+	margin-bottom: 30px;
+}
+
+
+
+/*tooltip arrow*/
 .call-me .tooltip.position_left_top:before {
 	content: "";
 	position: absolute;
@@ -58,6 +74,31 @@
 	top: 10px;
 	left: -19px;
 }
+
+.call-me .tooltip.position_bottom_left:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #2191ff transparent transparent transparent;
+	bottom: -20px;
+	left: 20px;
+}
+.call-me .tooltip.position_bottom_left:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #fff transparent transparent transparent;
+	bottom: -19px;
+	left: 20px;
+}
+
+
 
 /*flyer*/
 .call-me .flyer {
@@ -91,7 +132,7 @@
 .call-me .content p {margin: 14px 0;}
 .call-me .content .available_cities {
 	background: #dbdbdb;
-	padding: 10px 20px;
+	padding: 10px 20px 20px;
 }
 .call-me .content .available_cities ul {
 	background: #fff;
@@ -105,13 +146,13 @@
 	text-decoration: none;
 	position: relative;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: uppercase;
 }
 
 .call-me .content .available_cities ul li a span {
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 10px;
 	color: #878787;
 	
 }
@@ -125,18 +166,49 @@
 .call-me .content .available_cities ul li a.flag:after{
 	content:'';
 	position: absolute;
-	left: -35px;
-	top: 3px;
-	width: 22px;
-	height: 13px;
-	border: solid 1px #ccc;
-	background: url("/images/sites.png");
+	left: -33px;
+	top: -3px;
+	width: 24px;
+	height: 24px;	
+	background-image: url("/images/flags.png");
 }
 
-/*flags*/
-.call-me .content .available_cities ul li a.ag:after{
-	background-position: 0 -52px;
+/*how-it-work*/
+.how-it-work {	
+	text-align: center;
+	padding: 25px 0 0 0;
+	clear: both;
+	font-size: 18px;
+	font-weight: bold;
 }
-.call-me .content .available_cities ul li a.uk:after{
-	background-position: 0 -76px;
+.how-it-work a{
+	font-size: 18px;
+	color: #1e90ff;
+	text-decoration: none;
+	position: relative;
+}
+.how-it-work a:hover .tooltip{
+	display: block;
+}
+.how-it-work .highlight {
+	font-weight: 900;
+	color: #dc0613;
+	text-transform: uppercase;
+}
+.how-it-work h3{
+	color: #dc0613;
+	font-size: 30px;
+	font-weight: normal;
+	border-bottom: solid 2px #ccc;
+	padding: 10px 0;
+	width: 650px;
+	margin: 0 auto 10px auto;
+	text-transform: uppercase;
+}
+.how-it-work h3 strong{
+	
+}
+
+.add-call-me{
+	clear: both;
 }
