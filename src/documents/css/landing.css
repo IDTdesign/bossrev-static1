@@ -6,7 +6,7 @@
 .call-me {
 	background: #fff;
 	margin-top:10px;
-	padding: 42px;
+	padding: 42px 42px 0px 42px;
 	position: relative;
 	left:10px;
 }
@@ -16,6 +16,7 @@
 	font-weight: bold;
 	color: #dc0000;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 /*tooltip*/
@@ -127,6 +128,7 @@
 	color: #dc0714;
 	font-size: 22px;
 	margin: 20px 0;
+	text-transform: uppercase;
 }
 
 .call-me .content p {margin: 14px 0;}
@@ -170,7 +172,7 @@
 	top: -3px;
 	width: 24px;
 	height: 24px;	
-	background-image: url("/images/flags.png");
+	background-image: url("flags.png");
 }
 
 /*how-it-work*/
@@ -211,4 +213,94 @@
 
 .add-call-me{
 	clear: both;
+}
+
+/*terms*/
+.terms_block{
+	background: #fff;
+	text-align: center;
+	border-radius: 0 0 30px 30px;
+	margin-left: 10px;
+	padding: 10px 0;
+	font-size: 11px;
+}
+.terms_block span {
+	text-transform: uppercase;
+	color: #DC0613;
+	font-weight: bold;
+}
+.terms_block a{
+	color: #1E90FF;
+	text-decoration: none;
+}
+
+/*add-call-me*/
+.add-call-me {
+	width: 580px;
+	margin: auto;
+	text-align: center;
+	white-space: nowrap;
+	padding: 30px 0;
+	border-bottom: solid 1px #ccc;
+	color: #b2b2b2;
+	font-size: 22px;
+	font-weight: bold;
+}
+.add-call-me a {	
+	display: inline-block;
+	width: 245px;
+	height: 86px;
+	border-radius: 10px;
+	vertical-align: middle;	
+	box-shadow: 2px 2px 3px #ccc;
+	text-decoration: none;
+}
+.add-call-me a.add-me {
+	background: #cb040a;
+	border: solid 2px #cb040a;
+	margin: 0 22px 0 0;
+}
+.add-call-me a.add-me span,
+.add-call-me a.create-account span{
+	display: block;
+}
+.add-call-me a.add-me .line1 {
+	border-bottom: solid 1px #fff;
+	margin: 0 30px;
+	padding: 6px 0;
+	font-size: 25px;
+}
+.add-call-me a.add-me .line1 strong {
+	color: #fff;
+}
+.add-call-me a.add-me .line2 {
+	position: relative;
+	background: #cb040a;
+	top: -7px;
+	display: inline;
+	padding: 0 10px;
+}
+.add-call-me a.add-me .line3 {
+	font-size: 15px;
+}
+
+.add-call-me a.create-account {
+	border: solid 2px #2995ff;
+	margin: 0 0 0 22px;
+}
+.add-call-me a.create-account .line1 {
+	border-bottom: solid 1px #2191FF;
+	margin: 0 30px;
+	padding: 12px 0;
+	font-size: 16px;
+}
+.add-call-me a.create-account .line1 span {
+	color: #dc0613;
+	display: inline;
+}
+.add-call-me a.create-account .line2 {
+	color: #2191FF;
+	margin: 0 30px;
+	padding: 6px 0;
+	font-size: 20px;
 }
