@@ -138,6 +138,7 @@
 }
 .call-me .content .available_cities ul {
 	background: #fff;
+	margin-top:10px;
 }
 .call-me .content .available_cities ul li {
 	border-bottom: solid 1px #dbdbdb;
@@ -172,7 +173,7 @@
 	top: -3px;
 	width: 24px;
 	height: 24px;	
-	background-image: url("flags.png");
+	background-image: url("/images/flags.png");
 }
 
 /*how-it-work*/
