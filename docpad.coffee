@@ -4,14 +4,20 @@
 # Define the DocPad Configuration
 docpadConfig = {
 	# ...
+	templateData:
+		site:
+			# Site Production URL
+			url: 'http://anyarty.github.io'
+
+	# -----------------------------
+
 	# Plugins configurations
-		plugins:
-		    ghpages:
-		        deployRemote: 'target'
-		        deployBranch: 'BOSS-7041-Money-Transfer-Info'
+
+	plugins:
+	    ghpages:
+	        deployRemote: 'deploy'
+	        deployBranch: 'master'
 }
-
-
 
 # Export the DocPad Configuration
 module.exports = docpadConfig
