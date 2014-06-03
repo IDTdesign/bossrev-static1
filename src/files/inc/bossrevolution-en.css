@@ -910,6 +910,7 @@ padding:0 2px;
 }
 .footer-container, .push {
 	height: 90px;
+	clear: both;
 }
 .footer-inner-container {
 	width:100%;
