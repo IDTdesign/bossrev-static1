@@ -43,9 +43,15 @@ More docs at [DocPad site](http://docpad.org/docs/overview).
 
 ## Deploy
 
-Run `docpad generate` inside your project directory to compile the site.
+### Deploy Setting
 
-Static pages of the site will be rendered in `out` directory.
+Open command promt and run `git remote add deploy https://USERNAME:PASSWORD@github.com/IDTdesign/bossrev-static1.git` where *USERNAME* , *PASSWORD* is your github credentials.
+
+### Deploying Site
+
+Run `docpad deploy-ghpages --env static` inside your project directory to compile the site and push it to [http://idtdesign.github.io/bossrev-static1/](http://idtdesign.github.io/bossrev-static1/).
+
+You should be collaborator in this repository to be able to deploy.
 
 ## Troubleshooting
 
