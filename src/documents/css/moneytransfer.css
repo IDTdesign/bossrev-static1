@@ -3,7 +3,7 @@
 .money-transfer {
     margin-top:10px;
     margin-left: 10px;
-    padding: 42px 42px 0px 42px;
+    padding: 50px 42px 0px 42px;
     background-color: #fff;
     border-radius: 0 0 30px 30px;
 }
@@ -24,45 +24,47 @@
 }
 .money-transfer .content {
     margin: 0 auto;
-    width: 560px;
+    width: 800px;
     color: #000;
 }
 .money-transfer h1 { 
     margin: 0 -10px;
-    font: bold 35px 'Arial Black', sans-serif;
-    line-height: 37px;
+    font: bold 50px 'Arial Black', sans-serif;
+    line-height: 47px;
     text-align: center;
     word-spacing: -1px;
-    letter-spacing: -1.3px;
+    letter-spacing: -2.2px;
 }
 .money-transfer.es h1 {
-    font-size: 33px;
-    line-height: 36px;
+    font-size: 49px;
+    line-height: 47px;
+    word-spacing: -2px;
+    letter-spacing: -3px;    
 }
 .money-transfer h3 {
-    margin: 10px 0 28px;
-    font-size: 16px;
+    margin: 15px 0 33px;
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
-    line-height: 21px;
+    line-height: 26px;
 }
 
 /*promo*/
 .money-transfer .promo {
-    height: 190px;
+    height: 253px;
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABTCAQAAAD0WqX+AAAAL0lEQVQIW2M4vIDpyQMmJgYQYkYikUWwIqAUI4YgsgiEjZWEIGQ2JmJAZcBJKiEAlJcEJHy081AAAAAASUVORK5CYII=') 0 0 repeat-x;
 }
 .money-transfer .promo.bordered {
     border-bottom: 3px solid #f1f1f1;
 }
 .money-transfer .promo.logo {
-    height: 160px;
+    height: 190px;
     position: relative;
 }
 .money-transfer .photo {
     float: left;
-    width: 210px;
-    height: 190px;
+    width: 280px;
+    height: 253px;
     text-indent: -9999px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -81,8 +83,8 @@
 }
 .money-transfer .logo .photo {
     position: absolute;
-    width: 162px;
-    height: 202px;
+    width: 209px;
+    height: 278px;
     right: 30px;
     bottom: 15px;
 }
@@ -91,34 +93,39 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     float: right;
-    width: 350px;
-    height: 190px;
-    padding: 50px;
-    font-size: 17px;
+    width: 520px;
+    height: 253px;
+    padding: 78px 78px 0 50px;
+    font-size: 22px;
     font-weight: normal;
 }
 .money-transfer .right p {
     float: left;
 }
 .money-transfer .p2 p {
-    padding-top: 56px; 
-    padding-right: 80px;
+    padding-top: 88px; 
+    padding-right: 120px;
 }
 .money-transfer .p3 p {
-    padding-top: 60px; 
-    padding-right: 159px;
+    padding-top: 90px; 
+    padding-right: 200px;
+}
+.money-transfer.es .p1 p {
+    padding-right: 87px; 
+}
+.money-transfer.es .p2 p {
+    padding-top: 75px; 
 }
 .money-transfer.es .p3 p {
-    padding-right: 90px;
+    padding-top: 80px; 
+    padding-right: 175px;
 }
 .money-transfer .logo p {
     padding: 60px 0 0 15px;
     height: auto;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
-    line-height: 27px;
-    letter-spacing: -0.5px;
-    word-spacing: -1px;
+    line-height: 37px;
 }
 
 /*terms*/
