@@ -1,0 +1,92 @@
+/*Landing page ///////////////////////////////////////////////////////////////////////*/
+
+.freetrial {
+    min-height: 360px;
+    margin-top:10px;
+    margin-left: 10px;
+    padding: 50px 50px 10px 50px;
+    background: url(/debit/2.0/bossrevolution/images/fd-fullpage.jpg) 0 0 repeat-y;
+    background-size: 100% 100%;
+    background-color: #fff;
+    border-radius: 0 0 30px 30px;
+}
+.freetrial h1,
+.freetrial p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*highlight*/
+.freetrial .highlight {
+    font-weight: bold;
+    color: #dc0000;
+}
+.freetrial h1 {
+    box-sizing: border-box;
+    height: 159px;
+    padding-top: 39px;
+    padding-right: 47px;
+    font-size: 41px;
+    text-align: center;
+    line-height: 42px;
+    color: #000;
+    background-color: #fff;
+}
+.freetrial .pic {
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 40px;
+}
+.freetrial-intro {
+    clear: both;
+}
+.freetrial .slogan img {
+    margin-left: 0;
+    padding: 15px 30px 20px 15px;
+    background-color: #dc0000;
+}
+.freetrial .right {
+    margin-left: 160px;
+    padding-left: 30px;
+}
+.freetrial .right ul {
+    margin-bottom: 18px;
+}
+.freetrial .right li,
+.freetrial .right p {
+    font-size: 20px;
+    line-height: 25px;
+}
+.freetrial .right li {
+    list-style: disc inside;
+}
+.freetrial .right p {
+    font-size: 22px;
+}
+.freetrial .right .note {
+    font-size: 11px;
+}
+.freetrial .button {
+    display: block;
+    width: 175px!important;
+    background: #3cb44b !important;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    border-radius: 10px;
+    border: 2px solid #FFF !important;
+    text-shadow: 1px 1px 0px #14A814;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.25),
+    inset 0px 0px 0 1px rgba(0,0,0,0.25),
+    inset 0px 45px 45px -22px #99EC4F;
+    cursor: pointer;
+}
+.freetrial .button:hover {
+    background: #0fde2d !important;
+}
+.freetrial .button {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
