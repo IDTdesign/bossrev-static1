@@ -73,13 +73,13 @@
     float: right;
 }
 .money-transfer .p1 .photo {
-    background-image: url(/images/pic01.png);
+    background-image: url(../images/pic01.png);
 }
 .money-transfer .p2 .photo {
-    background-image: url(/images/pic02.png);
+    background-image: url(../images/pic02.png);
 }
 .money-transfer .p3 .photo {
-    background-image: url(/images/pic03.png);
+    background-image: url(../images/pic03.png);
 }
 .money-transfer .logo .photo {
     position: absolute;

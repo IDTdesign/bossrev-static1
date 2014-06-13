@@ -4,47 +4,48 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
     <title>
-    	<%= @document.title %> - Boss Revolution Retailers Site
+    	<%= @getUrl(@document.title) %> - Boss Revolution Retailers Site
     </title>
-    <script src="/debit/2.0/boss/scripts/boss.js"></script>
+    <script src="<%= @getUrl('/debit/2.0/boss/scripts/boss.js') %>"></script>
     <meta charset="UTF-8">
+
 </head>
 
 <body class="main-bg">
-    <link href="/debit/2.0/bossrevolution/css/Bossrev.css" rel="stylesheet" type="text/css" />
-    <link href='/debit/2.0/bossrevolution/retailers/inc/style.css' rel="stylesheet" type="text/css" />
-    <link href='/debit/2.0/bossrevolution/css/modal_overlay.css' rel="stylesheet" type="text/css" />
-    <link href='/debit/2.0/bossrevolution/css/jquery-ui.min.css' rel="stylesheet" type="text/css" />
-    <link href='/debit/2.0/bossrevolution/css/jquery-ui-boss.css' rel="stylesheet" type="text/css" />
-    <% if (@document.custom_css) : %>
-    <link href='<%= @document.custom_css %>' rel="stylesheet" type="text/css" />
+    <link href="<%= @getUrl('/debit/2.0/bossrevolution/css/Bossrev.css') %>" rel="stylesheet" type="text/css" />
+    <link href="<%= @getUrl('/debit/2.0/bossrevolution/retailers/inc/style.css') %>" rel="stylesheet" type="text/css" />
+    <link href="<%= @getUrl('/debit/2.0/bossrevolution/css/modal_overlay.css') %>" rel="stylesheet" type="text/css" />
+    <link href="<%= @getUrl('/debit/2.0/bossrevolution/css/jquery-ui.min.css') %>" rel="stylesheet" type="text/css" />
+    <link href="<%= @getUrl('/debit/2.0/bossrevolution/css/jquery-ui-boss.css') %>" rel="stylesheet" type="text/css" />
+    <% if @getUrl(@document.custom_css) : %>
+    <link href="<%= @getUrl(@document.custom_css) %>" rel="stylesheet" type="text/css" />
     <% end %>
-    <form name="aspnetForm" method="post" action="<%= @document.url %>" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+    <form name="aspnetForm" method="post" action="<%= @getUrl(@document.url) %>" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
         <div>
         </div>
-<script src="/debit/2.0/boss/scripts/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="<%= @getUrl('/debit/2.0/boss/scripts/jquery-1.6.4.min.js') %>" type="text/javascript"></script>
 
-<script src="/debit/2.0/boss/scripts/jquery-ui.min.js" type="text/javascript"></script>
-<%if (@document.custom_js) : %>
+<script src="<%= @getUrl('/debit/2.0/boss/scripts/jquery-ui.min.js') %>" type="text/javascript"></script>
+<%if @getUrl(@document.custom_js) : %>
     <script src="//www.google.com/jsapi" type="text/javascript"></script>
 <% end %>
 <div class="main-content">
 	<div class="header">
 		<div class="langs">
-            <IMG src="/debit/2.0/bossrevolution/images/idt-top-logo.gif" align="absmiddle">
+            <IMG src="<%= @getUrl('/debit/2.0/bossrevolution/images/idt-top-logo.gif') %>" align="absmiddle">
                 <a href="/debit/2.0/bossrevolution/retailers/account/splash.aspx?lang=en-US">English</a>
                 |
                 <a href="/debit/2.0/bossrevolution/retailers/account/splash.aspx?lang=es-US">Español</a>
         </div>
-        <a href="/debit/2.0/bossrevolution/retailers/account/" class="toplogo"><img src="/debit/2.0/bossrevolution/images/en/boss-mobile-logo.gif" border=0></a>
+        <a href="/debit/2.0/bossrevolution/retailers/account/" class="toplogo"><img src="<%= @getUrl('/debit/2.0/bossrevolution/images/en/boss-mobile-logo.gif') %>" border=0></a>
 
         <span class="btn-top-login">
                 <a href="/debit/2.0/bossrevolution/retailers/account/login.aspx" id="ctl00_A1">
                 </a>
-                <img id="logoutBtn" src="/debit/2.0/bossrevolution/images/en/retailers-site.gif" border="0" Alt="Retailers Site" />
+                <img id="logoutBtn" src="<%= @getUrl('/debit/2.0/bossrevolution/images/en/retailers-site.gif') %>" border="0" Alt="Retailers Site" />
         </span>
         <a href="/debit/2.0/bossrevolution/retailers/account/login.aspx" class="toplogout">Logout</a>
-        <a href="/debit/2.0/bossrevolution/promo/WORLD-CUP-English.jpg" target="_blank" class="toppromo"></a>
+        <a href="<%= @getUrl('/debit/2.0/bossrevolution/promo/WORLD-CUP-English.jpg') %>" target="_blank" class="toppromo"></a>
     </div>
 
     <div id="top-menu">
@@ -67,7 +68,7 @@
         <li>
             <span id="ctl00_cphRet_banner1_spnHref">
                 <a href="https://bosswebqa:4444/debit/2.0/bossrevolution/retailers/quickcall/index.html" id="ctl00_cphRet_banner1_aHref" target="_blank">
-                    <img src="/debit/2.0/boss/bosscontent.gif" alt="testnew" border="0"/>      
+                    <img src="<%= @getUrl('/debit/2.0/boss/bosscontent.gif') %>" alt="testnew" border="0"/>      
                 </a>
             </span>
             <div style='display:none;'>30-Jan-2014 08:24:21 AM</div></li>
@@ -123,8 +124,8 @@
     <br class="clr" />
 </div>
 
-<%if (@document.custom_js) : %>
-    <script src="<%= @document.custom_js %>" rel="stylesheet" type="text/javascript"></script>
+<%if @getUrl(@document.custom_js) : %>
+    <script src="<%= @getUrl(@document.custom_js) %>" rel="stylesheet" type="text/javascript"></script>
 <% end %>
 <script language=javascript>
     function addCssToHeadTag(){ 
@@ -132,19 +133,19 @@
         var cssNode = document.createElement('link');
         cssNode.type = 'text/css';
         cssNode.rel = 'stylesheet';
-        cssNode.href = '/debit/2.0/controls/inc/debit.css';
+        cssNode.href = 'debit/2.0/controls/inc/debit.css';
         headID.appendChild(cssNode);	
 
         var newScript = document.createElement('script');
         newScript.type = 'text/javascript';
-        newScript.src = '/debit/2.0/controls/inc/debit.js';
+        newScript.src = 'debit/2.0/controls/inc/debit.js';
         headID.appendChild(newScript);
 
     }
 </script>
 <script language=javascript>addCssToHeadTag();</script>
-<SCRIPT language='javascript' src='/debit/controls/signup/js/signup.js'></SCRIPT>
-<SCRIPT language='javascript' src='/debit/2.0/controls/inc/debit.js'></SCRIPT>
+<SCRIPT language='javascript' src="<%= @getUrl('/debit/controls/signup/js/signup.js') %>"></SCRIPT>
+<SCRIPT language='javascript' src="<%= @getUrl('/debit/2.0/controls/inc/debit.js') %>"></SCRIPT>
 </form>
 </body>
 </html>

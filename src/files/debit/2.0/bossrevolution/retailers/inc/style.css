@@ -84,7 +84,7 @@ background: none repeat scroll 0 0 #AD0C21;
 /*				TOP MENU			*/	
 
 #top-menu  {
-	background:url(/debit/2.0/boss/images/top-menu-bg.gif) repeat-x;
+	background:url(../../../boss/images/top-menu-bg.gif) repeat-x;
 	height:26px;
 	border-bottom:2px #fff solid;
 }
@@ -132,7 +132,7 @@ border-left: 1px solid #FFFFFF;
     margin:0 0 0 -500px; */
     margin:0 auto;
     
-	background:url(/debit/2.0/bossrevolution/retailers/images/footer-bg.gif) no-repeat top center;
+	background:url(../images/footer-bg.gif) no-repeat top center;
 	width:1000px;
 	height:50px;
 	padding:20px 0px 10px 0px;

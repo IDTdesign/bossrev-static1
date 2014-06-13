@@ -5,17 +5,18 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport"content="width=device-width" />
   <title>
-  <%= @document.title %> - Boss Revolution Retailers Site
+  <%= @getUrl(@document.title) %> - Boss Revolution Retailers Site
   </title>
-  <link rel="stylesheet" type="text/css" href="/inc/bossrevolution-en.css"></link>
+
+  <link rel="stylesheet" type="text/css" href="<%= @getUrl('/inc/bossrevolution-en.css') %>"></link>
   <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
-  <% if (@document.custom_css) : %>
-  <link href='<%= @document.custom_css %>' rel="stylesheet" type="text/css" />
+  <% if @getUrl(@document.custom_css) : %>
+  <link href="<%= @getUrl(@document.custom_css) %>" rel="stylesheet" type="text/css" />
   <% end %>
-  <link href='css/flags.css' rel="stylesheet" type="text/css" />
+  <link href="<%= @getUrl('css/flags.css') %>" rel="stylesheet" type="text/css" />
 
   <link rel="icon" type="image/png" href="/favicon.png"/>
-  <script src="/scripts/jquery-1.5.2.min.js"></script>
+  <script src="<%= @getUrl('/scripts/jquery-1.5.2.min.js') %>"></script>
 </head>
 <body class="main">
 <!--[if IE]>
@@ -55,7 +56,7 @@ ul.menus li ul {
   <div class="header-flash" id="flash-en">
     <div id="flash-en" class="header-flash">
       <div class="VideoLikeContent">  
-        <a href="/HolidayMobileApps.aspx"><img src="/promo/MobileAppExtension-Bnr-600x130-ENG.png" alt="BossRevolution" width="600" height="130" border="0" /></a>
+        <a href="/HolidayMobileApps.aspx"><img src="<%= @getUrl('/promo/MobileAppExtension-Bnr-600x130-ENG.png') %>" alt="BossRevolution" width="600" height="130" border="0" /></a>
       </div>
     </div>
   </div>
