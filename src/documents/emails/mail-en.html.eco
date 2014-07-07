@@ -1,0 +1,54 @@
+---
+layout: retailersemails
+lang: en
+---
+
+<div style="font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif; font-size: 20px; line-height: 26px; font-weight: bold; text-align: center;">Thank you for joining Boss Revolution, {First Name} {Last Name}!</div>
+<div style="font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif; font-size: 18px; text-align: center;">You are now an Authorized Retailer</div>
+<br/>
+<table width="100%" border="0" cellpadding="10" cellspacing="0" bgcolor="#f9f9f9">
+	<tr>
+		<td width="10"> </td>
+		<td>
+			<table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#f9f9f9">
+				<tr>
+					<td>Retailer Master Account:</td>
+					<td style="color: #e01f26;">xxxxxxxxxx</td>
+				</tr>
+				<tr>
+					<td>Security code:</td>
+					<td style="color: #e01f26;">xxxx</td>
+				</tr>
+				<tr>
+					<td>Store Name: </td>
+					<td style="color: #e01f26;">{Store Name}</td>
+				</tr>
+				<tr>
+					<td>Distributor ID:</td>
+					<td style="color: #e01f26;">xxxxx</td>
+				</tr>
+				<tr>
+					<td>Available Balance:</td>
+					<td style="color: #e01f26;">$xx.xx</td>
+				</tr>
+				<tr>
+					<td>Create Date: </td>
+					<td style="color: #e01f26;">xx/xx/xxxx</td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"> </td>
+	</tr>
+</table>
+<br/>
+<div style="text-align: center; font-size: 18px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">Go to: <a href="http://bossrevolution.com/retailers" target="_blank" style="font-weight: bold; text-decoration: none; color: #000; border-bottom: 1px solid #bfbfbf;">bossrevolution.com/retailers</a> to login.</div>
+<div style="text-align: center; font-size: 13px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; ">You can login from your desktop, tablet or smartphone! </div>
+<div style="text-align: center; font-size: 16px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">Or Sell Over the Phone: <a href="tel:1-800-675-9098" style="font-weight: bold; text-decoration: none; color: #000; border-bottom: 1px solid #bfbfbf;">1-800-675-9098</a></div>
+<br/>
+<br/>
+<table width="100%" border="0" cellpadding="10" cellspacing="0" bgcolor="#fff" style="border: 2px solid #e01f26;">
+	<tr>
+		<td><img src="<%= @getUrl("/images/excl.png") %>" width="50" height="50" alt="!"></td>
+		<td style="color: #e01f26; font-weight: bold; font-size: 14px;">Login and verify your Mobile Number and Email. <br/> These credentials will be used to verify your identity and keep your account safe!</td>
+	</tr>
+</table>

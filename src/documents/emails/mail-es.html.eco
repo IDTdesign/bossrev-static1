@@ -1,0 +1,54 @@
+---
+layout: retailersemails
+lang: es
+---
+
+<div style="font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif; font-size: 20px; line-height: 26px; font-weight: bold; text-align: center;">¡Gracias por unirse a Boss Revolution, {First Name} {Last Name}!</div>
+<div style="font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif; font-size: 18px; text-align: center;">Usted es ahora un minorista autorizado</div>
+<br/>
+<table width="100%" border="0" cellpadding="10" cellspacing="0" bgcolor="#f9f9f9">
+	<tr>
+		<td width="10"> </td>
+		<td>
+			<table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#f9f9f9">
+				<tr>
+					<td>Cuenta Maestra del Minorista:</td>
+					<td style="color: #e01f26;">xxxxxxxxxx</td>
+				</tr>
+				<tr>
+					<td>Código de Seguridad:</td>
+					<td style="color: #e01f26;">xxxx</td>
+				</tr>
+				<tr>
+					<td>Nombre de la tienda: </td>
+					<td style="color: #e01f26;">{Store Name}</td>
+				</tr>
+				<tr>
+					<td>Identificación del Distribuidor:</td>
+					<td style="color: #e01f26;">xxxxx</td>
+				</tr>
+				<tr>
+					<td>Saldo Disponible:</td>
+					<td style="color: #e01f26;">$xx.xx</td>
+				</tr>
+				<tr>
+					<td>Fecha de Creación: </td>
+					<td style="color: #e01f26;">xx/xx/xxxx</td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"> </td>
+	</tr>
+</table>
+<br/>
+<div style="text-align: center; font-size: 18px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">Vaya a: <a href="http://bossrevolution.com/retailers" target="_blank" style="font-weight: bold; text-decoration: none; color: #000; border-bottom: 1px solid #bfbfbf;">bossrevolution.com/retailers</a> para ingresar a su cuenta.</div>
+<div style="text-align: center; font-size: 13px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; ">Puede ingresar al portal desde su laptop, tableta, o Smartphone! </div>
+<div style="text-align: center; font-size: 16px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">O vender por teléfono: <a href="tel:1-800-675-9098" style="font-weight: bold; text-decoration: none; color: #000; border-bottom: 1px solid #bfbfbf;">1-800-675-9098</a></div>
+<br/>
+<br/>
+<table width="100%" border="0" cellpadding="10" cellspacing="0" bgcolor="#fff" style="border: 2px solid #e01f26;">
+	<tr>
+		<td><img src="<%= @getUrl("/images/excl.png") %>" width="50" height="50" alt="!"></td>
+		<td style="color: #e01f26; font-weight: bold; font-size: 14px;">Ingrese  al portal y verifique su número móvil y email. <br/> ¡Dichos credenciales serán usados para verificar su identidad y asegurar su cuenta!</td>
+	</tr>
+</table>
