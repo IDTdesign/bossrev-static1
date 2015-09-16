@@ -1,0 +1,54 @@
+---
+layout: moneytransfersemails
+lang: es
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center salutaion__header">Estimado {XXXXX},</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>                          
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">Tu <font class="red">BOSS Revolution<sup>®</sup></font> Envío de Dinero (número de referencia <a href="http://www.bossrevolution.com/my-account?lang=es-US" target="_blank"><font class="red">{XXXXXXXXXX}</font></a>) a <font class="red">{XXXXXX}</font> está lista para entrega. Use el balance gratis que hemos agregado a su cuenta para llamar a <font class="red">{XXXXX}</font> para avisarles que el envío de dinero está disponible.</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="twelve columns">
+  <tr>
+    <td class="shadow">
+      <img src="<%= @getUrl("/images/shadow-separator.png")%>" alt="" data-inline-ignore />
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>                            
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom:0;">
+
+      <span class="data-value">Podrás ver el estado de tu transacción a cualquier hora, en tu <a href="http://www.bossrevolution.com/my-account?lang=es-US" target="_blank"><font class="red">Centro de Cuentas</font></a>. Si tienes preguntas, consulta las preguntas frecuentes o comunícate con SC al <font class="red">800 308-9931, opción 3</font>.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>                              
+  <tr>
+    <td class="padding"></td>
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value">Una vez más, gracias por elegir <font class="red"><strong>BOSS Revolution</strong><sup>®</sup></font>. Agradecemos tu preferencia y esperamos poder seguir ayudándote a <strong>Unir Tus Mundos</strong>.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>
+</table>
+

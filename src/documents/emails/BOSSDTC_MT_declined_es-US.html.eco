@@ -1,0 +1,53 @@
+---
+layout: moneytransfersemails
+lang: es
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center salutaion__header">Estimado {XXXXX},</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>                          
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">Lo sentimos, pero la orden de <font class="red">BOSS Revolution<sup>®</sup></font> transferencia de dinero (Money Transfer Reference <a href="http://www.bossrevolution.com/my-account?lang=es-US" target="_blank"><font class="red">{XXXXXXXXXX}</font></a>) no puede procesarse en este momento.</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="twelve columns">
+  <tr>
+    <td class="shadow">
+      <img src="<%= @getUrl("/images/shadow-separator.png")%>" alt="" data-inline-ignore/>
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value">Para garantizar la seguridad de nuestros clientes, revisamos cuidadosamente cada transacción y, como parte de esta revisión, determinamos que era necesario cancelar la transacción de acuerdo con nuestras políticas reguladoras y de cumplimiento.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>                          
+  <tr>
+    <td class="padding"></td>                            
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value">Si consideras que esta decisión es errónea o si tienes preguntas al respecto, comunícate con SC al <font class="red">800 308-9931, opción 3</font> o por correo electrónico a <a href="mailto:support@bossrevolution.com" target="_blank"><font class="red">support@bossrevolution.com</font></a>. Incluye en tu correspondencia el número de referencia y toda la información relevante, y nuestro equipo de Cumplimiento con gusto te ayudará.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>                              
+</table>

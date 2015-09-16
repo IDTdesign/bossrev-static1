@@ -1,0 +1,53 @@
+---
+layout: moneytransfersemails
+lang: en
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center salutaion__header">Dear {XXXXX},</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>                          
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">We're sorry but the <font class="red">BOSS Revolution<sup>®</sup></font> Money Transfer order you submitted (Money Transfer Reference <a href="http://www.bossrevolution.com/my-account?lang=en-US" target="_blank"><font class="red">{XXXXXXXXXX}</font></a>) cannot be processed at this time.</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="twelve columns">
+  <tr>
+    <td class="shadow">
+      <img src="<%= @getUrl("/images/shadow-separator.png")%>" alt="" data-inline-ignore />
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>                                         
+
+<table class="fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value">To ensure our customers' safety and security, we carefully review every transaction, and as part of our review of your transaction we found it necessary to cancel your transaction in accordance with our regulatory and compliance policies.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>
+  <tr>
+    <td class="padding"></td>                            
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value">If you feel that this decision was made in error or if you have any questions, please contact Customer Service at <font class="red">800 308-9931, option 3</font> or via email at <a href="mailto:support@bossrevolution.com" target="_blank"><font class="red">support@bossrevolution.com</font></a>. Please include your reference number and any other relevant information in any correspondence, and our Compliance team would be happy to assist you.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>                              
+</table>

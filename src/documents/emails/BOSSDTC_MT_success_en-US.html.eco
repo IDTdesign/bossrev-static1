@@ -1,0 +1,157 @@
+---
+layout: moneytransfersemails
+lang: en
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center salutaion__header">Dear {XXXXX},</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>                          
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">Thank you for your <font class="red">BOSS Revolution<sup>®</sup></font> Money Transfer. Your reference number is <a href="http://www.bossrevolution.com/my-account?lang=en-US" target="_blank"><font class="red">{XXXXXXXXXX}</font></a>.</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="twelve columns">
+  <tr>
+    <td class="shadow">
+      <img src="<%= @getUrl("/images/shadow-separator.png")%>" alt="" data-inline-ignore />
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value">Your order has been received and we’ll notify you when the funds are available. For your protection, we may request additional information in certain instances to verify your order. You can view the status of your transaction in your <a href="http://www.bossrevolution.com/my-account?lang=en-US" target="_blank"><font class="red">Account Center</font></a> at any time.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>
+  <tr>
+    <td class="padding"></td>                            
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value">If you have any questions, please contact Customer Service at <font class="red">800 308-9931, option 3</font>.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>                              
+</table>
+
+<table class="twelve columns">
+  <tr>
+    <td class="center" align="center">
+      <br />
+      <span class="data-value text-pad"><strong>ORDER CONFIRMATION:</strong></span>
+      <br />                              
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="center fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>
+    <td>
+      
+      <table class="greypane fullwidth">
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/cash-pickup.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Delivery Method</span><br /><span class="data-value">Cash Pickup</span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
+          <td class="data-cell pr0">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/credit-debit-card.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Payment Method</span><br /><span class="data-value">Credit/Debit Card</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td width="15"></td>
+        </tr>
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/recipient.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Recipient</span><br /><span class="data-value">John Doo</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td class="data-sep"></td>
+          <td class="data-cell pr0">
+            <span class="label">Recipient Nickname: </span><span class="data-value-small">J Doo</span><br />
+            <span class="label">Street Address: </span><span class="data-value-small">520 Broad Street</span><br />
+            <span class="label">State: </span><span class="data-value-small">Guatemala</span><br />
+            <span class="label">City/Area: </span><span class="data-value-small">Guatemala</span><br />
+            <span class="label">Country: </span><span class="data-value-small">Guatemala</span><br />
+            <span class="label">Postal Code: </span><span class="data-value-small">07102</span><br />
+            <span class="label">Phone Number: </span><span class="data-value-small">50212345678</span><br />
+            <span class="label">Email: </span><span class="data-value-small">j.doo@gmail.com</span>
+          </td>
+          <td width="15"></td>
+        </tr>
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/location.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Pickup Location</span><br /><span class="data-value">Guatemala Bank</span></td>
+              </tr>
+            </table>
+          </td>                                                   
+          <td class="data-sep"></td>
+          <td class="data-cell pr0">
+            <span class="label">Address: </span><span class="data-value-small">All country</span><br />
+            <span class="label">City Name: </span><span class="data-value-small">Guatemala, GT-GU</span>
+          </td>
+          <td width="15"></td>
+        </tr>                                  
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="border-bottom:0;padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/credit-card.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Payment Method</span><br /><span class="data-value">Credit/Debit Card</span></td>
+              </tr>
+            </table>
+          </td>                                              
+          <td class="data-sep"></td>
+          <td class="data-cell pr0" style="border-bottom: 0;">
+            <span class="label">Card Number: </span><span class="data-value-small">43XXXXXXXXXX1608</span><br />
+            <span class="label">Card Type: </span><span class="data-value-small">Visa</span><br />
+            <span class="label">Expiration Date: </span><span class="data-value-small">1/2021</span>
+          </td>
+          <td width="15"></td>                                    
+        </tr>
+
+      </table>
+
+    </td>
+    <td class='padding'></td>
+  </tr>
+</table>

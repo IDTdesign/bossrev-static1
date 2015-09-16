@@ -1,0 +1,236 @@
+---
+layout: moneytransfersemails
+lang: en
+---
+
+<table class="twelve columns">
+  <tr>
+    <td class="center" align="center">
+      <br />
+      <span class="data-value text-pad"><strong>ORDER CONFIRMATION:</strong></span>
+      <br />                              
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="center fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>
+    <td>
+      
+      <table class="greypane fullwidth">
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/cash-pickup.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Delivery Method</span><br /><span class="data-value">Cash Pickup</span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
+          <td class="data-cell pr0">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/credit-debit-card.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Payment Method</span><br /><span class="data-value">Credit/Debit Card</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td width="15"></td>
+        </tr>
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/recipient.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Recipient</span><br /><span class="data-value">John Doo</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td class="data-sep"></td>
+          <td class="data-cell pr0">
+            <span class="label">Recipient Nickname: </span><span class="data-value-small">J Doo</span><br />
+            <span class="label">Street Address: </span><span class="data-value-small">520 Broad Street</span><br />
+            <span class="label">State: </span><span class="data-value-small">Guatemala</span><br />
+            <span class="label">City/Area: </span><span class="data-value-small">Guatemala</span><br />
+            <span class="label">Country: </span><span class="data-value-small">Guatemala</span><br />
+            <span class="label">Postal Code: </span><span class="data-value-small">07102</span><br />
+            <span class="label">Phone Number: </span><span class="data-value-small">50212345678</span><br />
+            <span class="label">Email: </span><span class="data-value-small">j.doo@gmail.com</span>
+          </td>
+          <td width="15"></td>
+        </tr>
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/location.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Pickup Location</span><br /><span class="data-value">Guatemala Bank</span></td>
+              </tr>
+            </table>
+          </td>                                                   
+          <td class="data-sep"></td>
+          <td class="data-cell pr0">
+            <span class="label">Address: </span><span class="data-value-small">All country</span><br />
+            <span class="label">City Name: </span><span class="data-value-small">Guatemala, GT-GU</span>
+          </td>
+          <td width="15"></td>
+        </tr>                                  
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/credit-card.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Payment Method</span><br /><span class="data-value">Credit/Debit Card</span></td>
+              </tr>
+            </table>
+          </td>                                              
+          <td class="data-sep"></td>
+          <td class="data-cell pr0">
+            <span class="label">Card Number: </span><span class="data-value-small">43XXXXXXXXXX1608</span><br />
+            <span class="label">Card Type: </span><span class="data-value-small">Visa</span><br />
+            <span class="label">Expiration Date: </span><span class="data-value-small">1/2021</span>
+          </td>
+          <td width="15"></td>                                    
+        </tr>
+
+        <tr>
+          <td width="15"></td>
+          <td>
+            <table class="fullwidth">
+              <tr>
+                <td><br/></td>
+              </tr>
+            </table>
+          </td> 
+          <td class="data-sep"></td>          
+          <td>
+            <table class="fullwidth">
+              <tr>
+                <td><br/>OR</td>
+              </tr>
+            </table>
+          </td>                                                
+          <td width="15"></td>                                    
+        </tr>
+
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/bank-deposit.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Delivery Method</span><br /><span class="data-value">Bank Deposit</span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
+          <td class="data-cell pr0">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/bank-withdrawal.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Payment Method</span><br /><span class="data-value">Bank Withdrawal</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td width="15"></td>
+        </tr>
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/bank-information.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Bank Information</span><br /><span class="data-value">JPMorgan Chase</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td class="data-sep"></td>
+          <td class="data-cell pr0">
+            <span class="label">Checking Account: </span><span class="data-value-small">XXXXXX968</span>
+          </td>
+          <td width="15"></td>
+        </tr>
+
+        <tr>
+          <td width="15"></td>
+          <td>
+            <table class="fullwidth">
+              <tr>
+                <td><br/></td>
+              </tr>
+            </table>
+          </td> 
+          <td class="data-sep"></td>          
+          <td>
+            <table class="fullwidth">
+              <tr>
+                <td><br/>OR</td>
+              </tr>
+            </table>
+          </td>                                                
+          <td width="15"></td>                                    
+        </tr>
+
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/home-delivery.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Delivery Method</span><br /><span class="data-value">Home Delivery</span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="data-sep"></td>
+          <td class="data-cell pr0"></td>
+          <td width="15"></td>
+        </tr>
+
+        <tr>
+          <td width="15"></td>
+          <td>
+            <table class="fullwidth">
+              <tr>
+                <td><br/></td>
+              </tr>
+            </table>
+          </td> 
+          <td class="data-sep"></td>          
+          <td>
+            <table class="fullwidth">
+              <tr>
+                <td><br/>OR</td>
+              </tr>
+            </table>
+          </td>                                                
+          <td width="15"></td>                                    
+        </tr>  
+
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;border-bottom:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/mobile-wallet.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Delivery Method</span><br /><span class="data-value">Mobile Wallet</span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="data-sep"></td>
+          <td class="data-cell pr0" style="border-bottom:0;"></td>
+          <td width="15"></td>
+        </tr>              
+
+      </table>
+
+    </td>
+    <td class='padding'></td>
+  </tr>
+</table>

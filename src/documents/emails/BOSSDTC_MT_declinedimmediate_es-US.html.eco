@@ -1,0 +1,157 @@
+---
+layout: moneytransfersemails
+lang: es
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center salutaion__header">Estimado {XXXXX},</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>                          
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">Lo sentimos, pero la orden de <font class="red">BOSS Revolution<sup>®</sup></font> transferencia de dinero (Money Transfer Reference <a href="http://www.bossrevolution.com/my-account?lang=es-US" target="_blank"><font class="red">{XXXXXXXXXX}</font></a>) no puede procesarse en este momento.</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="twelve columns">
+  <tr>
+    <td class="shadow">
+      <img src="<%= @getUrl("/images/shadow-separator.png")%>" alt="" data-inline-ignore/>
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value">Para garantizar la seguridad de nuestros clientes, revisamos cuidadosamente cada transacción y, como parte de esta revisión, determinamos que era necesario cancelar la transacción de acuerdo con nuestras políticas reguladoras y de cumplimiento.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>                          
+  <tr>
+    <td class="padding"></td>                            
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value">Si consideras que esta decisión es errónea o si tienes preguntas al respecto, comunícate con SC al <font class="red">800 308-9931, opción 3</font> o por correo electrónico a <a href="mailto:support@bossrevolution.com" target="_blank"><font class="red">support@bossrevolution.com</font></a>. Incluye en tu correspondencia el número de referencia y toda la información relevante, y nuestro equipo de Cumplimiento con gusto te ayudará.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>                              
+</table>
+
+<table class="twelve columns">
+  <tr>
+    <td class="center" align="center">
+      <br />
+      <span class="data-value text-pad"><strong>DETALLES DE LA TRANSACCIÓN:</strong></span>
+      <br />                              
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="center fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>
+    <td>
+      
+      <table class="greypane fullwidth">
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/cash-pickup.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Método de entrega</span><br /><span class="data-value">Recolección de efectivo</span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
+          <td class="data-cell pr0">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/credit-debit-card.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Método de pago</span><br /><span class="data-value">Tarjeta de crédito o débito</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td width="15"></td>
+        </tr>
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/recipient.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Destinatario</span><br /><span class="data-value">John Doo</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td class="data-sep"></td>
+          <td class="data-cell pr0">
+            <span class="label">Apodo del destinatario: </span><span class="data-value-small">J Doo</span><br />
+            <span class="label">Dirección: </span><span class="data-value-small">520 Broad Street</span><br />
+            <span class="label">Estado: </span><span class="data-value-small">Guatemala</span><br />
+            <span class="label">Ciudad/Área: </span><span class="data-value-small">Guatemala</span><br />
+            <span class="label">Country: </span><span class="data-value-small">Guatemala</span><br />
+            <span class="label">Código postal: </span><span class="data-value-small">07102</span><br />
+            <span class="label">Número de teléfono: </span><span class="data-value-small">50212345678</span><br />
+            <span class="label">Correo electrónico: </span><span class="data-value-small">j.doo@gmail.com</span>
+          </td>
+          <td width="15"></td>
+        </tr>
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/location.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Pickup Location</span><br /><span class="data-value">Guatemala Bank</span></td>
+              </tr>
+            </table>
+          </td>                                                   
+          <td class="data-sep"></td>
+          <td class="data-cell pr0">
+            <span class="label">Address: </span><span class="data-value-small">All country</span><br />
+            <span class="label">Dirección: </span><span class="data-value-small">Guatemala, GT-GU</span>
+          </td>
+          <td width="15"></td>
+        </tr>                                  
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="border-bottom:0;padding-left:0;padding-right:0;">
+            <table class="fullwidth">
+              <tr>
+                <td width="45"><img class="icon" src="<%= @getUrl("/images/credit-card.png")%>" data-inline-ignore /></td>
+                <td><span class="label">Método de pago</span><br /><span class="data-value">Tarjeta de crédito o débito</span></td>
+              </tr>
+            </table>
+          </td>                                              
+          <td class="data-sep"></td>
+          <td class="data-cell pr0" style="border-bottom: 0;">
+            <span class="label">Card Number: </span><span class="data-value-small">43XXXXXXXXXX1608</span><br />
+            <span class="label">Card Type: </span><span class="data-value-small">Visa</span><br />
+            <span class="label">Expiration Date: </span><span class="data-value-small">1/2021</span>
+          </td>
+          <td width="15"></td>                                    
+        </tr>
+
+      </table>
+
+    </td>
+    <td class='padding'></td>
+  </tr>
+</table>

@@ -1,0 +1,152 @@
+---
+layout: welcomeemails
+---
+
+              <table class="twelve columns">
+                <tr>
+                  <td class="center" align="center">
+
+                    <h1 class="center mainheader text-pad">Willkommen bei <font class="red">Boss Revolution</font></h1>
+                  
+                  </td>
+                  <td class="expander"></td>
+                </tr>
+              </table>
+              
+              <table class="twelve columns">
+                <tr>
+                  <td class="shadow">
+                    <img src="<%= @getUrl("/images/shadow-separator.png")%>" alt="" data-inline-ignore />
+                  </td>
+                  <td class="expander"></td>
+                </tr>
+              </table>
+
+              <table class="twelve columns">
+                <tr>
+                  <td class="center" align="center">
+
+                    <h1 class="center subtitle text-pad">Erfreuen Sie sich an all den Services, die <font class="red">Boss Revolution</font> anzubieten hat. <br /><strong>Auslandsgespräche</strong>inklusive unseren neuen <strong>Unbegrenzten Tarifplänen</strong>, ebenso wie <strong>In-</strong> und <strong>Auslandsaufladungen</strong>.</h1>
+                  
+                  </td>
+                  <td class="expander"></td>
+                </tr>
+              </table>
+
+              <table class="center fullwidth" style="table-layout:fixed">
+                <tr>
+                  <td class="padding"></td>
+                  <td>
+                    
+                    <table class="greypane fullwidth">
+                      <tr class="data-row center">
+                        <td>
+                          <table class="fullwidth">
+                            <tr>
+                              <td class="data-cell center"><span class="data-service">Fangen Sie an, bei Ihren Auslandsgesprächen Geld zu sparen durch die Einrichtung Ihres <strong>Boss Revolution</strong><sup>®</sup>-Kontos jetzt und Sie erhalten eine 1€ Gratisprobe. </span><br /><a class="link" href="https://bossrevolution.com/services/international-calling?lang=en-US" target="_blank">Auslandsgespräche</a></td>
+                            </tr>
+                            <tr>
+                              <td class="data-img center"><img src="<%= @getUrl("/images/ic.png")%>" data-inline-ignore /></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr class="data-row center">
+                        <td>
+                          <table class="fullwidth">
+                            <tr>
+                              <td class="data-cell center"><span class="data-service">Unsere kostenlose preisgekrönte App für iPhone und Android macht Anrufen mit <strong>Boss Revolution</strong><sup>®</sup> leichter als je zuvor. Downloaden Sie die App noch heute und Sie erhalten einen <strong class="red">EXTRA 1€ GRATIS</strong> Kredit für Auslandsanrufe! </span><br /><a class="link" href="https://bossrevolution.com/apps?lang=en-US" target="_blank">Handy App</a></td>
+                            </tr>
+                            <tr>
+                              <td class="data-img center"><img src="<%= @getUrl("/images/ma.png")%>" data-inline-ignore /></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr class="data-row center">
+                        <td>
+                          <table class="fullwidth">
+                            <tr>
+                              <td class="data-cell center"><span class="data-service">Sorgen Sie dafür, dass Sie unseren Handyaufladeservice auschecken, wo Sie Fonds zu Prepaid-Handys im Ausland oder hier in Deutschland zuführen können - es ist einfach, sicher und unmittelbar.</span><br /><a class="link" href="https://bossrevolution.com/services?lang=en-US" target="_blank">Der Services</a></td>
+                            </tr>
+                            <tr>
+                              <td class="data-img center"><img src="<%= @getUrl("/images/mt.png")%>" data-inline-ignore /></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>                                                                    
+                    </table>
+
+                  </td>
+                  <td class='padding'></td>
+                </tr>
+              </table>
+
+              <table class="twelve columns">
+                <tr>
+                  <td class="center spec-pad" align="center">
+                    <h1 class="center subsubtitle text-pad">Fangen Sie an, Ihre <strong>Boss Revolution</strong><sup>®</sup>-Services heute noch zu benutzen und Sie werden verstehen, warum Millionen uns ausgewählt haben, um mit Freunden und Familie auf der ganzen Welt in Verbindung zu bleiben.
+                    </h1>
+                  </td>
+                  <td class="expander"></td>
+                </tr>
+              </table>                          
+
+              <table class="twelve columns">
+                <tr>
+                  <td class="shadow">
+                    <img src="<%= @getUrl("/images/shadow-separator-flip.png")%>" alt="" data-inline-ignore />
+                  </td>
+                  <td class="expander"></td>
+                </tr>
+              </table>
+
+              <table class="twelve columns">
+                <tr>
+                  <td class="center" align="center">
+
+                    <h1 class="center mainheader pad-bottom-no text-pad"><font class="red">Boss Revolution</font> Vereinige Deine Welten!</h1>
+                  
+                  </td>
+                  <td class="expander"></td>
+                </tr>
+              </table>                          
+
+              <table class="twelve columns">
+                <tr>
+                  <td class="center bosslink" align="center">
+                    <a href="http://www.bossrevolution.co.uk" target="_blank" class="center bosslink">www.<strong class="red">boss</strong><strong class="black">revolution</strong>.de</a>
+                  </td>
+                  <td class="expander"></td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+        </table>
+
+      </center>
+    </td>
+  </tr>
+</table>
+
+<table class="row footer">
+  <tr>
+    <td class="center" align="center">
+      <center>
+        
+        <table class="container">
+          <tr>
+            <td class="wrapper last">
+              
+              <table class="twelve columns">
+                <tr>
+                  <td class="center sign-text" align="center">
+                    <center>
+                      Mit freundlichen Grüßen,
+                      <br />Boss Revolution
+                    </center>
+                  </td>
+                  <td class="expander"></td>
+                </tr>
+              </table>

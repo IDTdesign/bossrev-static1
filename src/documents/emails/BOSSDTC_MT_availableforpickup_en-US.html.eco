@@ -1,0 +1,63 @@
+---
+layout: moneytransfersemails
+lang: en
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center salutaion__header">Dear {XXXXX},</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>                          
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">Your <font class="red">BOSS Revolution<sup>®</sup></font> Money Transfer (Reference Number <a href="http://www.bossrevolution.com/my-account?lang=en-US" target="_blank"><font class="red">{XXXXXXXXXX}</font></a>) to <font class="red">{XXXXXX}</font> is available for pickup at <font class="red">{XXXX}</font> location. Use the free International Calling balance we’ve added to your account to call <font class="red">{XXXXXX}</font> and let them know the money is available.</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="twelve columns">
+  <tr>
+    <td class="shadow">
+      <img src="<%= @getUrl("/images/shadow-separator.png")%>" alt="" data-inline-ignore />
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom:0;">
+
+      <span class="data-value">In order to pick up the money, <font class="red">{XXXXXX}</font> must provide the Pickup Number <font class="red">{XXXXXX}</font> and have a valid identification.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>
+  <tr>
+    <td class="padding"></td>                            
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom:0;">
+
+      <span class="data-value">You can view the status of your transaction in your <a href="http://www.bossrevolution.com/my-account?lang=en-US" target="_blank"><font class="red">Account Center</font></a> at any time. If you have any questions, please view our FAQs or contact Customer Service at <font class="red">800 308-9931, option 3</font>.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>                              
+  <tr>
+    <td class="padding"></td>
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value">Thank you again for choosing <font class="red"><strong>BOSS Revolution</strong><sup>®</sup></font>. We appreciate your business and look forward to continuing to help you <strong>Unite Your Worlds</strong>.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>
+</table>
+
