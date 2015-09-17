@@ -1,0 +1,16 @@
+---
+layout: resetmailsDE
+lang: de
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">Um Ihr Passwort zurückzusetzen,<br /> klicken Sie hier {Url} </h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
