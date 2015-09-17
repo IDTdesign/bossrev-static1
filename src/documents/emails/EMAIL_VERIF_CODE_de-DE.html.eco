@@ -1,0 +1,16 @@
+---
+layout: resetmailsDE
+lang: de
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">Ihr E-Mail Verifizierungscode ist<br /> {VerificationCode}</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
