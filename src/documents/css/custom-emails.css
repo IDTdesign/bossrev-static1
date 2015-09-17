@@ -1,0 +1,209 @@
+ /* Your custom styles go here */
+    .paper {
+      border: 1px solid #EEE !important;
+      border-top: none;
+      padding-top: 0 !important;
+      box-shadow: 0 0 10px #DDD;
+    }
+    .header {
+      background: #b00009;
+    }
+    .header-images {
+      padding: 0 0 0 30px !important;
+    }
+    .header-images img {
+      float: none;
+      padding-left: 5px;
+      padding-right: 8px;
+      border-radius: 0 0 3px 3px;
+      background-color: #DD1A23;
+    }
+    .header .header-images img {
+      padding-top: 10px;
+    }
+    .header-2 .header-images img {
+      padding-bottom: 8px;
+    }
+    .greypane {
+      background: #ebebeb;
+    }
+    .whitepane {
+      background: #FFF;
+    }
+    .redpane {
+      background: #dd1a23;
+    }
+    .shadow {
+      padding: 0 !important;
+    }
+    .red {
+      color: #cf030c !important;
+    }
+    .black {
+      color: #000 !important;
+    }
+    .white {
+      color: #FFF !important; 
+    }
+    .mainheader {
+      color: #666;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0;
+      padding: 30px 0 15px 0;
+    }
+    .salutaion .mainheader {
+      padding-top: 10px; 
+    }
+    .salutaion__header {
+      display: inline-block;
+      margin: 0;
+      width: auto;
+      padding: 20px 40px 20px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #666;
+      border-bottom: 1px solid #dfdfdf;    
+    }
+    .subtitle {
+      font-size: 17px;
+      margin: 0;
+      padding: 5px 0 5px;
+    }
+    .subtitle-stripe {
+      font-size: 18px;
+      margin: 0;
+      padding: 0px 30px 5px !important;
+    }
+    .subsubtitle {
+      font-size: 15px;
+      margin: 0;
+      padding: 5px 0 5px;
+    }      
+    .fullwidth {
+      width: 100%;
+    }
+    .padding {
+      width: 30px;
+    }
+    .data-cell {
+      padding: 10px 15px;
+      border-bottom: 1px solid #dfdfdf;    
+    }
+    .greypane .data-cell {
+      border-bottom: 1px solid #CCCCCC;    
+    }
+    .data-row {
+      border-bottom: 2px solid #FFFFFF;
+    }
+    .label {
+      color: #686868;
+      font-size: 12px;
+    }
+    .data-value {
+      color: #333333;
+      font-size: 16px;
+    }
+    .data-value-small {
+      font-size: 13px;
+    }
+    .icon {
+      margin-top: 3px;
+      margin-right: 8px;
+      padding-top: 6px;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-bottom: 6px;
+      background-color: #b00009;
+      border-radius: 3px;
+    }      
+    .data-service {
+      color: #333333;
+      font-size: 15px;
+    }
+    .data-img img {
+      float: none;
+      display: inline;
+      padding-bottom: 15px;
+    }
+    .bosslink {
+      padding: 15px !important;
+    }
+    a.bosslink,
+    a.bosslink:link,
+    a.bosslink:visited,
+    a.bosslink:hover,
+    a.bosslink:active {
+      color: #333 !important;
+    }
+    .sign-text {
+      padding: 15px 0 !important;
+      font-size: 17px;
+      color: #333;
+    }
+    .idt-logo {
+      vertical-align: middle;
+    }
+    .idt-logo img {
+      font-weight: bold;
+      font-size: 18px;
+      color: #000;
+      text-align: center;
+    }
+    .legal-notes {
+      padding: 0 30px !important;
+      font-size: 10px;
+      line-height: 1.2;
+      color: #666;
+      vertical-align: middle;
+    }
+    .spacer {
+      width: 2%;
+    }
+    .warning {
+      border: 1px solid #f89ea0;
+      background: #fff4f4;
+      padding: 10px;
+      font-size: 12px;
+    }
+    .ph0 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .pl0 {
+      padding-left: 0;
+    }
+    .pr0 {
+      padding-right: 0;
+    }
+    .data-sep {
+      padding: 10px 0;
+    }
+    .data-v-sep {
+      height: 100%;
+      border-left: 1px solid #CCCCCC;
+    }
+    .smaller {
+      font-size: 18px;
+    }
+    sup {
+      position: relative;
+      top: -.15em;
+      vertical-align: top;
+    }
+    .link {
+      line-height: 2;
+      color: #006cd8;
+    }
+    .pad-bottom-no {
+      padding-bottom: 0;
+    }     
+    table.columns td.spec-pad {
+      padding: 10px 0px 0px;
+    }
+    table.twelve,
+    table.twelve center {
+      width: 100% !important;
+      max-width: 580px !important;
+      min-width: 100% !important;
+    }

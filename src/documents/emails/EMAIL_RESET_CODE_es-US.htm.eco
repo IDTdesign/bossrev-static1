@@ -1,0 +1,15 @@
+---
+layout: resetmails
+lang: es
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">Por favor, haga clic aquí {Url} <br /> para restablecer tu contraseña.</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>

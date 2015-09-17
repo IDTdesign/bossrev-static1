@@ -1,0 +1,16 @@
+---
+layout: resetmails
+lang: en
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">Please click here {Url} <br /> to reset your password.</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+

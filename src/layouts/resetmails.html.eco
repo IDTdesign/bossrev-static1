@@ -50,9 +50,9 @@
                             <tr>
                               <td class="center bosslink" align="center">
                                 <% if (@document.lang == 'en') : %>
-                                  <a href="http://www.bossrevolution.com?lang=en-DE" target="_blank" class="center bosslink">www.<strong class="red">boss</strong><strong class="black">revolution</strong>.de</a>
+                                  <a href="http://www.bossrevolution.com?lang=en-US" target="_blank" class="center bosslink">www.<strong class="red">boss</strong><strong class="black">revolution</strong>.com</a>
                                 <% else : %>
-                                  <a href="http://www.bossrevolution.com?lang=de-DE" target="_blank" class="center bosslink">www.<strong class="red">boss</strong><strong class="black">revolution</strong>.de</a>
+                                  <a href="http://www.bossrevolution.com?lang=es-US" target="_blank" class="center bosslink">www.<strong class="red">boss</strong><strong class="black">revolution</strong>.com</a>
                                 <% end %>                               
                               </td>
                               <td class="expander"></td>
@@ -67,50 +67,6 @@
                 </td>
               </tr>
             </table>
-
-            <table class="row footer">
-              <tbody>
-                <tr>
-                  <td class="center" align="center">
-                    <center>
-                      
-                      <table class="container">
-                        <tbody>
-                          <tr>
-                            <td class="wrapper last">
-                              
-                              <table class="fullwidth">
-                                <tbody>
-                                  <tr>
-                                    <td class="center sign-text" align="center" style="padding-top:10px !important;">
-                                      <center>
-                                        <% if (@document.lang == 'en') : %>
-                                          Thank you,
-                                          <br />Boss Revolution Customer Services
-                                        <% else : %>
-                                          Vielen Dank,
-                                          <br />Boss Revolution Kundendienst
-                                        <% end %>   
-                                      </center>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td style="heigth:30px;"><br/></td>
-                                  </tr>
-                                </tbody>
-                              </table>
-
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-
-                    </center>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
           </center>
         </td>
       </tr>
