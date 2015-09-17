@@ -1,0 +1,105 @@
+---
+layout: dmtuemails
+lang: en
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">Thank you!<br />Your Boss Revolution transaction has completed successfully.</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="twelve columns">
+  <tr>
+    <td class="shadow">
+      <img src="<%= @getUrl("/images/shadow-separator.png")%>" alt="" data-inline-ignore />
+    </td>
+    <td class="expander"></td>
+  </tr>
+  <tr>
+    <td class="shadow">
+      <br />
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="center fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>
+    <td>
+      
+      <table class="greypane fullwidth">
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td><span class="label">Recipient Number:</span><br /><span class="data-value">{MSISDN}</span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
+          <td class="data-cell pr0">
+            <table class="fullwidth">
+              <tr>
+                <td><span class="label">Product Name:</span><br /><span class="data-value">{PRODUCT}</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td width="15"></td>
+        </tr>
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td><span class="label">Denomination:</span><br /><span class="data-value">{DENOM}</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
+          <td class="data-cell pr0">
+            <span class="label">Top-up Amount:</span><br /><span class="data-value-small">{AMOUNT –LOCAL CURR}</span>
+          </td>
+          <td width="15"></td>
+        </tr>
+
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;border-bottom:0;">
+            <table class="fullwidth">
+              <tr>
+                <td><span class="label">Top-up PIN:</span><br /><span class="data-value">{PIN}</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
+          <td class="data-cell pr0" style="border-bottom:0;">
+            <span class="label">&nbsp;</span>
+          </td>
+          <td width="15"></td>
+        </tr>
+      </table>
+
+
+    </td>
+    <td class='padding'></td>
+  </tr>
+</table>
+<table class="fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>                            
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value"><br/>For any questions or problems, please contact Customer Services at: <font class="red">0541 959 64990</font>.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>                              
+</table>
