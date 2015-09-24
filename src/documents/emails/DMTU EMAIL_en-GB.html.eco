@@ -1,13 +1,13 @@
 ---
-layout: dmtuemailsUS
-lang: es
+layout: dmtuemailsGB
+lang: en
 ---
 
 <table class="twelve columns salutaion">
   <tr>
     <td class="center" align="center">
 
-      <h1 class="center mainheader text-pad">¡Gracias!<br />Su compra se ha realizado correctamente. Utilice el siguiente PIN para recargar con su proveedor de servicios.</h1>
+      <h1 class="center mainheader text-pad">Thank you.<br />Your purchase was successful. Please use the PIN below to top-up with your service provider.</h1>
     
     </td>
     <td class="expander"></td>
@@ -40,7 +40,7 @@ lang: es
           <td class="data-cell ph0" style="padding-left:0;">
             <table class="fullwidth">
               <tr>
-                <td><span class="label">PIN:</span><br /><span class="data-value">{DMTU PIN}</span></td>
+                <td><span class="label">Topup PIN:</span><br /><span class="data-value">{DMTU PIN}</span></td>
               </tr>
             </table>
           </td>
@@ -48,7 +48,7 @@ lang: es
           <td class="data-cell pr0">
             <table class="fullwidth">
               <tr>
-                <td><span class="label">Nombre del producto:</span><br /><span class="data-value">{Product/Carrier}</span></td>
+                <td><span class="label">Product Name:</span><br /><span class="data-value">{Product/Carrier}</span></td>
               </tr>
             </table>
           </td>                                    
@@ -59,13 +59,13 @@ lang: es
           <td class="data-cell ph0" style="padding-left:0;border-bottom:0;">
             <table class="fullwidth">
               <tr>
-                <td><span class="label">Denominación:</span><br /><span class="data-value">{Amount/Denom}</span></td>
+                <td><span class="label">Denomination:</span><br /><span class="data-value">{Amount/Denom}</span></td>
               </tr>
             </table>
           </td>                                    
           <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
           <td class="data-cell pr0" style="border-bottom:0;">
-            <span class="label">Para Recargar:</span><br /><span class="data-value-small">{Carrier redemption instructions}</span>
+            <span class="label">To Top-up:</span><br /><span class="data-value-small">{Carrier redemption instructions}</span>
           </td>
           <td width="15"></td>
         </tr>
@@ -80,7 +80,7 @@ lang: es
     <td class="padding"></td>                            
     <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
 
-      <span class="data-value"><br/>Para cualquier pregunta o problema, por favor póngase en contacto con Servicio al Cliente al: <font class="red">0330 777 1564</font>.</span>
+      <span class="data-value"><br/>For any questions or problems, please contact Customer Services at: <font class="red">0330 777 1564</font>.</span>
     
     </td>
     <td class='padding'></td>

@@ -1,5 +1,5 @@
 ---
-layout: dmtuemailsUS
+layout: dmtuemailsGB
 lang: en
 ---
 
@@ -7,7 +7,7 @@ lang: en
   <tr>
     <td class="center" align="center">
 
-      <h1 class="center mainheader text-pad">Thank you.<br />Your purchase was successful. Please use the PIN below to top-up with your service provider.</h1>
+      <h1 class="center mainheader text-pad">Thank you!<br />Your Boss Revolution transaction has completed successfully.</h1>
     
     </td>
     <td class="expander"></td>
@@ -40,7 +40,7 @@ lang: en
           <td class="data-cell ph0" style="padding-left:0;">
             <table class="fullwidth">
               <tr>
-                <td><span class="label">Topup PIN:</span><br /><span class="data-value">{DMTU PIN}</span></td>
+                <td><span class="label">Recipient Number:</span><br /><span class="data-value">{MSISDN}</span></td>
               </tr>
             </table>
           </td>
@@ -48,7 +48,7 @@ lang: en
           <td class="data-cell pr0">
             <table class="fullwidth">
               <tr>
-                <td><span class="label">Product Name:</span><br /><span class="data-value">{Product/Carrier}</span></td>
+                <td><span class="label">Product Name:</span><br /><span class="data-value">{PRODUCT}</span></td>
               </tr>
             </table>
           </td>                                    
@@ -56,20 +56,37 @@ lang: en
         </tr>
         <tr>
           <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td><span class="label">Denomination:</span><br /><span class="data-value">{DENOM}</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
+          <td class="data-cell pr0">
+            <span class="label">Top-up Amount:</span><br /><span class="data-value-small">{AMOUNT + LOCAL CURR}</span>
+          </td>
+          <td width="15"></td>
+        </tr>
+
+        <tr>
+          <td width="15"></td>
           <td class="data-cell ph0" style="padding-left:0;border-bottom:0;">
             <table class="fullwidth">
               <tr>
-                <td><span class="label">Denomination:</span><br /><span class="data-value">{Amount/Denom}</span></td>
+                <td><span class="label">Top-up PIN:</span><br /><span class="data-value">{PIN}</span></td>
               </tr>
             </table>
           </td>                                    
           <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
           <td class="data-cell pr0" style="border-bottom:0;">
-            <span class="label">To Top-up:</span><br /><span class="data-value-small">{Carrier redemption instructions}</span>
+            <span class="label">&nbsp;</span>
           </td>
           <td width="15"></td>
         </tr>
       </table>
+
 
     </td>
     <td class='padding'></td>
