@@ -1,0 +1,105 @@
+---
+layout: dmtuemailsUS
+lang: es
+---
+
+<table class="twelve columns salutaion">
+  <tr>
+    <td class="center" align="center">
+
+      <h1 class="center mainheader text-pad">¡Gracias!<br />Su transacción Boss Revolution ha sido completada con éxito.</h1>
+    
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="twelve columns">
+  <tr>
+    <td class="shadow">
+      <img src="<%= @getUrl("/images/shadow-separator.png")%>" alt="" data-inline-ignore />
+    </td>
+    <td class="expander"></td>
+  </tr>
+  <tr>
+    <td class="shadow">
+      <br />
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
+
+<table class="center fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>
+    <td>
+      
+      <table class="greypane fullwidth">
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td><span class="label">Número de Móvil Internacional:</span><br /><span class="data-value">{MSISDN}</span></td>
+              </tr>
+            </table>
+          </td>
+          <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
+          <td class="data-cell pr0">
+            <table class="fullwidth">
+              <tr>
+                <td><span class="label">Nombre del Producto:</span><br /><span class="data-value">{PRODUCT}</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td width="15"></td>
+        </tr>
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;">
+            <table class="fullwidth">
+              <tr>
+                <td><span class="label">Denominación:</span><br /><span class="data-value">{DENOM}</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
+          <td class="data-cell pr0">
+            <span class="label">Monto:</span><br /><span class="data-value-small">{AMOUNT + LOCAL CURR}</span>
+          </td>
+          <td width="15"></td>
+        </tr>
+
+        <tr>
+          <td width="15"></td>
+          <td class="data-cell ph0" style="padding-left:0;border-bottom:0;">
+            <table class="fullwidth">
+              <tr>
+                <td><span class="label">PIN de Recarga:</span><br /><span class="data-value">{PIN}</span></td>
+              </tr>
+            </table>
+          </td>                                    
+          <td class="data-sep"><div class="data-v-sep" style='height:39px'></div></td>
+          <td class="data-cell pr0" style="border-bottom:0;">
+            <span class="label">&nbsp;</span>
+          </td>
+          <td width="15"></td>
+        </tr>
+      </table>
+
+
+    </td>
+    <td class='padding'></td>
+  </tr>
+</table>
+<table class="fullwidth" style="table-layout:fixed">
+  <tr>
+    <td class="padding"></td>                            
+    <td class="data-cell ph0" style="padding-left:0;padding-right:0;border-bottom: 0;">
+
+      <span class="data-value"><br/>Para cualquier pregunta o problema, por favor póngase en contacto con Servicio al Cliente al: <font class="red">0330 777 1564</font>.</span>
+    
+    </td>
+    <td class='padding'></td>
+  </tr>                              
+</table>
