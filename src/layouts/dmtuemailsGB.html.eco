@@ -50,9 +50,9 @@
                             <tr>
                               <td class="center bosslink" align="center">
                                 <% if (@document.lang == 'en') : %>
-                                  <a href="http://www.bossrevolution.co.uk?lang=en-US" target="_blank" class="center bosslink">www.<strong class="red">boss</strong><strong class="black">revolution</strong>.co.uk</a>
+                                  <a href="http://www.bossrevolution.co.uk?lang=en-GB" target="_blank" class="center bosslink">www.<strong class="red">boss</strong><strong class="black">revolution</strong>.co.uk</a>
                                 <% else : %>
-                                  <a href="http://www.bossrevolution.co.uk?lang=es-US" target="_blank" class="center bosslink">www.<strong class="red">boss</strong><strong class="black">revolution</strong>.co.uk</a>
+                                  <a href="http://www.bossrevolution.co.uk?lang=es-GB" target="_blank" class="center bosslink">www.<strong class="red">boss</strong><strong class="black">revolution</strong>.co.uk</a>
                                 <% end %>                               
                               </td>
                               <td class="expander"></td>
