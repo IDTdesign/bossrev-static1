@@ -4,7 +4,7 @@ module.exports = (grunt) =>
 
 		pkg: grunt.file.readJSON('package.json')
 
-		inlinecss: 
+		inlinecss:
 			main:
 				options: [
 					webResources: {images: false}
@@ -13,10 +13,10 @@ module.exports = (grunt) =>
 					expand: true,
 					cwd: 'out/emails/',
 					src: ['*.html'],
-					dest: 'out/emails/inlined/'
+					dest: 'src/files/emails/inlined/'
 				]
 
-		watch: 
+		watch:
 			files: ['out/emails/*.html'],
 			tasks: ['inlinecss']
 
