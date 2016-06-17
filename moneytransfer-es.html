@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport"content="width=device-width" />
+  <title>
+  http://idtdesign.github.io/bossrev-static1/Money%20Transfer%20page - Boss Revolution Retailers Site
+  </title>
+
+  <link rel="stylesheet" type="text/css" href="http://idtdesign.github.io/bossrev-static1/inc/bossrevolution-en.css"></link>
+  <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  
+  <link href="http://idtdesign.github.io/bossrev-static1/css/moneytransfer.css" rel="stylesheet" type="text/css" />
+  
+  <link href="http://idtdesign.github.io/bossrev-static1/css/flags.css" rel="stylesheet" type="text/css" />
+
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <script src="http://idtdesign.github.io/bossrev-static1/scripts/jquery-1.5.2.min.js"></script>
+</head>
+<body class="main">
+<!--[if IE]>
+<style>
+ul.menu-footer li {
+	padding: 7px 1px 0 1px;
+}
+ul.menu-footer li.leftcap {
+	padding:0;
+	margin:0;
+}
+ul.menu-footer li.rightcap {
+	padding:0;
+	margin:0;
+}
+label.rateDDL-lbl:after {
+top: -16px;
+}
+</style>
+<![endif]-->
+<!--[if lt IE 9]>
+<style>
+ul.menu-footer li {
+	padding: 7px 2px 0 1px;
+}
+</style>
+<![endif]-->
+<!--[if IE 7]>
+<style>
+ul.menus li ul {
+    left:645px;
+}
+</style>
+<![endif]-->
+<!--Header -->
+<div id="content">
+  <div class="header-flash" id="flash-en">
+    <div id="flash-en" class="header-flash">
+      <div class="VideoLikeContent">  
+        <a href="/HolidayMobileApps.aspx"><img src="http://idtdesign.github.io/bossrev-static1/promo/MobileAppExtension-Bnr-600x130-ENG.png" alt="BossRevolution" width="600" height="130" border="0" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <div class="telNo">
+  	  For Sales <br>Assistance, Call <br>1-800-871-0135
+    </div>
+    <div class="vacio">&nbsp;</div>
+    <div class="home-lnk" onclick="document.location='/default.aspx'">&nbsp;</div>
+    <div class="banner"><span class="hide">banner</span></div>
+    <form name="theForm"  method="POST">
+      <div class="bloque-login">
+        <div onclick="clearDv(this)" id="secTxt">Security Code</div>
+        <div class="my-account"><span class="hide">My Account</span></div>
+        <div class="e-mail">
+          <input type="text" id="pin" onfocus="clearText (this);" onblur="restoreText (this);" name="pin" value="Registered Phone Number" />
+          <div id="pinVal" style="display: none;">*</div>
+        </div>
+        <div class="code">
+          <input type="password" id="SecCode" onfocus="clearText2 (this);" onblur="restoreText2 (this);" name="SecCode" />
+          <div id="secVal" style="display: none;">*</div>
+        </div>
+        <input type="button" id="btn_login" class="bt-login" onclick="if(!ValidateFields()) return false;theForm.action='https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/login.aspx?lang=en-US'; theForm.submit()" value="" />
+      </div>
+    </form>
+    <div class="menu">
+      <ul class="menus">
+        <li><a class="link_1" title="Home" href="/">Home</a></li>
+        <li class="divider"></li>
+        <li><a class="link_2" title="Add Funds" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/Recharge.aspx?lang=en-US">Add Funds</a></li>
+        <li class="divider"></li>
+        <li><a class="link_3" title="Rates" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/rates.aspx?lang=en-US">Rates</a></li>
+        <li class="divider"></li>
+        <li><a class="link_4" title="Join Boss Revolution" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/signup/default.aspx?lang=en-US">Join Boss Revolution</a></li>	  
+        <li class="divider"></li>
+        <li><a class="link_5" title="Mobile Apps" href="/MobileApps.aspx">Mobile Apps</a></li>
+        <li class="divider"></li>
+        <li><a class="link_6" title="FEATURES" href="/Features.aspx">Features</a><ul class="submenu"><li><a title="HOW IT WORKS" href="/How.aspx">How it Works</a></li><li><a href="Refer-A-Friend.aspx">Refer a Friend</a></li></ul></li>
+        <li class="divider"></li>
+        <li><a class="link_7" title="Mobile Top Up" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/mtu.aspx?lang=en-US">Mobile Top Up</a></li>
+        <li class="divider"></li>
+        <li><a class="link_8" title="My Account" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/splash.aspx?lang=en-US">My Account</a></li>
+      </ul>	
+    </div>
+  </div>
+  <div id='country_selection'>
+    <ul id='nav'>
+      <li class='language'><a href="?lang=en-US" class="selected">English</a></li>
+      <li class='language'><a href="?lang=es-US" class="">Español</a></li>
+      <li class='country' onmouseout='hideCountries()' onmouseover='showCountries()'>
+        <a href="" class="flag us"></a>
+        <ul id='boss_countries'>
+          <li><a href="https://bossrevolution.co.uk" class="flag uk" target="_blank"></a></li>
+          <li><a href="http://bossrevolution.es" class="flag es" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.de" class="flag de" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.com.hk" class="flag hk" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.com.sg" class="flag sg" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.com.au" class="flag au" target="_blank"></a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!--Fin Header2 -->
+
+  <div class="hp">
+   
+    <div class="money-transfer es">    
+    <div class="content">
+        <h1>CADA VEZ QUE ENVÍAS DINEROC<br /><span class="highlight">ALGO BUENO SUCEDE</span></h1>
+        <h3>Ahora puedes mandar dinero a Latinoamérica con <br /><span class="highlight">Boss Revolution</span><span class="highlight light">&#8480;</span> <span class="highlight">Envío de Dinero</span> para ayudar a tus seres queridos.</h3>
+        <div>
+            <div class="promo bordered p1">
+                <div class="photo">photo</div>
+                <p>Es fácil enviar dinero a tus seres queridos porque contamos con miles de puntos de pago en Latinoamérica, añadiendo pagadores todo el tiempo.</p>
+            </div>
+            <div class="promo bordered p2 right">
+                <div class="photo">photo</div>
+                <p>Escoge el servicio de entrega que más te beneficie – en efectivo, deposito en cuenta bancaria, entrega a domicilio.</p>
+            </div>
+            <div class="promo bordered p3">
+                <div class="photo">photo</div>
+                <p>Recibe una llamada gratis con cada envío para avisarle a los tuyos que le mandaste dinero.<span class="highlight light">*</span></p>
+            </div>
+            <div class="promo logo right">
+                <img class="photo" src="images/logo.png" alt="Boss Revolution" />
+                <p>Visita tu tienda participante <span class="highlight">Boss Revolution</span> más<br />cercana y envía dinero hoy</p>
+            </div>
+        </div>
+        <div class="terms_block">
+            La Transferencia de dinero y los servicios de pago son proporcionados por IDT Payment Services, Inc. (“IDT Payment”), un transmisor de dinero con licencia. IDT Payment puede ganar dinero cuando cambia sus dólares a moneda extranjera. El acceso a los productos y servicios de transferencia de dinero puede ser limitado, puede tener retrasos o no estar disponible durante los períodos de máxima demanda, la volatilidad del mercado, las actualizaciones del sistema o el mantenimiento, o problemas en el sistema de comunicación. La transferencia de fondos puede tener retrasos o no estar disponible basado a ciertas condiciones de la transacción, incluyendo la cantidad enviada, país de destino, disponibilidad de divisas, asuntos regulatorios, requisitos de identicación y horario del agente. Pueden aplicarse restricciones adicionales. Ver el producto o el Agente para más detalles.
+            <span class="highlight light">*</span>Por cada transacción de transferencia internacional de dinero, persona a persona, enviada con IDT Payment a través de Boss Revolution, vamos a depositar un mínimo de $0.30 en la cuenta de Boss Revolution del remitente de forma gratuita. La cantidad del saldo gratis depende del país de destino al cual se realiza la transferencia de dinero. Este saldo promocional puede utilizarse para llamar a cualquier destino atendido por Boss Revolution. Si el remitente no tiene una cuenta de Boss Revolution, una cuenta será creada para ellos con un saldo inicial de $1. El servicio de Boss Revolution esta sujeto a los términos y condiciones. Visite <a href="http://www.bossrevolution.com" target="_blank">www.bossrevolution.com</a> para ver los términos completos, las tasas actuales y la información adicional. El Servicio de Boss Revolution es proporcionado por IDT Domestic Telecom, Inc. Todos los derechos reservados.
+        </div>
+    </div>
+</div>
+
+  </div> 	
+  <div class="push"></div>
+
+</div><!--closes div opened in header-->
+<!--try to make it sticky footer-->
+<div class="footer-container">
+  <div class="footer-inner-container">
+    <ul class="menu-footer">
+    	<li class="leftcap">&nbsp;</li>
+    	<li><p>Copyright &copy; 2014 IDT Telecom, Inc.<br/>All rights reserved.</p></li>
+    	<li><a href="javascript:if(window.open('http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&v_shortname=SC5&v_search=http://bossrevolution.com/&x=6&y=5','tl_wnd_credentials'+(new Date()).getTime(),'toolbar=0,scrollbars=1,location=1,status=1,menubar=1,resizable=1,width=374,height=660,left=60,top=120')){};tLlB(tLTB);"><div class="tarjetas"></div></a>
+    	</li>
+    	<li><a href="/dealer.aspx">Become our Reseller</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/slap_the_guy.aspx">Slap the Guy</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/terms.aspx">Terms &amp; Conditions</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/privacy/" target="_blank">Privacy Policy</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/Site-map.aspx">Site Map</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/faq.aspx">FAQ</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/contact.aspx">Contact Us</a></li>
+    	<li class='idt_logo'><a href="http://www.idt.net" class="compcard idt" target="_blank"></a></li>
+    	<li class="rightcap">&nbsp;</li>	
+    </ul>
+  </div>
+   <div class="footer-bottom">&nbsp;<!--black bar at bottom of page--></div>
+</div>
+<input type="hidden" id="gwProxy" /><!--Session data--><input type="hidden" id="jsProxy" onclick="jsCall();" />
+<div id="refHTML" style="display:none">&nbsp;</div>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none; position: absolute; bottom:0" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1000461341/?value=0&label=6N0HCMPE3QMQnaiH3QM&guid=ON&script=0"/>
+  </div>
+</noscript>
+</body>
+</html>

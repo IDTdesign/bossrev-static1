@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport"content="width=device-width" />
+  <title>
+  http://idtdesign.github.io/bossrev-static1/Landing%20page - Boss Revolution Retailers Site
+  </title>
+
+  <link rel="stylesheet" type="text/css" href="http://idtdesign.github.io/bossrev-static1/inc/bossrevolution-en.css"></link>
+  <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  
+  <link href="http://idtdesign.github.io/bossrev-static1/css/landing.css" rel="stylesheet" type="text/css" />
+  
+  <link href="http://idtdesign.github.io/bossrev-static1/css/flags.css" rel="stylesheet" type="text/css" />
+
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <script src="http://idtdesign.github.io/bossrev-static1/scripts/jquery-1.5.2.min.js"></script>
+</head>
+<body class="main">
+<!--[if IE]>
+<style>
+ul.menu-footer li {
+	padding: 7px 1px 0 1px;
+}
+ul.menu-footer li.leftcap {
+	padding:0;
+	margin:0;
+}
+ul.menu-footer li.rightcap {
+	padding:0;
+	margin:0;
+}
+label.rateDDL-lbl:after {
+top: -16px;
+}
+</style>
+<![endif]-->
+<!--[if lt IE 9]>
+<style>
+ul.menu-footer li {
+	padding: 7px 2px 0 1px;
+}
+</style>
+<![endif]-->
+<!--[if IE 7]>
+<style>
+ul.menus li ul {
+    left:645px;
+}
+</style>
+<![endif]-->
+<!--Header -->
+<div id="content">
+  <div class="header-flash" id="flash-en">
+    <div id="flash-en" class="header-flash">
+      <div class="VideoLikeContent">  
+        <a href="/HolidayMobileApps.aspx"><img src="http://idtdesign.github.io/bossrev-static1/promo/MobileAppExtension-Bnr-600x130-ENG.png" alt="BossRevolution" width="600" height="130" border="0" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <div class="telNo">
+  	  For Sales <br>Assistance, Call <br>1-800-871-0135
+    </div>
+    <div class="vacio">&nbsp;</div>
+    <div class="home-lnk" onclick="document.location='/default.aspx'">&nbsp;</div>
+    <div class="banner"><span class="hide">banner</span></div>
+    <form name="theForm"  method="POST">
+      <div class="bloque-login">
+        <div onclick="clearDv(this)" id="secTxt">Security Code</div>
+        <div class="my-account"><span class="hide">My Account</span></div>
+        <div class="e-mail">
+          <input type="text" id="pin" onfocus="clearText (this);" onblur="restoreText (this);" name="pin" value="Registered Phone Number" />
+          <div id="pinVal" style="display: none;">*</div>
+        </div>
+        <div class="code">
+          <input type="password" id="SecCode" onfocus="clearText2 (this);" onblur="restoreText2 (this);" name="SecCode" />
+          <div id="secVal" style="display: none;">*</div>
+        </div>
+        <input type="button" id="btn_login" class="bt-login" onclick="if(!ValidateFields()) return false;theForm.action='https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/login.aspx?lang=en-US'; theForm.submit()" value="" />
+      </div>
+    </form>
+    <div class="menu">
+      <ul class="menus">
+        <li><a class="link_1" title="Home" href="/">Home</a></li>
+        <li class="divider"></li>
+        <li><a class="link_2" title="Add Funds" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/Recharge.aspx?lang=en-US">Add Funds</a></li>
+        <li class="divider"></li>
+        <li><a class="link_3" title="Rates" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/rates.aspx?lang=en-US">Rates</a></li>
+        <li class="divider"></li>
+        <li><a class="link_4" title="Join Boss Revolution" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/signup/default.aspx?lang=en-US">Join Boss Revolution</a></li>	  
+        <li class="divider"></li>
+        <li><a class="link_5" title="Mobile Apps" href="/MobileApps.aspx">Mobile Apps</a></li>
+        <li class="divider"></li>
+        <li><a class="link_6" title="FEATURES" href="/Features.aspx">Features</a><ul class="submenu"><li><a title="HOW IT WORKS" href="/How.aspx">How it Works</a></li><li><a href="Refer-A-Friend.aspx">Refer a Friend</a></li></ul></li>
+        <li class="divider"></li>
+        <li><a class="link_7" title="Mobile Top Up" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/mtu.aspx?lang=en-US">Mobile Top Up</a></li>
+        <li class="divider"></li>
+        <li><a class="link_8" title="My Account" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/splash.aspx?lang=en-US">My Account</a></li>
+      </ul>	
+    </div>
+  </div>
+  <div id='country_selection'>
+    <ul id='nav'>
+      <li class='language'><a href="?lang=en-US" class="selected">English</a></li>
+      <li class='language'><a href="?lang=es-US" class="">Español</a></li>
+      <li class='country' onmouseout='hideCountries()' onmouseover='showCountries()'>
+        <a href="" class="flag us"></a>
+        <ul id='boss_countries'>
+          <li><a href="https://bossrevolution.co.uk" class="flag uk" target="_blank"></a></li>
+          <li><a href="http://bossrevolution.es" class="flag es" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.de" class="flag de" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.com.hk" class="flag hk" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.com.sg" class="flag sg" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.com.au" class="flag au" target="_blank"></a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!--Fin Header2 -->
+
+  <div class="hp">
+   
+    <div class="call-me">    
+    <a class="flyer" href="#">Special ofer</a>
+    <div class="content">
+        <h1>Call me</h1>
+        <h3>Recieive unlimited calls from your home country to your home country to your U.S. phone</h3>
+        <p>
+          With <span class="highlight">call me</span>, you'll recieve a local phone number from your home country that will be forwarded to your U.S. phone here. You pay one flat rate and your friends and family will be able to call you at local call rate as if you were still back home.
+        </p>
+        <p>No contractor or obligations. Your local phone number will be valid for 30 days. If you wish to keep the same local number, simply renew you <span class="highlight">call me</span> plan before the plan expiration date.</p>
+        <div class="available_cities">
+          <span class="highlight">call me</span> is available for the following countries:
+          <ul>
+            <li>
+              <a href="#" class="flag ag">Argentina<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Buenos Aires, Cordoba, Rosario, Mendoza
+                </span>
+              </a>              
+            </li>
+            <li>
+              <a href="#" class="flag br">Brazil<span>/cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Sao Paulo, Rio de Janeiro, Salvador, Brasilia
+                </span>
+              </a>              
+            </li>
+             <li>
+              <a href="#" class="flag ca">CANADA<span>/cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Sao Paulo, Rio de Janeiro, Salvador, Brasilia
+                </span>
+              </a>              
+            </li>
+            <li>
+              <a href="#" class="flag cl">Chile<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Santiago, Valparaiso, Concepcion
+                </span>
+              </a>              
+            </li>
+            <li>
+              <a href="#" class="flag dm">Dominican Republic<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Santo Domingo, La Vega, Moca, Santiago
+                </span>
+              </a>              
+            </li> 
+            <li>
+              <a href="#" class="flag sv">El Salvador<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  San Salvador
+                </span>
+              </a>              
+            </li>
+             <li>
+              <a href="#" class="flag gb">GREAT BRITAIN (UK)<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Calgary, Edmonton, Montreal, Ottawa, Quebec City, Toronto, Vancouver
+                </span>
+              </a>              
+            </li>           
+            <li>
+              <a href="#" class="flag il">Israel<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Jerusalem, Tel Aviv, Haifa
+                </span>
+              </a>              
+            </li>
+            <li>
+              <a href="#" class="flag mx">Mexico<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Monterrey, Mexico City, Puebla, San Luis Potosi, Guadalajara, Leon, Aguascalientes, Toluca, Queretaro, Veracruz, Jalapa, Celaya, Irapuato, Cordoba, Nuevo Laredo, Orizaba, Saltillo
+                </span>
+              </a>              
+            </li>
+            <li>
+              <a href="#" class="flag ng">NIGERIA<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Lagos
+                </span>
+              </a>              
+            </li>
+            <li>
+              <a href="#" class="flag pa">PANAMA<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  David, Panama City
+                </span>
+              </a>              
+            </li>            
+            <li>
+              <a href="#" class="flag pe">Peru<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Lima
+                </span>
+              </a>              
+            </li>
+            <li>
+              <a href="#" class="flag pl">POLAND<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Krakow, Lodz, Posnan, Warsaw, Wroclaw
+                </span>
+              </a>              
+            </li>
+            <li>
+              <a href="#" class="flag ve">VENEZUELA<span> /cities</span>
+                <span class="tooltip position_left_top">
+                  <strong>Local numbers available for these cities:</strong>
+                  Barquisimeto, Caracas, Maracaibo, Maracay, Valencia
+                </span>
+              </a>              
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="how-it-work">
+        <h3>How does <span class="highlight">call me</span> work?</h3>
+        It's easy to setup your  <span class="highlight">call me</span> service. 
+        <a href="#">Learn more &raquo;
+          <div class="tooltip position_bottom_left">
+            <strong>Local numbers available for these cities:</strong>
+            Monteray, Mexico City, Puebla, San Luis Potosi, Guadalajara, Monteray, Mexico City, Puebla, San Luis Potosi, Guadalajara, Monteray, Mexico City, Puebla, San Luis Potosi, Guadalajara,
+          </div>
+        </a>       
+      </div>
+       <div class="add-call-me">
+          <a href="#" class="add-me">
+            <span class="line1">ADD <strong>CALL ME</strong></span>
+            <span class="line2">to your</span>
+            <span class="line3">Boss Revolution account!</span>
+          </a>
+           Or
+          <a href="#" class="create-account">
+            <span class="line1">New to <span>Boss</span> Revolution</span>
+            <span class="line2">Create an account!</span>
+          </a>
+        </div>
+    </div>
+    <div class="terms_block">
+      <span>CALL ME</span> is a service of IDT Telecom. <span>CALL ME</span> <a href="#">terms and conditions &raquo;</a>
+    </div>
+</div>
+
+  </div> 	
+  <div class="push"></div>
+
+</div><!--closes div opened in header-->
+<!--try to make it sticky footer-->
+<div class="footer-container">
+  <div class="footer-inner-container">
+    <ul class="menu-footer">
+    	<li class="leftcap">&nbsp;</li>
+    	<li><p>Copyright &copy; 2014 IDT Telecom, Inc.<br/>All rights reserved.</p></li>
+    	<li><a href="javascript:if(window.open('http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&v_shortname=SC5&v_search=http://bossrevolution.com/&x=6&y=5','tl_wnd_credentials'+(new Date()).getTime(),'toolbar=0,scrollbars=1,location=1,status=1,menubar=1,resizable=1,width=374,height=660,left=60,top=120')){};tLlB(tLTB);"><div class="tarjetas"></div></a>
+    	</li>
+    	<li><a href="/dealer.aspx">Become our Reseller</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/slap_the_guy.aspx">Slap the Guy</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/terms.aspx">Terms &amp; Conditions</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/privacy/" target="_blank">Privacy Policy</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/Site-map.aspx">Site Map</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/faq.aspx">FAQ</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/contact.aspx">Contact Us</a></li>
+    	<li class='idt_logo'><a href="http://www.idt.net" class="compcard idt" target="_blank"></a></li>
+    	<li class="rightcap">&nbsp;</li>	
+    </ul>
+  </div>
+   <div class="footer-bottom">&nbsp;<!--black bar at bottom of page--></div>
+</div>
+<input type="hidden" id="gwProxy" /><!--Session data--><input type="hidden" id="jsProxy" onclick="jsCall();" />
+<div id="refHTML" style="display:none">&nbsp;</div>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none; position: absolute; bottom:0" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1000461341/?value=0&label=6N0HCMPE3QMQnaiH3QM&guid=ON&script=0"/>
+  </div>
+</noscript>
+</body>
+</html>

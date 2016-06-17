@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport"content="width=device-width" />
+  <title>
+  http://idtdesign.github.io/bossrev-static1/Splash%20page - Boss Revolution Retailers Site
+  </title>
+
+  <link rel="stylesheet" type="text/css" href="http://idtdesign.github.io/bossrev-static1/inc/bossrevolution-en.css"></link>
+  <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  
+  <link href="http://idtdesign.github.io/bossrev-static1/css/splash.css" rel="stylesheet" type="text/css" />
+  
+  <link href="http://idtdesign.github.io/bossrev-static1/css/flags.css" rel="stylesheet" type="text/css" />
+
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <script src="http://idtdesign.github.io/bossrev-static1/scripts/jquery-1.5.2.min.js"></script>
+</head>
+<body class="main">
+<!--[if IE]>
+<style>
+ul.menu-footer li {
+	padding: 7px 1px 0 1px;
+}
+ul.menu-footer li.leftcap {
+	padding:0;
+	margin:0;
+}
+ul.menu-footer li.rightcap {
+	padding:0;
+	margin:0;
+}
+label.rateDDL-lbl:after {
+top: -16px;
+}
+</style>
+<![endif]-->
+<!--[if lt IE 9]>
+<style>
+ul.menu-footer li {
+	padding: 7px 2px 0 1px;
+}
+</style>
+<![endif]-->
+<!--[if IE 7]>
+<style>
+ul.menus li ul {
+    left:645px;
+}
+</style>
+<![endif]-->
+<!--Header -->
+<div id="content">
+  <div class="header-flash" id="flash-en">
+    <div id="flash-en" class="header-flash">
+      <div class="VideoLikeContent">  
+        <a href="/HolidayMobileApps.aspx"><img src="http://idtdesign.github.io/bossrev-static1/promo/MobileAppExtension-Bnr-600x130-ENG.png" alt="BossRevolution" width="600" height="130" border="0" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <div class="telNo">
+  	  For Sales <br>Assistance, Call <br>1-800-871-0135
+    </div>
+    <div class="vacio">&nbsp;</div>
+    <div class="home-lnk" onclick="document.location='/default.aspx'">&nbsp;</div>
+    <div class="banner"><span class="hide">banner</span></div>
+    <form name="theForm"  method="POST">
+      <div class="bloque-login">
+        <div onclick="clearDv(this)" id="secTxt">Security Code</div>
+        <div class="my-account"><span class="hide">My Account</span></div>
+        <div class="e-mail">
+          <input type="text" id="pin" onfocus="clearText (this);" onblur="restoreText (this);" name="pin" value="Registered Phone Number" />
+          <div id="pinVal" style="display: none;">*</div>
+        </div>
+        <div class="code">
+          <input type="password" id="SecCode" onfocus="clearText2 (this);" onblur="restoreText2 (this);" name="SecCode" />
+          <div id="secVal" style="display: none;">*</div>
+        </div>
+        <input type="button" id="btn_login" class="bt-login" onclick="if(!ValidateFields()) return false;theForm.action='https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/login.aspx?lang=en-US'; theForm.submit()" value="" />
+      </div>
+    </form>
+    <div class="menu">
+      <ul class="menus">
+        <li><a class="link_1" title="Home" href="/">Home</a></li>
+        <li class="divider"></li>
+        <li><a class="link_2" title="Add Funds" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/Recharge.aspx?lang=en-US">Add Funds</a></li>
+        <li class="divider"></li>
+        <li><a class="link_3" title="Rates" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/rates.aspx?lang=en-US">Rates</a></li>
+        <li class="divider"></li>
+        <li><a class="link_4" title="Join Boss Revolution" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/signup/default.aspx?lang=en-US">Join Boss Revolution</a></li>	  
+        <li class="divider"></li>
+        <li><a class="link_5" title="Mobile Apps" href="/MobileApps.aspx">Mobile Apps</a></li>
+        <li class="divider"></li>
+        <li><a class="link_6" title="FEATURES" href="/Features.aspx">Features</a><ul class="submenu"><li><a title="HOW IT WORKS" href="/How.aspx">How it Works</a></li><li><a href="Refer-A-Friend.aspx">Refer a Friend</a></li></ul></li>
+        <li class="divider"></li>
+        <li><a class="link_7" title="Mobile Top Up" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/mtu.aspx?lang=en-US">Mobile Top Up</a></li>
+        <li class="divider"></li>
+        <li><a class="link_8" title="My Account" href="https://www.bossrevolution.com/debit/2.0/bossrevolution/customers/account/splash.aspx?lang=en-US">My Account</a></li>
+      </ul>	
+    </div>
+  </div>
+  <div id='country_selection'>
+    <ul id='nav'>
+      <li class='language'><a href="?lang=en-US" class="selected">English</a></li>
+      <li class='language'><a href="?lang=es-US" class="">Español</a></li>
+      <li class='country' onmouseout='hideCountries()' onmouseover='showCountries()'>
+        <a href="" class="flag us"></a>
+        <ul id='boss_countries'>
+          <li><a href="https://bossrevolution.co.uk" class="flag uk" target="_blank"></a></li>
+          <li><a href="http://bossrevolution.es" class="flag es" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.de" class="flag de" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.com.hk" class="flag hk" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.com.sg" class="flag sg" target="_blank"></a></li>
+          <li><a href="https://bossrevolution.com.au" class="flag au" target="_blank"></a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!--Fin Header2 -->
+
+  <div class="hp">
+   
+    <link rel="stylesheet" href="scripts/chosen/chosen.css">
+<div class="page-canvas">
+	<div class="promo-banner">
+		<img src="images/banner-english.png" alt="">
+	</div>
+	<div class="centered-layout">
+		<h1 class="page-header">Boss Revolution Makes Paying Your Bills Easier</h1>
+		<div class="columns cols-2">
+			<div class="column"><p>You can now pay your bills for over 3,000 billers at your participating Boss Revolution retailer. Choose next business day or three business day payment – whichever is best for you.</p></div>
+			<div class="column"><p>So now when you recharge your international calling account, you can pay your bills too – saving you time and giving you the confidence your bills will be paid on time without worrying about postage and mailing payment.</p></div>
+		</div>
+	</div>
+	<h3 class="centered">Participating billers include:</h3>
+	<form action="splash.html" class="centered billers-selector">
+		<select name="" id="" class="style-bright" data-placeholder="Cable/Internet/Phone">
+			<option value="-1" selected></option>
+			<option value="">AT&T Bill (SBC-CA)</option>
+			<option value="">AT&T Bill (SBC-AR,KS,MO,OK,TX)</option>
+			<option value="">AT&T Local and Long Distance</option>
+			<option value="">CenturyLink</option>
+			<option value="">Southern California Edison SCE</option>
+			<option value="">Cox Communications</option>
+			<option value="">Alabama Power</option>
+			<option value="">Alcosan</option>
+			<option value="">West Penn Power</option>
+			<option value="">Allstate Insurance</option>
+			<option value="">American Express</option>
+			<option value="">American TV</option>
+			<option value="">AT&T Bill (SBC-IL,IN,MI,OH,WI)</option>
+			<option value="">APS - Arizona Public Service</option>
+			<option value="">Speedway</option>
+			<option value="">Baltimore Gas and Electric</option>
+			<option value="">Columbia Gas of Massachusetts</option>
+			<option value="">Bloomingdales</option>
+			<option value="">Macys</option>
+			<option value="">Bon Ton / Elder Beerman</option>
+			<option value="">Boscovs</option>
+			<option value="">National Grid-Keyspan Energy-dupe</option>
+			<option value="">Brooks Brothers</option>
+			<option value="">California Water Service Co</option>
+			<option value="">Catherines</option>
+			<option value="">Central Maine Power</option>
+			<option value="">Chevron and Texaco</option>
+			<option value="">Chicago Tribune</option>
+			<option value="">Place Card</option>
+			<option value="">City of LA Municipal Services CA</option>
+			<option value="">Color Tile</option>	
+		</select>
+		<select name="" id="" class="style-bright" data-placeholder="Cellular">
+			<option value="-1" selected></option>
+			<option value="">AT&T Bill (SBC-CA)</option>
+			<option value="">AT&T Bill (SBC-AR,KS,MO,OK,TX)</option>
+			<option value="">AT&T Local and Long Distance</option>
+			<option value="">CenturyLink</option>
+			<option value="">Southern California Edison SCE</option>
+			<option value="">Cox Communications</option>
+			<option value="">Alabama Power</option>
+			<option value="">Alcosan</option>
+			<option value="">West Penn Power</option>
+			<option value="">Allstate Insurance</option>
+			<option value="">American Express</option>
+			<option value="">American TV</option>
+			<option value="">AT&T Bill (SBC-IL,IN,MI,OH,WI)</option>
+			<option value="">APS - Arizona Public Service</option>
+			<option value="">Speedway</option>
+			<option value="">Baltimore Gas and Electric</option>
+			<option value="">Columbia Gas of Massachusetts</option>
+			<option value="">Bloomingdales</option>
+			<option value="">Macys</option>
+			<option value="">Bon Ton / Elder Beerman</option>
+			<option value="">Boscovs</option>
+			<option value="">National Grid-Keyspan Energy-dupe</option>
+			<option value="">Brooks Brothers</option>
+			<option value="">California Water Service Co</option>
+			<option value="">Catherines</option>
+			<option value="">Central Maine Power</option>
+			<option value="">Chevron and Texaco</option>
+			<option value="">Chicago Tribune</option>
+			<option value="">Place Card</option>
+			<option value="">City of LA Municipal Services CA</option>
+			<option value="">Color Tile</option>
+		</select>
+		<select name="" id="" class="style-bright" data-placeholder="Credit Card/Retailer">
+			<option value="-1" selected></option>
+			<option value="">AT&T Bill (SBC-CA)</option>
+			<option value="">AT&T Bill (SBC-AR,KS,MO,OK,TX)</option>
+			<option value="">AT&T Local and Long Distance</option>
+			<option value="">CenturyLink</option>
+			<option value="">Southern California Edison SCE</option>
+			<option value="">Cox Communications</option>
+			<option value="">Alabama Power</option>
+			<option value="">Alcosan</option>
+			<option value="">West Penn Power</option>
+			<option value="">Allstate Insurance</option>
+			<option value="">American Express</option>
+			<option value="">American TV</option>
+			<option value="">AT&T Bill (SBC-IL,IN,MI,OH,WI)</option>
+			<option value="">APS - Arizona Public Service</option>
+			<option value="">Speedway</option>
+			<option value="">Baltimore Gas and Electric</option>
+			<option value="">Columbia Gas of Massachusetts</option>
+			<option value="">Bloomingdales</option>
+			<option value="">Macys</option>
+			<option value="">Bon Ton / Elder Beerman</option>
+			<option value="">Boscovs</option>
+			<option value="">National Grid-Keyspan Energy-dupe</option>
+			<option value="">Brooks Brothers</option>
+			<option value="">California Water Service Co</option>
+			<option value="">Catherines</option>
+			<option value="">Central Maine Power</option>
+			<option value="">Chevron and Texaco</option>
+			<option value="">Chicago Tribune</option>
+			<option value="">Place Card</option>
+			<option value="">City of LA Municipal Services CA</option>
+			<option value="">Color Tile</option>
+		</select>
+		<select name="" id="" class="style-bright" data-placeholder="Finance">
+			<option value="-1" selected></option>
+			<option value="">AT&T Bill (SBC-CA)</option>
+			<option value="">AT&T Bill (SBC-AR,KS,MO,OK,TX)</option>
+			<option value="">AT&T Local and Long Distance</option>
+			<option value="">CenturyLink</option>
+			<option value="">Southern California Edison SCE</option>
+			<option value="">Cox Communications</option>
+			<option value="">Alabama Power</option>
+			<option value="">Alcosan</option>
+			<option value="">West Penn Power</option>
+			<option value="">Allstate Insurance</option>
+			<option value="">American Express</option>
+			<option value="">American TV</option>
+			<option value="">AT&T Bill (SBC-IL,IN,MI,OH,WI)</option>
+			<option value="">APS - Arizona Public Service</option>
+			<option value="">Speedway</option>
+			<option value="">Baltimore Gas and Electric</option>
+			<option value="">Columbia Gas of Massachusetts</option>
+			<option value="">Bloomingdales</option>
+			<option value="">Macys</option>
+			<option value="">Bon Ton / Elder Beerman</option>
+			<option value="">Boscovs</option>
+			<option value="">National Grid-Keyspan Energy-dupe</option>
+			<option value="">Brooks Brothers</option>
+			<option value="">California Water Service Co</option>
+			<option value="">Catherines</option>
+			<option value="">Central Maine Power</option>
+			<option value="">Chevron and Texaco</option>
+			<option value="">Chicago Tribune</option>
+			<option value="">Place Card</option>
+			<option value="">City of LA Municipal Services CA</option>
+			<option value="">Color Tile</option>
+		</select>
+		<select name="" id="" class="style-bright" data-placeholder="Insurance">
+			<option value="-1" selected></option>
+			<option value="">AT&T Bill (SBC-CA)</option>
+			<option value="">AT&T Bill (SBC-AR,KS,MO,OK,TX)</option>
+			<option value="">AT&T Local and Long Distance</option>
+			<option value="">CenturyLink</option>
+			<option value="">Southern California Edison SCE</option>
+			<option value="">Cox Communications</option>
+			<option value="">Alabama Power</option>
+			<option value="">Alcosan</option>
+			<option value="">West Penn Power</option>
+			<option value="">Allstate Insurance</option>
+			<option value="">American Express</option>
+			<option value="">American TV</option>
+			<option value="">AT&T Bill (SBC-IL,IN,MI,OH,WI)</option>
+			<option value="">APS - Arizona Public Service</option>
+			<option value="">Speedway</option>
+			<option value="">Baltimore Gas and Electric</option>
+			<option value="">Columbia Gas of Massachusetts</option>
+			<option value="">Bloomingdales</option>
+			<option value="">Macys</option>
+			<option value="">Bon Ton / Elder Beerman</option>
+			<option value="">Boscovs</option>
+			<option value="">National Grid-Keyspan Energy-dupe</option>
+			<option value="">Brooks Brothers</option>
+			<option value="">California Water Service Co</option>
+			<option value="">Catherines</option>
+			<option value="">Central Maine Power</option>
+			<option value="">Chevron and Texaco</option>
+			<option value="">Chicago Tribune</option>
+			<option value="">Place Card</option>
+			<option value="">City of LA Municipal Services CA</option>
+			<option value="">Color Tile</option>
+		</select>
+		<select name="" id="" class="style-bright" data-placeholder="Utilities">
+			<option value="-1" selected></option>
+			<option value="">AT&T Bill (SBC-CA)</option>
+			<option value="">AT&T Bill (SBC-AR,KS,MO,OK,TX)</option>
+			<option value="">AT&T Local and Long Distance</option>
+			<option value="">CenturyLink</option>
+			<option value="">Southern California Edison SCE</option>
+			<option value="">Cox Communications</option>
+			<option value="">Alabama Power</option>
+			<option value="">Alcosan</option>
+			<option value="">West Penn Power</option>
+			<option value="">Allstate Insurance</option>
+			<option value="">American Express</option>
+			<option value="">American TV</option>
+			<option value="">AT&T Bill (SBC-IL,IN,MI,OH,WI)</option>
+			<option value="">APS - Arizona Public Service</option>
+			<option value="">Speedway</option>
+			<option value="">Baltimore Gas and Electric</option>
+			<option value="">Columbia Gas of Massachusetts</option>
+			<option value="">Bloomingdales</option>
+			<option value="">Macys</option>
+			<option value="">Bon Ton / Elder Beerman</option>
+			<option value="">Boscovs</option>
+			<option value="">National Grid-Keyspan Energy-dupe</option>
+			<option value="">Brooks Brothers</option>
+			<option value="">California Water Service Co</option>
+			<option value="">Catherines</option>
+			<option value="">Central Maine Power</option>
+			<option value="">Chevron and Texaco</option>
+			<option value="">Chicago Tribune</option>
+			<option value="">Place Card</option>
+			<option value="">City of LA Municipal Services CA</option>
+			<option value="">Color Tile</option>
+		</select>
+		<select name="" id="" class="style-bright" data-placeholder="Others">
+			<option value="-1" selected></option>
+			<option value="">AT&T Bill (SBC-CA)</option>
+			<option value="">AT&T Bill (SBC-AR,KS,MO,OK,TX)</option>
+			<option value="">AT&T Local and Long Distance</option>
+			<option value="">CenturyLink</option>
+			<option value="">Southern California Edison SCE</option>
+			<option value="">Cox Communications</option>
+			<option value="">Alabama Power</option>
+			<option value="">Alcosan</option>
+			<option value="">West Penn Power</option>
+			<option value="">Allstate Insurance</option>
+			<option value="">American Express</option>
+			<option value="">American TV</option>
+			<option value="">AT&T Bill (SBC-IL,IN,MI,OH,WI)</option>
+			<option value="">APS - Arizona Public Service</option>
+			<option value="">Speedway</option>
+			<option value="">Baltimore Gas and Electric</option>
+			<option value="">Columbia Gas of Massachusetts</option>
+			<option value="">Bloomingdales</option>
+			<option value="">Macys</option>
+			<option value="">Bon Ton / Elder Beerman</option>
+			<option value="">Boscovs</option>
+			<option value="">National Grid-Keyspan Energy-dupe</option>
+			<option value="">Brooks Brothers</option>
+			<option value="">California Water Service Co</option>
+			<option value="">Catherines</option>
+			<option value="">Central Maine Power</option>
+			<option value="">Chevron and Texaco</option>
+			<option value="">Chicago Tribune</option>
+			<option value="">Place Card</option>
+			<option value="">City of LA Municipal Services CA</option>
+			<option value="">Color Tile</option>
+		</select>
+	</form>
+</div>
+<div class="page-canvas">
+	<div class="tbl">
+		<div class="tbc idt-logo">
+			<img src="images/idt-symbol-of-trust.png" alt="">
+		</div>
+		<div class="tbc">
+			<p class="legal-notes">Posting times vary by biller. Standard Non-Contracted transactions are delivered within 3 business days. Next Day transactions are delivered on the following business day. Business days exclude weekends and other days banks are legally closed. Not all billers available at all locations and are subject to change. Fees may apply and are subject to change. Ask clerk for details. Bill payment services are provided by CheckFreePay Corporation, a licensed money transmitter, and CheckFreePay Corporation of New York, which is licensed as a Money Transmitter for payment services by the New York State Department of Financial Services (collectively “CheckFreePay”). Other products referenced in this material may be trademarks or registered trademarks of their respective companies. IDT, CheckFreePay and their affiliates are not responsible for incorrect information provided by consumer. © Copyright 2013 CheckFreePay Corporation. All rights reserved.</p>
+		</div>
+		<div class="tbc checkfree-logo">
+			<img src="images/cfpay_logo_140.gif" alt="">
+		</div>
+	</div>
+</div>
+<script src="scripts/chosen/chosen.jquery.min.js"></script>
+<script>
+	$("select.style-bright").chosen({
+		no_results_text: "Oops, nothing found!",
+    	width: "240px"
+	});
+</script>
+
+  </div> 	
+  <div class="push"></div>
+
+</div><!--closes div opened in header-->
+<!--try to make it sticky footer-->
+<div class="footer-container">
+  <div class="footer-inner-container">
+    <ul class="menu-footer">
+    	<li class="leftcap">&nbsp;</li>
+    	<li><p>Copyright &copy; 2014 IDT Telecom, Inc.<br/>All rights reserved.</p></li>
+    	<li><a href="javascript:if(window.open('http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&v_shortname=SC5&v_search=http://bossrevolution.com/&x=6&y=5','tl_wnd_credentials'+(new Date()).getTime(),'toolbar=0,scrollbars=1,location=1,status=1,menubar=1,resizable=1,width=374,height=660,left=60,top=120')){};tLlB(tLTB);"><div class="tarjetas"></div></a>
+    	</li>
+    	<li><a href="/dealer.aspx">Become our Reseller</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/slap_the_guy.aspx">Slap the Guy</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/terms.aspx">Terms &amp; Conditions</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/privacy/" target="_blank">Privacy Policy</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/Site-map.aspx">Site Map</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/faq.aspx">FAQ</a></li>
+    	<li>&nbsp;|&nbsp;</li>
+    	<li><a href="/contact.aspx">Contact Us</a></li>
+    	<li class='idt_logo'><a href="http://www.idt.net" class="compcard idt" target="_blank"></a></li>
+    	<li class="rightcap">&nbsp;</li>	
+    </ul>
+  </div>
+   <div class="footer-bottom">&nbsp;<!--black bar at bottom of page--></div>
+</div>
+<input type="hidden" id="gwProxy" /><!--Session data--><input type="hidden" id="jsProxy" onclick="jsCall();" />
+<div id="refHTML" style="display:none">&nbsp;</div>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none; position: absolute; bottom:0" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1000461341/?value=0&label=6N0HCMPE3QMQnaiH3QM&guid=ON&script=0"/>
+  </div>
+</noscript>
+</body>
+</html>

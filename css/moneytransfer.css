@@ -1,0 +1,150 @@
+.money-transfer {
+    margin-top:10px;
+    margin-left: 10px;
+    padding: 50px 42px 0px 42px;
+    background-color: #fff;
+    border-radius: 0 0 30px 30px;
+}
+.money-transfer h1,
+.money-transfer h3,
+.money-transfer div,
+.money-transfer p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*highlight*/
+.money-transfer .highlight {
+    font-weight: bold;
+    color: #dc0000;
+}
+.money-transfer .highlight.light {
+    font-weight: normal;
+}
+.money-transfer .content {
+    margin: 0 auto;
+    width: 800px;
+    color: #000;
+}
+.money-transfer h1 { 
+    margin: 0 -10px;
+    font: bold 50px 'Arial Black', sans-serif;
+    line-height: 47px;
+    text-align: center;
+    word-spacing: -1px;
+    letter-spacing: -2.2px;
+}
+.money-transfer.es h1 {
+    font-size: 49px;
+    line-height: 47px;
+    word-spacing: -2px;
+    letter-spacing: -3px;    
+}
+.money-transfer h3 {
+    margin: 15px 0 33px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 26px;
+}
+
+/*promo*/
+.money-transfer .promo {
+    height: 253px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABTCAQAAAD0WqX+AAAAL0lEQVQIW2M4vIDpyQMmJgYQYkYikUWwIqAUI4YgsgiEjZWEIGQ2JmJAZcBJKiEAlJcEJHy081AAAAAASUVORK5CYII=') 0 0 repeat-x;
+}
+.money-transfer .promo.bordered {
+    border-bottom: 3px solid #f1f1f1;
+}
+.money-transfer .promo.logo {
+    height: 190px;
+    position: relative;
+}
+.money-transfer .photo {
+    float: left;
+    width: 280px;
+    height: 253px;
+    text-indent: -9999px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.money-transfer .right .photo {
+    float: right;
+}
+.money-transfer .p1 .photo {
+    background-image: url(../images/pic01.png);
+}
+.money-transfer .p2 .photo {
+    background-image: url(../images/pic02.png);
+}
+.money-transfer .p3 .photo {
+    background-image: url(../images/pic03.png);
+}
+.money-transfer .logo .photo {
+    position: absolute;
+    width: 209px;
+    height: 278px;
+    right: 30px;
+    bottom: 15px;
+}
+.money-transfer p {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    float: right;
+    width: 520px;
+    height: 253px;
+    padding: 78px 78px 0 50px;
+    font-size: 22px;
+    font-weight: normal;
+}
+.money-transfer .right p {
+    float: left;
+}
+.money-transfer .p2 p {
+    padding-top: 88px; 
+    padding-right: 120px;
+}
+.money-transfer .p3 p {
+    padding-top: 90px; 
+    padding-right: 200px;
+}
+.money-transfer.es .p1 p {
+    padding-right: 87px; 
+}
+.money-transfer.es .p2 p {
+    padding-top: 75px; 
+}
+.money-transfer.es .p3 p {
+    padding-top: 80px; 
+    padding-right: 175px;
+}
+.money-transfer .logo p {
+    padding: 60px 0 0 15px;
+    height: auto;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 37px;
+}
+
+/*terms*/
+.terms_block {
+    margin: 0 15px;
+    padding: 5px 0 25px;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 10px;
+    letter-spacing: -0.08px;
+    word-spacing: -0.01px;
+    color: #666;
+    border-top: 1px solid #aaa;
+}
+.es .terms_block {
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+.terms_block a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #dc0000;
+}

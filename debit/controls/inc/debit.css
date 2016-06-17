@@ -1,0 +1,399 @@
+
+.small          { font-size: 9px; }
+.footertxt          {font-family: Arial, Helvetica, sans-serif; }
+
+a            {  font-family: Arial; color: #000000; text-decoration: underline;  font-size: 11px;}
+a:hover      {  text-decoration: none; color: #000000;}
+
+a.aemph2error            {  font-family: Arial; font-size: 11px; color: #CC3333; text-decoration: underline; }
+a.aemph2error:hover      {  text-decoration: none; }
+
+.emph1    { font-family: Arial; font-size: 12px; color: #D1970B; }
+
+.emph2error { font-family: Arial; font-size: 11px; color: #CC3333; }
+
+radio {
+font-family: Arial;   color: #4C9952; text-decoration: underline;  font-size: 11px;
+}
+.radio {
+	font-family: Arial;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+ul
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+li
+{
+	
+background-repeat: no-repeat;
+background-position: 0 .4em;
+padding-left: .8em;
+margin-left: .5em; 
+margin: .3em;
+
+}
+.showCalendar
+{
+ behavior: url(/ssi/calendar/v2/calendar.htc) ;
+ -moz-binding: url(/ssi/calendar/v2/moz-behaviors.xml#calendar.htc);
+}
+
+.ratetitle    { color: #CC0000; font-weight: bold; font-size: 15px;}
+.rateheader   { background-color:#EBEBEB; font-weight: bold; }
+.row4         { background-color:#CCCCCC;}
+.country      {
+
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.codecolumn		{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.location		{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.ratecolumn		{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.par-title		{
+	 
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+
+}
+.tdbgstrip {
+	background-image: url('/debit/2.0/controls/images/bg_dot1.gif');
+}
+.tdbgdot1 {
+	background-image: url('/debit/2.0/controls/images/bg_dot1.gif');
+
+}
+
+/* Account center */
+
+.content { font-family: Arial; font-size: 12px; }
+.content1 {background-color: #EBEBEB;  font-family: Arial; font-size: 12px;}
+.contentline {background-color: #CCCCCC;}
+
+input.PhoneTextBox
+{
+	font-family: Verdana, Tahoma, Trebuchet MS, Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	width: 50px;
+}
+
+input.PhoneTextBoxLocked
+{
+	font-family: Verdana, Tahoma, Trebuchet MS, Arial;
+	font-size: 12px;
+	font-weight: normal;
+	width: 50px;
+	background-color:lightgrey;
+	color:gray;
+}
+
+.announce
+{
+	color:Red;
+}
+input.spcodePhone
+{
+	width: 80px;
+}
+
+input.spcodeDesc
+{
+	width: 200px;
+}
+
+.debitinputReadOnly
+{
+	background-color:lightgrey;
+	color:gray;
+}
+
+
+
+
+/*        NEW SIGNUP STYLES     */
+
+#ucSignup {width:100%;}
+
+.bld {font-weight:bold}
+
+#ucSignup, #signup_captControl table td {  font-family: Arial; color: #000000; font-size: 12px;}
+#ucSignup INPUT  {font-size: 12px;font-family: Arial;}
+
+#ucSignup h3, #ucSignup BR {clear:both}
+
+#ucSignup div {
+float:none;
+}
+
+#ucSignup .SignupField, #ucSignup .SignupLbl, #ucSignup .remarks {height:23px;margin-top:5px}
+
+#ucSignup .SignupField {
+display:block;
+float:left;
+width:60%;
+}
+
+#ucSignup .SignupLbl {
+display:block;
+float:left;
+width:30%;
+font-weight:bold;
+}
+
+#ucSignup .remarks {
+	clear:both;
+	width:100%;
+	font-size:10px;}
+
+#signup_pnlSecretQuestion div {	clear:both;
+	width:100%;
+	font-weight:bold;
+}
+
+#signup_pnlAutoRecharge #signup_rowAutoRechargeDesc div {
+	margin-bottom:5px;}
+
+#signup_pnlAutoRecharge #signup_rowAutoRechargeDesc div select {
+display:block;
+float:left;
+line-height:30px;
+margin:0px 5px 0px 0px;
+}
+
+#signup_pnlAutoRecharge #signup_rowAutoRechargeDesc div span {
+display:block;
+float:left;
+height:40px;
+padding:4px 0 0 0;
+font-weight:bold;
+}
+
+#signup_pnlAutoRecharge #signup_rowAutoRechargeDesc div BR {clear:both}  
+
+
+.CaptchaTable {width:50%;}
+
+.CaptchaTableTd {padding-top:0px;}
+
+
+.dppHelpInfo {
+background:white;
+border:1px gray solid;
+padding:10px;
+width:300px;}
+
+.dppHelpInfo img {
+display:block;
+margin-bottom:5px;
+float:right;
+}
+
+#signup_rowButtons div {text-align:right}
+
+#signup_pnlVerisign {margin:10px 0 10px 0;}
+
+#signup_pnlVerisign img {float:left;}
+#signup_pnlVerisign span {float:left;display:block}
+
+.deleteRechargeCC
+{
+}
+
+td.deleteCC
+{
+	padding:0 10px;
+	
+}
+.deleteCC A, .deleteRechargeCC A
+{
+	padding:3px;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	width:120px;
+	float:right;
+	white-space:nowrap;
+	background:#e6eff7;
+	border-top:1px silver solid;
+	border-bottom:1px gray solid;
+	border-left:1px silver solid;
+	border-right:1px gray solid;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#eeeeee,endColorStr=#ffffff);
+
+
+}
+
+.deleteRechargeCC A
+{
+margin:5px 15px 0 0;
+}
+
+
+.deleteCC A IMG, .deleteRechargeCC A IMG
+{
+margin-right:5px;
+border:none;
+}
+
+
+/* Calendar Control */ 
+
+.calendarBorder {
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px;   
+	color : #ffffff; 
+	background-color : white;
+	border-style: outset;
+	border-width: 2px;
+	}
+
+.calendarBackground {
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px;   
+	color : #ffffff; 
+	background-color : white;
+}
+	
+.calendarDayNames {
+	color : #fff!important;  
+	background-color : #000000;
+	font-family : Arial,Helvetica,Sans-serif; font-size : 11px;
+	background-image:url(/ssi/calendar/images/header_bg.gif);
+	background-position:right;
+	border-top:1px #6593cf solid;
+	border-bottom:1px #6593cf solid;
+	   }
+	
+.calendarDays {color : #000000;  background-color : white;
+	font-family : Arial,Helvetica,Sans-serif; font-size : 11px;}
+	
+	
+.calendarWeekend { 
+	color : #000000; 
+	background-color : #e4e4e4!important;
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px;}
+	
+.calendarLink {color : #000000;text-decoration : none;
+	font-family : Arial,Helvetica,Sans-serif; font-size : 11px;}
+	
+.calendarLinkHover {color : #FF0000; text-decoration : none;
+	font-family : Arial,Helvetica,Sans-serif; font-size : 11px;}
+	
+.calendarDisabled {color : #aaa; text-decoration : none;
+	font-family : Arial,Helvetica,Sans-serif; font-size : 11px;}
+	
+.calendarHighlight {color : #ffffff; background-color : #fbe694;
+	font-family : Arial,Helvetica,Sans-serif; font-size : 11px;
+	border:1px #bb5503 solid}
+
+.timepickerBorder {
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px; 
+	color : #ffffff; 
+	background-color : white;}
+	
+.timepickerHourTable {
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px;   
+	color : #ffffff; 
+	background-color : #ffffff; 
+	border-style:solid; 
+	border-color:#a4b3c9; 
+	border-left-width:1px; 
+	border-right-width:0; 
+	border-top-width:1px; 
+	border-bottom-width:0;}
+
+.timepickerHourLink {
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px;   
+	color : #000000;
+	text-decoration : none; 
+	border-style:solid; 
+	border-color:#a4b3c9; 
+	border-left-width:0; 
+	border-right-width:1px; 
+	border-top-width:0; 
+	border-bottom-width:1px; }
+	
+.timepickerHourLinkHover {
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px;   
+	color : #FF0000; 
+	text-decoration : none; 
+	border-style:solid; 
+	border-color:#2060c7; 
+	border-left-width:0; 
+	border-right-width:1px; 
+	border-top-width:0; 
+	border-bottom-width:1px; }
+	
+.timepickerHourHighlight {
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px;   
+	color : #ffffff; 
+	background-color : #6699cc; 
+	border-style:solid; 
+	border-color:#2060c7; 
+	border-left-width:0; 
+	border-right-width:1px; 
+	border-top-width:0; 
+	border-bottom-width:1px; }
+
+.timepickerMinuteTable {
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px;   
+	color : #ffffff; 
+	background-color : #ffffff; 
+	border-style:solid; 
+	border-width:1px; 
+	border-color:#a4b3c9}
+
+.timepickerMinuteLink {
+	color : #000000; 
+	background-color : #e7eeec; 
+	text-decoration : none;
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px; }
+	
+.timepickerMinuteLinkHover {
+	color : #FF0000; 
+	background-color : #e7eeec; 
+	text-decoration : none;
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px;}
+
+.timepickerMinuteHighlight {
+	color : #ffffff; 
+	background-color : #6699cc;
+	font-family : Arial,Helvetica,Sans-serif; 
+	font-size : 11px;}
+/* End Calendar Control */
