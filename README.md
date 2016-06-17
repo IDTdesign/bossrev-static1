@@ -49,6 +49,8 @@ Open command promt and run `git remote add deploy https://USERNAME:PASSWORD@gith
 
 ### Deploying Site
 
+Run `grunt` to create inlined versions of emails.
+
 Run `docpad deploy-ghpages --env static` inside your project directory to compile the site and push it to [http://idtdesign.github.io/bossrev-static1/](http://idtdesign.github.io/bossrev-static1/).
 
 You should be collaborator in this repository to be able to deploy.
